@@ -1,6 +1,6 @@
 {
   "name": "sketch-icons",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Sketches is package consisting of icons",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
