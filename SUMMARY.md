@@ -5,4 +5,4 @@
 * [Contribution Guidelines](contributing.md)
 * [Sketches](readme.md)
 * [Changesets](.changeset.md)
-* [Page 1](page-1.md)
+* [Demo](page-1.md)
