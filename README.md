@@ -38,5 +38,7 @@ Please read the [CODE OF CONDUCT](CODE_OF_CONDUCT.md)
 How to Contribute Assets
 
 1. Add you asset (only svg) to the `assets` folder
-2. Raise a Pull Request 
-3. Your asset will be added
+2. Now run the command `yarn build`
+3. `yarn changeset` and select major/minor/patch and write summary
+4. Raise a Pull Request 
+5. Your asset will be added
