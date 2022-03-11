@@ -21,3 +21,10 @@ example usage
 import { SkHome } from 'sketches';
 
 ```
+Contributing
+
+Please see [CONTRIBUTING GUIDELINES](Contributing.md)
+
+Code of Conduct
+
+Please read the [CODE OF CONDUCT](Code-of-Conduct.md)
