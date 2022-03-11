@@ -10,9 +10,9 @@ Sketches is a library for icons that helps people to use icons in a simple manne
 
 ## Installation 
 ``` bash 
-npm install sketches
+npm i sketch-icons
 # or 
-yarn add sketches
+yarn add sketch-icons
 ``` 
 
 example usage
