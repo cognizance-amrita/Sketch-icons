@@ -7,7 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "optimize": "rimraf ./optimized & svgo -q -p 8 -f ./raw -o ./optimized",
-    "build": "yarn optimize && node scripts/build.js"
+    "build": "yarn optimize && node scripts/build.js",
+    "release": "yarn changeset publish"
   },
   "repository": {
     "type": "git",
