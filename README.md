@@ -34,3 +34,9 @@ Please see [CONTRIBUTING GUIDELINES](Contributing.md)
 Code of Conduct
 
 Please read the [CODE OF CONDUCT](CODE_OF_CONDUCT.md)
+
+How to Contribute Assets
+
+1. Add you asset (only svg) to the `raw` folder
+2. Raise a Pull Request 
+3. Your asset will be added
