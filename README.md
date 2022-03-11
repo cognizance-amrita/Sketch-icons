@@ -18,7 +18,7 @@ yarn add sketches
 example usage
 
 ```jsx
-import { SkHome } from 'sketches';
+import { Gift } from 'sketch-icons';
 
 ```
 Contributing
