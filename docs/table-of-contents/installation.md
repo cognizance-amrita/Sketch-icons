@@ -1,6 +1,6 @@
 # Installation
 
-Visit this link for reference [www.npmjs.com/package/sketch-icons](https://www.npmjs.com/package/sketch-icons)
+Our design system is written in React, and can be installed into your project via NPM or Yarn.
 
 {% tabs %}
 {% tab title="npm" %}
@@ -25,5 +25,5 @@ class Icons extends React.Component {
 ```
 
 {% hint style="info" %}
-**Good to know:** Splitting your product into fundamental concepts, objects, or areas can be a great way to let readers deep dive into the concepts that matter most to them.
+Visit this link for reference [www.npmjs.com/package/sketch-icons](https://www.npmjs.com/package/sketch-icons)
 {% endhint %}
