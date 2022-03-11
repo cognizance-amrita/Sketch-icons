@@ -27,4 +27,4 @@ Please see [CONTRIBUTING GUIDELINES](Contributing.md)
 
 Code of Conduct
 
-Please read the [CODE OF CONDUCT](Code-of-Conduct.md)
+Please read the [CODE OF CONDUCT](CODE_OF_CONDUCT.md)
