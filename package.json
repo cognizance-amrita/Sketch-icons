@@ -1,0 +1,25 @@
+{
+  "name": "sketches",
+  "version": "1.0.0",
+  "description": "Sketches is package consisting of icons",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garudatechnologydevelopers/Sketches.git"
+  },
+  "keywords": [
+    "Sketches",
+    "icons",
+    "svg",
+    "react"
+  ],
+  "author": "Rohith ND",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garudatechnologydevelopers/Sketches/issues"
+  },
+  "homepage": "https://github.com/garudatechnologydevelopers/Sketches#readme"
+}

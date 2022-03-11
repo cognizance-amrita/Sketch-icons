@@ -17,7 +17,7 @@ If you find an issue or if you want to raise a feature request in, make sure you
 
 ### Fix an issue
 
-Should you choose to work on a new issue or an existing issue from <link>, please follow the steps below.
+Should you choose to work on a new issue or an existing issue from <https://github.com/garudatechnologydevelopers/Sketches/issues>, please follow the steps below.
 
 ### Prepare the contribution commits
 
