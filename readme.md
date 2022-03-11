@@ -34,6 +34,10 @@ Please see [CONTRIBUTING GUIDELINES](https://github.com/garudatechnologydevelope
 
 Please read the [CODE OF CONDUCT](code\_of\_conduct.md)
 
+# Versioning
+
+Refer [Versioning](VERSIONING.md)
+
 # How to Contribute Assets
 
 1. Add you asset (only svg) to the `assets` folder
