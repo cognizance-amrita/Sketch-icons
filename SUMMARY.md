@@ -1,7 +1,7 @@
 # Table of contents
 
-* [Getting Started?](README.md)
-* [Installation?](docs/table-of-contents/installation.md)
+* [Getting Started](docs/table-of-contents/getting_started.md)
+* [Installation](docs/table-of-contents/installation.md)
 
 ## Icons
 
