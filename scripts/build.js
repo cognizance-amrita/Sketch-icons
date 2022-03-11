@@ -9,7 +9,7 @@ const outputPath = './dist';
 
 async function transformSVGtoJSX(file, componentName, format) {
   try {
-  const content = await fs.readFile(`./optimized/${file}`, 'utf-8');
+  const content = await fs.readFile(`./main/${file}`, 'utf-8');
   const svgReactContent = await svgr(
     content,
     {
@@ -71,7 +71,7 @@ async function buildIcons(format = 'esm') {
 
   await fs.mkdir(outDir, { recursive: true });
 
-  const files = await fs.readdir('./optimized', 'utf-8');
+  const files = await fs.readdir('./main', 'utf-8');
 
   await Promise.all(
     files.flatMap(async (fileName) => {

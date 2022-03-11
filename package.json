@@ -6,7 +6,7 @@
   "module": "./dist/esm/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "optimize": "rimraf ./optimized & svgo -q -p 8 -f ./assets -o ./optimized",
+    "optimize": "rimraf ./main & svgo -q -p 8 -f ./assets -o ./main",
     "build": "yarn optimize && node scripts/build.js",
     "release": "yarn changeset publish"
   },
