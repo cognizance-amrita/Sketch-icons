@@ -26,15 +26,15 @@ class Icons extends React.Component {
 }
 ```
 
-Contributing
+# Contributing
 
 Please see [CONTRIBUTING GUIDELINES](https://github.com/garudatechnologydevelopers/Sketches/blob/main/Contributing.md)
 
-Code of Conduct
+# Code of Conduct
 
 Please read the [CODE OF CONDUCT](code\_of\_conduct.md)
 
-How to Contribute Assets
+# How to Contribute Assets
 
 1. Add you asset (only svg) to the `assets` folder
 2. Now run the command `yarn build`
