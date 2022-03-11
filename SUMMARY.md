@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Getting Started](docs/table-of-contents/getting_started.md)
+* [README](README.md)
+* [Getting Started](docs/table-of-contents/getting\_started.md)
 * [Installation](docs/table-of-contents/installation.md)
 
 ## Icons
@@ -14,7 +15,7 @@
 ## Contribution
 
 * [Contribution](docs/extras/contribution.md)
-* [How to Contribute](docs/extras/how_to_contribute.md)
+* [How to Contribute](docs/extras/how\_to\_contribute.md)
 
 ## Code of Conduct
 

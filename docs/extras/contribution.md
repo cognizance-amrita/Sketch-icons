@@ -1,8 +1,6 @@
-# Contribution Guidelines
+# Contribution
 
-## About Sketches
-
-## How to Contribute
+### How to Contribute
 
 ### Contributing usually requires one or more of the following steps
 
@@ -13,17 +11,17 @@
 
 ### Raise an issue
 
-If you find an issue or if you want to raise a feature request in, make sure you raise an issue in 
+If you find an issue or if you want to raise a feature request in, make sure you raise an issue in
 
 ### Fix an issue
 
-Should you choose to work on a new issue or an existing issue from <https://github.com/garudatechnologydevelopers/Sketches/issues>, please follow the steps below.
+Should you choose to work on a new issue or an existing issue from [https://github.com/garudatechnologydevelopers/Sketches/issues](https://github.com/garudatechnologydevelopers/Sketches/issues), please follow the steps below.
 
 ### Prepare the contribution commits
 
-- Make the required changes to the component.
-- Write integrations tests and unit tests.
-- Check for all lint errors, if there are any fix them.
-- Run tests for all the components.
-- If the component you modify is used in another component make sure you update the tests for that component as well.
-- Raise a Pull Request to the Crayons Repository.
+* Make the required changes to the component.
+* Write integrations tests and unit tests.
+* Check for all lint errors, if there are any fix them.
+* Run tests for all the components.
+* If the component you modify is used in another component make sure you update the tests for that component as well.
+* Raise a Pull Request to the Crayons Repository.
