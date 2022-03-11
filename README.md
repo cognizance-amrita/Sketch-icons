@@ -1,6 +1,7 @@
-# ✎ Sketches
-
+# Sketches
 Sketches is a library for icons that helps people to use icons in a simple manner.
+
+https://sketch-icons.gitbook.io/docs/
 
 [![npm][npm-image]][npm-url]
 
