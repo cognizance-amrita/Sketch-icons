@@ -28,11 +28,11 @@ class Icons extends React.Component {
 
 # Contributing
 
-Please see [CONTRIBUTING GUIDELINES](https://github.com/garudatechnologydevelopers/Sketches/blob/main/Contributing.md)
+Please see [CONTRIBUTING GUIDELINES](CONTRIBUTING.md)
 
 # Code of Conduct
 
-Please read the [CODE OF CONDUCT](code\_of\_conduct.md)
+Please read the [CODE OF CONDUCT](CODE\_OF\_CONDUCT.md)
 
 # Versioning
 
