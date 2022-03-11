@@ -1,10 +1,12 @@
 {
-  "name": "sketches",
-  "version": "1.0.0",
+  "name": "sketch-icons",
+  "version": "1.0.1",
   "description": "Sketches is package consisting of icons",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "optimize": "rimraf ./optimized & svgo -q -p 8 -f ./raw -o ./optimized",
+    "build": "yarn optimize && node scripts/build.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +23,18 @@
   "bugs": {
     "url": "https://github.com/garudatechnologydevelopers/Sketches/issues"
   },
-  "homepage": "https://github.com/garudatechnologydevelopers/Sketches#readme"
+  "homepage": "https://github.com/garudatechnologydevelopers/Sketches#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-react": "^7.16.7",
+    "@svgr/cli": "^5.5.0",
+    "@svgr/core": "^5.5.0",
+    "camelcase": "^6.3.0",
+    "rimraf": "^3.0.2",
+    "svgo": "^2.5.0",
+    "terser": "^5.12.0"
+  },
+  "files": [
+    "dist"
+  ]
 }
