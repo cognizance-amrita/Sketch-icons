@@ -1,6 +1,6 @@
 # Versioning
 
-We use [Semantic Versioning](https://semver.org/) to version Simple Icons. In short, this means that version numbers are structured as `MAJOR.MINOR.PATCH`. For example, version `3.1.4` is major version `3`, minor version `1`, and patch `4`. Increasing each of these numbers implies certain kinds of changes.
+We use [Semantic Versioning](https://semver.org/) to version Simple Icons. In short, this means that version numbers are structured as `MAJOR.MINOR.PATCH`. For example, version `2.0.5` is major version `2`, minor version `0`, and patch `5`. Increasing each of these numbers implies certain kinds of changes.
 
 For Simple Icons, given a change to the version number you can expect the following kinds of changes:
 
