@@ -20,6 +20,12 @@ example usage
 ```jsx
 import { Gift } from 'sketch-icons';
 
+class Icons extends React.Component {
+    render() {
+        return <h2> Here's a Gift <Gift /></h2>
+    }
+}
+
 ```
 Contributing
 
