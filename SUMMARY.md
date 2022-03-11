@@ -1,15 +1,15 @@
 # Table of contents
 
-* [Getting Started?](/docs/table-of-contents/getting_started.md)
-* [Installation?](/docs/table-of-contents/installation.md)
+* [Getting Started?](README.md)
+* [Installation?](docs/table-of-contents/installation.md)
 
 ## Icons
 
-* [Icons](/docs/icons/icons.md)
+* [Icons](docs/icons/icons.md)
 
 ## Properties
 
-* [Properties](/docs/icons/properties.md)
+* [Properties](docs/icons/properties.md)
 
 ## Contribution
 
@@ -17,7 +17,7 @@
 
 ## Code of Conduct
 
-* [Code of Conduct](docs/extras/code_of_conduct.md)
+* [Code of Conduct](docs/extras/code\_of\_conduct.md)
 
 ## License
 
