@@ -61,16 +61,9 @@ function indexFileContent(files, format, includeExtension = true) {
   return content;
 }
 
-async function buildIcons(format = 'esm') {
-  let outDir = outputPath;
-  let indexDir = outputPath;
-  if (format === 'esm') {
-    outDir = `${outputPath}/esm/icons`;
-    indexDir = `${outputPath}/esm`;
-  } else {
-    outDir = `${outputPath}/cjs/icons`;
-    indexDir = `${outputPath}/cjs`;
-  }
+async function buildIcons(format = 'cjs') {
+    outDir = `${outputPath}/icons`;
+    indexDir = `${outputPath}/`;
 
   await fs.mkdir(outDir, { recursive: true });
 
@@ -84,7 +77,7 @@ async function buildIcons(format = 'esm') {
       const content = await transformSVGtoJSX(fileName, componentName, format);
       const types = `import * as React from 'react';\ndeclare function ${componentName}(props: React.SVGProps<SVGSVGElement>): JSX.Element;\nexport default ${componentName};\n`;
 
-      // console.log(`- Creating file: ${componentName}.js`);
+      console.log(`Creating file: ${componentName}.js`);
       await fs.writeFile(`${outDir}/${componentName}.js`, content, 'utf-8');
       await fs.writeFile(`${outDir}/${componentName}.d.ts`, types, 'utf-8');
     })
@@ -96,11 +89,6 @@ async function buildIcons(format = 'esm') {
     indexFileContent(files, format),
     'utf-8'
   );
-  await fs.writeFile(
-    `${indexDir}/index.d.ts`,
-    indexFileContent(files, 'esm', false),
-    'utf-8'
-  );
 }
 
 (function main() {
@@ -108,6 +96,6 @@ async function buildIcons(format = 'esm') {
   new Promise((resolve) => {
     rimraf(`${outputPath}/*`, resolve);
   })
-    .then(() => Promise.all([buildIcons('cjs'), buildIcons('esm')]))
+    .then(() => Promise.all([buildIcons('cjs')]))
     .then(() => console.log('✅ Finished building package.'));
 })();
