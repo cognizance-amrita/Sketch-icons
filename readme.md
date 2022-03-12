@@ -61,7 +61,7 @@ Refer [Versioning](VERSIONING.md)
 
 ## Icons List
 
-| Image                              | Name                                               |
-| ---------------------------------- | -------------------------------------------------- |
-| ![](./assets/plus-outline.svg) | <mark style="color:blue;">`PlusOutlineIcon`</mark> |
-|                                    |                                                    |
+| Image                              | Name                                               | Image | Name |
+| ---------------------------------- | -------------------------------------------------- |-------|------|
+| ![](./assets/plus-outline.svg) | <mark style="color:blue;">`PlusOutlineIcon`</mark> |           |      |
+|                                    |                                                    |       |      |
