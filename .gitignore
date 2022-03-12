@@ -9,6 +9,9 @@
 .eslintcache
 .yarn-integrity
 
+yarn.lock
+package-lock.json
+
 # env files
 .env
 
@@ -25,3 +28,4 @@ yarn-error.log*
 
 # Reach app for test in local
 example/
+
