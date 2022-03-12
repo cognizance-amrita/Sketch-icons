@@ -2,8 +2,8 @@
   "name": "sketch-icons",
   "version": "0.0.3",
   "description": "Sketches is package consisting of icons",
-  "main": "./src/icons/index.js",
-  "module": "./src/icons/index.js",
+  "main": "./src/index.js",
+  "module": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "optimize": "rimraf ./main & svgo -q -p 8 -f ./assets -o ./main",
