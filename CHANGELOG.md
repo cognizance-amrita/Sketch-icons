@@ -1,5 +1,11 @@
 # sketch-icons
 
+## 0.0.6
+
+### Patch Changes
+
+- 9bf3901: asset added
+
 ## 0.0.3
 
 ### Patch Changes
