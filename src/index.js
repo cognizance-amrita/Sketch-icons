@@ -1,3 +1,12 @@
-module.exports.Gift = require('./icons/Gift.js');
-module.exports.PlusOutline = require('./icons/PlusOutline.js');
-module.exports.Shortcuts = require('./icons/Shortcuts.js');
+module.exports.ArrowDownCircle = require('./icons/ArrowDownCircle.js');
+module.exports.ArrowDownFill = require('./icons/ArrowDownFill.js');
+module.exports.ArrowDown = require('./icons/ArrowDown.js');
+module.exports.ArrowLeftCircle = require('./icons/ArrowLeftCircle.js');
+module.exports.ArrowLeftFill = require('./icons/ArrowLeftFill.js');
+module.exports.ArrowLeft = require('./icons/ArrowLeft.js');
+module.exports.ArrowRightCircle = require('./icons/ArrowRightCircle.js');
+module.exports.ArrowRightFill = require('./icons/ArrowRightFill.js');
+module.exports.ArrowRight = require('./icons/ArrowRight.js');
+module.exports.ArrowUpCircle = require('./icons/ArrowUpCircle.js');
+module.exports.ArrowUpFill = require('./icons/ArrowUpFill.js');
+module.exports.ArrowUp = require('./icons/ArrowUp.js');

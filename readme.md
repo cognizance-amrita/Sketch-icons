@@ -59,9 +59,3 @@ Please read the [CODE OF CONDUCT](CODE\_OF\_CONDUCT.md)
 
 Refer [Versioning](VERSIONING.md)
 
-## Icons List
-
-| Image                              | Name                                               | Image | Name |
-| ---------------------------------- | -------------------------------------------------- |-------|------|
-| ![](./assets/plus-outline.svg) | <mark style="color:blue;">`PlusOutlineIcon`</mark> |           |      |
-|                                    |                                                    |       |      |
