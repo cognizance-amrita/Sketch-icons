@@ -1,6 +1,8 @@
 # Contribution Guidelines
 
-## About Sketches
+## About Sketch-icons
+
+Sketch-icons is an icon library that makes it easy for individuals to utilise icons.
 
 ## How to Contribute
 

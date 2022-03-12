@@ -89,6 +89,11 @@ async function buildIcons(format = 'cjs') {
     indexFileContent(files, format),
     'utf-8'
   );
+  await fs.writeFile(
+    `${indexDir}/index.d.ts`,
+    indexFileContent(files, 'esm', false),
+    'utf-8'
+  );
 }
 
 (function main() {

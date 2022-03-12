@@ -1,10 +1,23 @@
 # Ignore all files in root
-/*
-
-# Except the ones we want to publish
-!dist/
-!package.json
-!DISCLAIMER.md
-!readme.md
-!LICENSE.md
-!VERSIONING.md
+docs/
+.gitbook/
+.github/
+assets/
+example/
+node_modules/
+main/
+scripts/build.js
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md 
+SUMMARY.md
+VERSIONING.md
+svgo.config.js
+DISCLAIMER.md
+.changeset/
+# /*
+# .*
+# # Except the ones we want to publish
+# !src/
+# !package.json
+# !readme.md
+# !LICENSE.md

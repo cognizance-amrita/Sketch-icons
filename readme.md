@@ -1,8 +1,8 @@
-# Sketches
+# Sketch-icons
 
-Sketches is a library for icons that helps people to use icons in a simple manner.
+Sketch-icons is an icon library that makes it easy for individuals to utilise icons.
 
-**Note** : Sketch-icons is still a beta version.We recommend you to wait till we publish the package
+<!-- **Note** : Sketch-icons is still a beta version.We recommend you to wait till we publish the package -->
 
 https://sketch-icons.gitbook.io/docs/
 
@@ -18,7 +18,7 @@ npm i sketch-icons
 yarn add sketch-icons
 ```
 
-example usage
+## Usage
 
 ```jsx
 import { Gift } from 'sketch-icons';
@@ -30,22 +30,38 @@ class Icons extends React.Component {
 }
 ```
 
-# Contributing
+## How to Contribute Assets
+
+**Note :** At this moment, we just ask that you place your icon in the assets folder and not to run build commands.
+1. Place your asset (only svg) in the `assets` folder. 
+2. Run the `yarn build` command.
+3. Type `yarn changeset` and choose major/minor/patch, then write a summary.
+4. Submit a Pull Request
+5. Your asset will be added to the list.
+
+**Note :** Only colour icons will be permitted for 3D icons.
+## Icon Description
+
+| Icon Type  | File name       | Size     | Color   |
+| --------   | --------------  |----------|---------|
+| Normal     | iconName.svg    |  32 x 32 | #2a2238 |
+| 3d Icons   | iconName3d.svg  |  32 x 32 | colors  |
+
+## Contributing
 
 Please see [CONTRIBUTING GUIDELINES](CONTRIBUTING.md)
 
-# Code of Conduct
+## Code of Conduct
 
 Please read the [CODE OF CONDUCT](CODE\_OF\_CONDUCT.md)
 
-# Versioning
+## Versioning
 
 Refer [Versioning](VERSIONING.md)
 
-# How to Contribute Assets
+## Icons List
 
-1. Add you asset (only svg) to the `assets` folder
-2. Now run the command `yarn build`
-3. `yarn changeset` and select major/minor/patch and write summary
-4. Raise a Pull Request
-5. Your asset will be added
+| Image                              | Name                                               |
+| ---------------------------------- | -------------------------------------------------- |
+| ![](./assets/plus-outline.svg) | <mark style="color:blue;">`PlusOutlineIcon`</mark> |
+|                                    |                                                    |
