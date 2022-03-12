@@ -1,2 +1,0 @@
-https://github.com/yarnpkg/yarn/issues/685
-https://yarnpkg.com/cli/npm/publish
