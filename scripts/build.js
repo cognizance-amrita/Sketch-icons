@@ -51,8 +51,8 @@ function indexFileContent(files, format, includeExtension = true) {
   files.map((fileName) => {
     const componentName = `${camelcase(fileName.replace(/.svg/, ''), {
       pascalCase: true,
-    })}Icon`;
-    const directoryString = `'./${componentName}${extension}'`;
+    })}`;
+    const directoryString = `'./icons/${componentName}${extension}'`;
     content +=
       format === 'esm'
         ? `export { default as ${componentName} } from ${directoryString};\n`
@@ -63,10 +63,13 @@ function indexFileContent(files, format, includeExtension = true) {
 
 async function buildIcons(format = 'esm') {
   let outDir = outputPath;
+  let indexDir = outputPath;
   if (format === 'esm') {
-    outDir = `${outputPath}/esm`;
+    outDir = `${outputPath}/esm/icons`;
+    indexDir = `${outputPath}/esm`;
   } else {
-    outDir = `${outputPath}/cjs`;
+    outDir = `${outputPath}/cjs/icons`;
+    indexDir = `${outputPath}/cjs`;
   }
 
   await fs.mkdir(outDir, { recursive: true });
@@ -77,7 +80,7 @@ async function buildIcons(format = 'esm') {
     files.flatMap(async (fileName) => {
       const componentName = `${camelcase(fileName.replace(/.svg/, ''), {
         pascalCase: true,
-      })}Icon`;
+      })}`;
       const content = await transformSVGtoJSX(fileName, componentName, format);
       const types = `import * as React from 'react';\ndeclare function ${componentName}(props: React.SVGProps<SVGSVGElement>): JSX.Element;\nexport default ${componentName};\n`;
 
@@ -89,12 +92,12 @@ async function buildIcons(format = 'esm') {
 
   console.log('- Creating file: index.js');
   await fs.writeFile(
-    `${outDir}/index.js`,
+    `${indexDir}/index.js`,
     indexFileContent(files, format),
     'utf-8'
   );
   await fs.writeFile(
-    `${outDir}/index.d.ts`,
+    `${indexDir}/index.d.ts`,
     indexFileContent(files, 'esm', false),
     'utf-8'
   );

@@ -1,3 +1,3 @@
-export { default as GiftIcon } from './GiftIcon';
-export { default as PlusOutlineIcon } from './PlusOutlineIcon';
-export { default as ShortcutsIcon } from './ShortcutsIcon';
+export { default as Gift } from './icons/Gift';
+export { default as PlusOutline } from './icons/PlusOutline';
+export { default as Shortcuts } from './icons/Shortcuts';

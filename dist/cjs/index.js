@@ -1,3 +1,3 @@
-module.exports.GiftIcon = require('./GiftIcon.js');
-module.exports.PlusOutlineIcon = require('./PlusOutlineIcon.js');
-module.exports.ShortcutsIcon = require('./ShortcutsIcon.js');
+module.exports.Gift = require('./icons/Gift.js');
+module.exports.PlusOutline = require('./icons/PlusOutline.js');
+module.exports.Shortcuts = require('./icons/Shortcuts.js');

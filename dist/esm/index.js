@@ -1,3 +1,3 @@
-export { default as GiftIcon } from './GiftIcon.js';
-export { default as PlusOutlineIcon } from './PlusOutlineIcon.js';
-export { default as ShortcutsIcon } from './ShortcutsIcon.js';
+export { default as Gift } from './icons/Gift.js';
+export { default as PlusOutline } from './icons/PlusOutline.js';
+export { default as Shortcuts } from './icons/Shortcuts.js';
