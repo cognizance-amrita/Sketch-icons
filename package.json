@@ -1,6 +1,6 @@
 {
   "name": "sketch-icons",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Sketches is package consisting of icons",
   "main": "./src/index.js",
   "module": "./src/index.js",
