@@ -1,10 +1,14 @@
-# Sketches
+# Sketch-icons
 
-Sketches is a library for icons that helps people to use icons in a simple manner.
+Sketch-icons is an icon library that makes it easy for individuals to utilise icons.
+
+<!-- **Note** : Sketch-icons is still a beta version.We recommend you to wait till we publish the package -->
 
 https://sketch-icons.gitbook.io/docs/
 
-[![npm](https://img.shields.io/npm/v/react-icons.svg?style=flat-square)](https://www.npmjs.com/package/react-icons)
+[![npm](https://img.shields.io/static/v1?label=npm&message=6.14.16&color=red)](https://www.npmjs.com/package/sketch-icons)
+[![yarn](https://img.shields.io/static/v1?label=yarn&message=1.22.17&color=blue)](https://www.npmjs.com/package/sketch-icons)
+[![npm downloads](https://img.shields.io/npm/dm/sketch-icons.svg?style=flat-square)](https://www.npmjs.com/package/sketch-icons)
 
 ## Installation
 
@@ -14,7 +18,7 @@ npm i sketch-icons
 yarn add sketch-icons
 ```
 
-example usage
+## Usage
 
 ```jsx
 import { Gift } from 'sketch-icons';
@@ -26,18 +30,38 @@ class Icons extends React.Component {
 }
 ```
 
-# Contributing
+## How to Contribute Assets
 
-Please see [CONTRIBUTING GUIDELINES](https://github.com/garudatechnologydevelopers/Sketches/blob/main/Contributing.md)
+**Note :** At this moment, we just ask that you place your icon in the assets folder and not to run build commands.
+1. Place your asset (only svg) in the `assets` folder. 
+2. Run the `yarn build` command.
+3. Type `yarn changeset` and choose major/minor/patch, then write a summary.
+4. Submit a Pull Request
+5. Your asset will be added to the list.
 
-# Code of Conduct
+**Note :** Only colour icons will be permitted for 3D icons.
+## Icon Description
 
-Please read the [CODE OF CONDUCT](code\_of\_conduct.md)
+| Icon Type  | File name       | Size     | Color   |
+| --------   | --------------  |----------|---------|
+| Normal     | iconName.svg    |  32 x 32 | #2a2238 |
+| 3d Icons   | iconName3d.svg  |  32 x 32 | colors  |
 
-# How to Contribute Assets
+## Contributing
 
-1. Add you asset (only svg) to the `assets` folder
-2. Now run the command `yarn build`
-3. `yarn changeset` and select major/minor/patch and write summary
-4. Raise a Pull Request
-5. Your asset will be added
+Please see [CONTRIBUTING GUIDELINES](CONTRIBUTING.md)
+
+## Code of Conduct
+
+Please read the [CODE OF CONDUCT](CODE\_OF\_CONDUCT.md)
+
+## Versioning
+
+Refer [Versioning](VERSIONING.md)
+
+## Icons List
+
+| Image                              | Name                                               | Image | Name |
+| ---------------------------------- | -------------------------------------------------- |-------|------|
+| ![](./assets/plus-outline.svg) | <mark style="color:blue;">`PlusOutlineIcon`</mark> |           |      |
+|                                    |                                                    |       |      |

@@ -9,6 +9,9 @@
 .eslintcache
 .yarn-integrity
 
+yarn.lock
+package-lock.json
+
 # env files
 .env
 
@@ -22,3 +25,7 @@ yarn-error.log*
 # Output of 'npm pack'
 *.tgz
 /package
+
+# Reach app for test in local
+example/
+
