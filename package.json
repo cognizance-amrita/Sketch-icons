@@ -1,10 +1,10 @@
 {
   "name": "@legitmelon/sketch-icons",
-  "version": "0.0.17",
+  "version": "0.0.17-beta.1",
   "description": "Sketch-icons is package consisting of icons",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
-  "dependencies" : {
+  "dependencies": {
     "@babel/core": "^7.17.5",
     "@babel/preset-react": "^7.16.7",
     "@changesets/changelog-github": "^0.4.3",
