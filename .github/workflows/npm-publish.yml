@@ -20,6 +20,20 @@ jobs:
           node-version: 16
           registry-url: https://registry.npmjs.org/
 
+      - name: Build package
+        run: yarn build
+
+      - name: Create Release Pull Request or Publish to npm
+        uses: actions/checkout@v2
+        with:
+          publish: yarn publish --access public
+          version: yarn changeset version
+          commit: "ci: release packages"
+          title: "ci: release packages"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_AUTH }}
+
       - run: yarn publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH}}
