@@ -71,7 +71,7 @@ class Icons extends React.Component {
 5. Submit a Pull Request
 6. Your asset will be added to the list.
 
-**Note :** Only colour icons will be permitted for 3D icons. Feel free to contribute.
+**Note :** Only icons with color will be permitted for 3D icons. Feel free to contribute.
 
 ## Icon Description
 
