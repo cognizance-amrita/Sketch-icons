@@ -1,6 +1,6 @@
 {
   "name": "@legitmelon/sketch-icons",
-  "version": "0.0.15",
+  "version": "0.0.15-beta.0",
   "description": "Sketches is package consisting of icons",
   "main": "./src/index.js",
   "module": "./src/index.js",
