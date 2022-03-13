@@ -35,9 +35,9 @@ class Icons extends React.Component {
 }
 ```
 
-# Properties
+## Properties
 
-| Property    | Usage                        | Default   |
+| Property    | Attribute                        | Default   |
 | ----------- | ---------------------------- | --------- |
 | color       | `color="color"`              | `#2A2238` |
 | height      | `height={height}`            | `32`      |
@@ -93,8 +93,6 @@ Please read the [CODE OF CONDUCT](CODE_OF_CONDUCT.md)
 ## Versioning
 
 Refer [Versioning](VERSIONING.md)
-
-## Icon List
 
 ## Icons List
 
