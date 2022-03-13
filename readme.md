@@ -13,9 +13,9 @@ https://sketch-icons.gitbook.io/docs/
 ## Installation
 
 ```bash
-npm i sketch-icons
+npm i @legitmelon/sketch-icons
 # or 
-yarn add sketch-icons
+yarn add @legitmelon/sketch-icons
 ```
 
 ## Usage
