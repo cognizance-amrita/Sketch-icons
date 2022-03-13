@@ -9,8 +9,6 @@ https://sketch-icons.gitbook.io/docs/
 [![npm](https://img.shields.io/static/v1?label=npm&message=6.14.16&color=red)](https://www.npmjs.com/package/sketch-icons)
 [![yarn](https://img.shields.io/static/v1?label=yarn&message=1.22.17&color=blue)](https://www.npmjs.com/package/sketch-icons)
 [![npm downloads](https://img.shields.io/npm/dm/sketch-icons.svg?style=flat-square&color=purple)](https://www.npmjs.com/package/sketch-icons)
-[![Node.js Package](https://github.com/garudatechnologydevelopers/Sketch-icons/actions/workflows/npm-publish.yml/badge.svg?branch=main)](https://github.com/garudatechnologydevelopers/Sketch-icons/actions/workflows/npm-publish.yml)
-[![Release](https://github.com/garudatechnologydevelopers/Sketch-icons/actions/workflows/release.yml/badge.svg?branch=main)](https://github.com/garudatechnologydevelopers/Sketch-icons/actions/workflows/release.yml)
 
 ## Installation
 
