@@ -56,6 +56,8 @@ jobs:
         if: steps.changesets.outputs.published == 'true'
         # You can do something when a publish happens.
         run: my-slack-bot send-notification --message "A new version of ${GITHUB_REPOSITORY} was published!"
-        else:
-          # You can do something when a publish doesn't happen.
-          run: my-slack-bot send-notification --message "A new version of ${GITHUB_REPOSITORY} was not published!"
+      
+      - name: Send a Slack notification if a publish fails
+        if: steps.changesets.outputs.published == 'false'
+        # You can do something when a publish fails.
+        run: my-slack-bot send-notification --message "A new version of ${GITHUB_REPOSITORY} was failed to publish!"
