@@ -58,7 +58,7 @@ jobs:
 
       - run: yarn publish --access public
         env:
-          NPM_TOKEN: ${{secrets.NPM_AUTH}}
+          NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH}}
     
 
       # - name: Create Release Pull Request or Publish to npm
