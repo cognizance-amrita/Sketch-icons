@@ -44,10 +44,12 @@ class Icons extends React.Component {
 **Note :** Only colour icons will be permitted for 3D icons.
 ## Icon Description
 
-| Icon Type  | File name       | Size     | Color   |
-| --------   | --------------  |----------|---------|
-| Normal     | iconName.svg    |  32 x 32 | #2a2238 |
-| 3d Icons   | iconName3d.svg  |  32 x 32 | colors  |
+| Icon Type  | File name                | Size     | Color   |
+| --------   | -------------------------|----------|---------|
+| Normal     | icon-name.svg            |  28 x 28 | #2a2238 |
+| Circle     | icon-name-circle.svg     |  28 x 28 | #2a2238 |
+| Filled     | icon-name-fill.svg       |  28 x 28 | #2a2238 |
+| 3d Icons   | icon-name-3d.svg         |  28 x 28 | colors  |
 
 ## Contributing
 

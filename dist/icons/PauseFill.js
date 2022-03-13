@@ -1,0 +1,1 @@
+const React=require("react");function PauseFill(e){return React.createElement("svg",Object.assign({xmlns:"http://www.w3.org/2000/svg",fill:"none",viewBox:"0 0 28 28",width:32,height:32},e),React.createElement("circle",{cx:14,cy:14,r:14,fill:"#2A2238"}),React.createElement("path",{stroke:"#fff",strokeLinecap:"round",strokeWidth:1.5,d:"M11 6v15m6-15v15"}))}module.exports=PauseFill;
