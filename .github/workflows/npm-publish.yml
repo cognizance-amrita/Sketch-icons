@@ -20,6 +20,9 @@ jobs:
           node-version: 16
           registry-url: https://registry.npmjs.org/
 
+      - name: Install dependencies
+        run: yarn --frozen-lockfile --network-timeout 300000
+
       - name: Build package
         run: yarn build
 
