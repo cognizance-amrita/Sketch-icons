@@ -5,7 +5,7 @@ const camelcase = require('camelcase');
 const babel = require('@babel/core');
 const { minify } = require('terser');
 
-const outputPath = './src';
+const outputPath = './dist';
 
 async function transformSVGtoJSX(file, componentName, format) {
   try {
