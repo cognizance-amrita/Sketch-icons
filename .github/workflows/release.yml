@@ -3,8 +3,9 @@ name: Release
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
   release:
@@ -55,8 +56,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Ensure to have this set up under Github secrets
           NPM_TOKEN: ${{ secrets.NPM_AUTH }} # Ensure to have this set up under Github secrets
 
-
-
+      - run: yarn publish --access public
+        env:
+          NPM_TOKEN: ${{secrets.NPM_AUTH}}
     
 
       # - name: Create Release Pull Request or Publish to npm
