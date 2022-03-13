@@ -14,10 +14,12 @@ async function transformSVGtoJSX(file, componentName, format) {
     content,
     {
       icon: false,
-      replaceAttrValues: { '#00497A': "{props.color || '#00497A'}" },
+      replaceAttrValues: { '#2A2238': "{props.color || '#2A2238'}" },
       svgProps: {
         width: 32,
         height: 32,
+        strokeWidth : { "1.5": "{props.strokeWidth || 1.5 }" },
+        stroke : { "#2A2238": "{props.stroke || #2A2238 }" },
       },
     },
     { componentName }

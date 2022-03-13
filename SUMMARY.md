@@ -15,6 +15,7 @@
 
 * [Contribution](docs/extras/contribution.md)
 * [How to Contribute](docs/extras/how\_to\_contribute.md)
+* [Contributors](icon_list.md)
 
 ## Code of Conduct
 

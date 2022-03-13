@@ -1,0 +1,40 @@
+## Icon List
+
+| Icon name                 | Author   |
+| ------------------------- | -------- |
+| arrow-down.svg            | ndrohith |
+| arrow-down-circle.svg     | ndrohith |
+| arrow-down-fill.svg       | ndrohith |
+| arrow-left.svg            | ndrohith |
+| arrow-left-circle.svg     | ndrohith |
+| arrow-left-fill.svg       | ndrohith |
+| arrow-right.svg           | ndrohith |
+| arrow-right-circle.svg    | ndrohith |
+| arrow-right-fill.svg      | ndrohith |
+| arrow-to-down.svg         | ndrohith |
+| arrow-to-down-circle.svg  | ndrohith |
+| arrow-to-down-fill.svg    | ndrohith |
+| arrow-to-left.svg         | ndrohith |
+| arrow-to-left-circle.svg  | ndrohith |
+| arrow-to-left-fill.svg    | ndrohith |
+| arrow-to-right.svg        | ndrohith |
+| arrow-to-right-circle.svg | ndrohith |
+| arrow-to-right-fill.svg   | ndrohith |
+| arrow-to-up.svg           | ndrohith |
+| arrow-to-up-circle.svg    | ndrohith |
+| arrow-to-up-fill.svg      | ndrohith |
+| arrow-up.svg              | ndrohith |
+| arrow-up-circle.svg       | ndrohith |
+| arrow-up-fill.svg         | ndrohith |
+| backward-circle.svg       | ndrohith |
+| backward-fill.svg         | ndrohith |
+| bluetooth.svg             | ndrohith |
+| bluetooth-fill.svg        | ndrohith |
+| code-alt.svg              | ndrohith |
+| code-alt-fill.svg         | ndrohith |
+| forward-circle.svg        | ndrohith |
+| forward-fill.svg          | ndrohith |
+| pause-circle.svg          | ndrohith |
+| pause-fill.svg            | ndrohith |
+| play-circle.svg           | ndrohith |
+| play-fill.svg             | ndrohith |
