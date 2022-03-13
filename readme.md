@@ -9,23 +9,23 @@ https://sketch-icons.gitbook.io/docs/
 [![npm](https://img.shields.io/static/v1?label=npm&message=6.14.16&color=red)](https://www.npmjs.com/package/sketch-icons)
 [![yarn](https://img.shields.io/static/v1?label=yarn&message=1.22.17&color=blue)](https://www.npmjs.com/package/sketch-icons)
 [![npm downloads](https://img.shields.io/npm/dm/sketch-icons.svg?style=flat-square&color=purple)](https://www.npmjs.com/package/sketch-icons)
-
+    <a href="https://github.com/tabler/tabler-icons/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/@tabler/icons.svg" alt="License"></a>
 ## Installation
 
 ```bash
-npm i @legitmelon/sketch-icons
+npm i @sketch/icons
 # or 
-yarn add @legitmelon/sketch-icons
+yarn add @sketch/icons
 ```
 
 ## Usage
 
 ```jsx
-import { Gift } from 'sketch-icons';
+import { PlayFill } from '@sketches/icons';
 
 class Icons extends React.Component {
     render() {
-        return <h2> Here's a Gift <Gift /></h2>
+        return <h2> Here's a <PlayFill /></h2>
     }
 }
 ```
@@ -63,11 +63,23 @@ Refer [Versioning](VERSIONING.md)
 
 ## Icon List
 
-| Image                              | Name                                               | Image | Name |
-| ---------------------------------- | -------------------------------------------------- |-------|------|
-| ![](./assets/arrow-up.svg) | <mark style="color:blue;">`ArrowUp`</mark> |           ![](./assets/arrow-left.svg) | <mark style="color:blue;">`ArrowLeft`</mark> | 
-| ![](./assets/arrow-up-fill.svg) | <mark style="color:blue;">`ArrowUpFill`</mark> |           ![](./assets/arrow-left-fill.svg) | <mark style="color:blue;">`ArrowLeftFill`</mark> | 
-| ![](./assets/arrow-up-circle.svg) | <mark style="color:blue;">`ArrowUpCircle`</mark> |           ![](./assets/arrow-left-circle.svg) | <mark style="color:blue;">`ArrowLeftCircle`</mark> | 
-| ![](./assets/arrow-down.svg) | <mark style="color:blue;">`ArrowDown`</mark> |           ![](./assets/arrow-right.svg) | <mark style="color:blue;">`ArrowRight`</mark> | 
-| ![](./assets/arrow-down-fill.svg) | <mark style="color:blue;">`ArrowDownFill`</mark> |           ![](./assets/arrow-right-fill.svg) | <mark style="color:blue;">`ArrowRightFill`</mark> | 
-| ![](./assets/arrow-down-circle.svg) | <mark style="color:blue;">`ArrowDownCircle`</mark> |           ![](./assets/arrow-right.svg) | <mark style="color:blue;">`ArrowRightCircle`</mark> | 
+## Icons List
+
+| Image                               | Name                                               | Image                               | Name                                                |
+| ----------------------------------- | -------------------------------------------------- | ----------------------------------- | --------------------------------------------------- |
+| ![](./assets/arrow-up.svg)          | <mark style="color:blue;">`ArrowUp`</mark>         | ![](./assets/arrow-left.svg)        | <mark style="color:blue;">`ArrowLeft`</mark>        |
+| ![](./assets/arrow-up-fill.svg)     | <mark style="color:blue;">`ArrowUpFill`</mark>     | ![](./assets/arrow-left-fill.svg)   | <mark style="color:blue;">`ArrowLeftFill`</mark>    |
+| ![](./assets/arrow-up-circle.svg)   | <mark style="color:blue;">`ArrowUpCircle`</mark>   | ![](./assets/arrow-left-circle.svg) | <mark style="color:blue;">`ArrowLeftCircle`</mark>  |
+| ![](./assets/arrow-down.svg)        | <mark style="color:blue;">`ArrowDown`</mark>       | ![](./assets/arrow-right.svg)       | <mark style="color:blue;">`ArrowRight`</mark>       |
+| ![](./assets/arrow-down-fill.svg)   | <mark style="color:blue;">`ArrowDownFill`</mark>   | ![](./assets/arrow-right-fill.svg)  | <mark style="color:blue;">`ArrowRightFill`</mark>   |
+| ![](./assets/arrow-down-circle.svg) | <mark style="color:blue;">`ArrowDownCircle`</mark> | ![](./assets/arrow-right.svg)       | <mark style="color:blue;">`ArrowRightCircle`</mark> |
+| ![](./assets/arrow-to-down-circle.svg) | <mark style="color:blue;">`ArrowToDownCircle`</mark> | ![](./assets/arrow-to-down-fill.svg)       | <mark style="color:blue;">`ArrowToDownFill`</mark> |
+| ![](./assets/arrow-to-up-circle.svg) | <mark style="color:blue;">`ArrowToUpCircle`</mark> | ![](./assets/arrow-to-up-fill.svg)       | <mark style="color:blue;">`ArrowToUpFill`</mark> |
+| ![](./assets/arrow-to-left-circle.svg) | <mark style="color:blue;">`ArrowToLeftCircle`</mark> | ![](./assets/arrow-to-left-fill.svg)       | <mark style="color:blue;">`ArrowToLeftFill`</mark> |
+| ![](./assets/arrow-to-right-circle.svg) | <mark style="color:blue;">`ArrowToRightCircle`</mark> | ![](./assets/arrow-to-right-fill.svg)       | <mark style="color:blue;">`ArrowToRightFill`</mark> |
+| ![](./assets/backward-circle.svg) | <mark style="color:blue;">`BackwardCircle`</mark> | ![](./assets/backward-fill.svg)       | <mark style="color:blue;">`BackwardFill`</mark> |
+| ![](./assets/forward-circle.svg) | <mark style="color:blue;">`ForwardCircle`</mark> | ![](./assets/forward-fill.svg)       | <mark style="color:blue;">`ForwardFill`</mark> |
+| ![](./assets/bluetooth.svg) | <mark style="color:blue;">`Bluetooth`</mark> | ![](./assets/bluetooth-fill.svg)       | <mark style="color:blue;">`BluetoothFill`</mark> |
+| ![](./assets/code-alt.svg) | <mark style="color:blue;">`CodeAlt`</mark> | ![](./assets/code-fill.svg)       | <mark style="color:blue;">`CodeFill`</mark> |
+| ![](./assets/pause-circle.svg) | <mark style="color:blue;">`PauseCircle`</mark> | ![](./assets/pause-fill.svg)       | <mark style="color:blue;">`PauseFill`</mark> |
+| ![](./assets/play-circle.svg) | <mark style="color:blue;">`PlayCircle`</mark> | ![](./assets/play-fill.svg)       | <mark style="color:blue;">`PlayFill`</mark> |

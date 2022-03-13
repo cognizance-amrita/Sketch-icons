@@ -79,7 +79,7 @@ async function buildIcons(format = 'cjs') {
 
       console.log(`Creating file: ${componentName}.js`);
       await fs.writeFile(`${outDir}/${componentName}.js`, content, 'utf-8');
-      await fs.writeFile(`${outDir}/${componentName}.d.ts`, types, 'utf-8');
+      // await fs.writeFile(`${outDir}/${componentName}.d.ts`, types, 'utf-8');
     })
   );
 
