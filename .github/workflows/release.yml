@@ -3,9 +3,11 @@ name: Release
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    branches:
+      - main
+
+env:
+  NPM_TOKEN: ${{ secrets.NPM_AUTH }}
 
 jobs:
   release:
@@ -17,18 +19,10 @@ jobs:
           # This makes Actions fetch all Git history so that Changesets can generate changelogs with the correct commits
           fetch-depth: 0
 
-      - name: Use Node.js 16.x
+      - name: Use Node.js 14.x
         uses: actions/setup-node@v2
         with:
-          version: 16
-
-      - name: Install Dependencies
-        run: yarn
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_AUTH }} # Ensure to have this set up under Github secrets
-
-      - name: Build package
-        run: yarn build
+          node-version: "14.x"
 
       - name: Get yarn cache directory path
         id: yarn-cache-dir-path
@@ -45,39 +39,17 @@ jobs:
       - name: Install dependencies
         run: yarn --frozen-lockfile --network-timeout 300000
 
+      - name: Build package
+        run: yarn build
+
       - name: Create Release Pull Request or Publish to npm
-        uses: actions/checkout@v2
+        uses:  actions/checkout@v2
         with:
           publish: yarn release
           version: yarn changeset version
           commit: "ci: release packages"
           title: "ci: release packages"
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Ensure to have this set up under Github secrets
-          NPM_TOKEN: ${{ secrets.NPM_AUTH }} # Ensure to have this set up under Github secrets
-
-      - run: yarn publish --access public
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH}}
-    
-
-      # - name: Create Release Pull Request or Publish to npm
-      #   id: changesets
-      #   uses: changesets/action@v1
-      #   with:
-      #     publish: yarn release
-      #     commit: "ci: release packages"
-      #     title: "ci: release packages"
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      #     NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_AUTH }}
       
-      - name: Send a Slack notification if a publish happens
-        if: steps.changesets.outputs.published == 'true'
-        # You can do something when a publish happens.
-        run: my-slack-bot send-notification --message "A new version of ${GITHUB_REPOSITORY} was published!"
-      
-      - name: Send a Slack notification if a publish fails
-        if: steps.changesets.outputs.published == 'false'
-        # You can do something when a publish fails.
-        run: my-slack-bot send-notification --message "A new version of ${GITHUB_REPOSITORY} was failed to publish!"
