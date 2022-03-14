@@ -1,5 +1,5 @@
 {
-  "name": "@sketch/icons",
+  "name": "sketchy-icons",
   "version": "0.0.12-beta.5",
   "description": "Sketch-icons is package consisting of icons",
   "main": "./dist/index.js",
