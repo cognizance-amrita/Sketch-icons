@@ -53,3 +53,4 @@ export { default as PlayCircle } from './icons/PlayCircle';
 export { default as PlayFill } from './icons/PlayFill';
 export { default as TaskFill } from './icons/TaskFill';
 export { default as Task } from './icons/Task';
+export { default as UserIosFill } from './icons/UserIosFill';

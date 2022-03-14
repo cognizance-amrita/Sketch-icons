@@ -53,3 +53,4 @@ module.exports.PlayCircle = require('./icons/PlayCircle.js');
 module.exports.PlayFill = require('./icons/PlayFill.js');
 module.exports.TaskFill = require('./icons/TaskFill.js');
 module.exports.Task = require('./icons/Task.js');
+module.exports.UserIosFill = require('./icons/UserIosFill.js');
