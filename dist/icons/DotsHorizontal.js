@@ -1,0 +1,1 @@
+const React=require("react");function DotsHorizontal(t){return React.createElement("svg",Object.assign({xmlns:"http://www.w3.org/2000/svg",fill:"none",viewBox:"0 0 22 6",width:32,height:32,strokeWidth:!0,stroke:!0},t),React.createElement("path",{fill:t.color||"#2A2238",d:"M0 6V0h6v6zm8 0V0h6v6zm8 0V0h6v6z"}))}module.exports=DotsHorizontal;

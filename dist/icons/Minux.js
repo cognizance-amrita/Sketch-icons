@@ -1,0 +1,1 @@
+const React=require("react");function Minux(e){return React.createElement("svg",Object.assign({xmlns:"http://www.w3.org/2000/svg",fill:"none",viewBox:"0 0 24 2",width:32,height:32,strokeWidth:!0,stroke:!0},e),React.createElement("path",{stroke:e.color||"#2A2238",strokeLinecap:"round",strokeWidth:2,d:"M1 1h22"}))}module.exports=Minux;

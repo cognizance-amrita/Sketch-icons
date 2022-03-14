@@ -1,0 +1,1 @@
+const React=require("react");function TagAlt2(e){return React.createElement("svg",Object.assign({xmlns:"http://www.w3.org/2000/svg",fill:"none",viewBox:"0 0 24 16",width:32,height:32,strokeWidth:!0,stroke:!0},e),React.createElement("path",{fill:e.color||"#2A2238",d:"M19 0H0l6.5 7.27273L0 15.5l19 .0152 4.4027-8.24247L19 0Z"}))}module.exports=TagAlt2;

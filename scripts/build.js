@@ -1,3 +1,5 @@
+
+  
 const fs = require('fs/promises');
 const rimraf = require('rimraf');
 const svgr = require('@svgr/core').default;
@@ -85,7 +87,7 @@ async function buildIcons(format = 'cjs') {
     })
   );
 
-  console.log('- Creating file: index.js');
+  console.log('- Creating file: index.js in ' , indexDir); 
   await fs.writeFile(
     `${indexDir}/index.js`,
     indexFileContent(files, format),
