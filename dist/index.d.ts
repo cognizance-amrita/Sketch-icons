@@ -51,5 +51,6 @@ export { default as PauseCircle } from './icons/PauseCircle';
 export { default as PauseFill } from './icons/PauseFill';
 export { default as PlayCircle } from './icons/PlayCircle';
 export { default as PlayFill } from './icons/PlayFill';
+export { default as SketchIcons } from './icons/SketchIcons';
 export { default as TaskFill } from './icons/TaskFill';
 export { default as Task } from './icons/Task';

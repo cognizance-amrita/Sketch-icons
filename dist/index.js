@@ -51,5 +51,6 @@ module.exports.PauseCircle = require('./icons/PauseCircle.js');
 module.exports.PauseFill = require('./icons/PauseFill.js');
 module.exports.PlayCircle = require('./icons/PlayCircle.js');
 module.exports.PlayFill = require('./icons/PlayFill.js');
+module.exports.SketchIcons = require('./icons/SketchIcons.js');
 module.exports.TaskFill = require('./icons/TaskFill.js');
 module.exports.Task = require('./icons/Task.js');
