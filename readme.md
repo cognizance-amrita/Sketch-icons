@@ -1,5 +1,7 @@
 # Sketch-icons
 
+<img src="./assets/sketch-icons.svg" width="120" alt="React Icons">
+
 Sketch-icons is an icon library that makes it easy for individuals to utilise icons.It consists of modern icons.
 
 <!-- **Note** : Sketch-icons is still a beta version.We recommend you to wait till we publish the package -->
