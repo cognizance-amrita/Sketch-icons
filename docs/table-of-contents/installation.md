@@ -15,12 +15,16 @@ Our design system is written in React, and can be installed into your project vi
 ### Usage
 
 ```jsx
-import { Gift } from 'sketch-icons';
+import { PlayFill } from "sketch-icons";
 
 class Icons extends React.Component {
-    render() {
-        return <h2> Here's a Gift <Gift /></h2>
-    }
+  render() {
+    return (
+      <h2>
+        Here's a <PlayFill />
+      </h2>
+    );
+  }
 }
 ```
 
