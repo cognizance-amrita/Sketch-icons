@@ -1,0 +1,1 @@
+const React=require("react");function DashboardFill(e){return React.createElement("svg",Object.assign({xmlns:"http://www.w3.org/2000/svg",fill:"none",viewBox:"0 0 17 23",width:32,height:32,strokeWidth:!0,stroke:!0},e),React.createElement("path",{fill:e.color||"#2A2238",d:"M0 0h8v15H0zm9 8h8v10H9zm-9 8h8v7H0zM9 0h8v7H9zm0 19h8v4H9z"}))}module.exports=DashboardFill;

@@ -1,0 +1,1 @@
+const React=require("react");function AlignVerticalCenter(e){return React.createElement("svg",Object.assign({xmlns:"http://www.w3.org/2000/svg",fill:"none",viewBox:"0 0 12 15",width:32,height:32,strokeWidth:!0,stroke:!0},e),React.createElement("path",{stroke:e.color||"#2A2238",strokeLinecap:"round",d:"M8 1v13M1 5h10M4 1v7"}))}module.exports=AlignVerticalCenter;

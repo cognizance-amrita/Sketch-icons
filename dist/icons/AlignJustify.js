@@ -1,0 +1,1 @@
+const React=require("react");function AlignJustify(e){return React.createElement("svg",Object.assign({xmlns:"http://www.w3.org/2000/svg",fill:"none",viewBox:"0 0 18 10",width:32,height:32,strokeWidth:!0,stroke:!0},e),React.createElement("path",{stroke:e.color||"#2A2238",strokeLinecap:"round",d:"M1 1h16M1 5h16M1 9h16M1 3h16M1 7h16"}))}module.exports=AlignJustify;
