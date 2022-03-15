@@ -92,7 +92,7 @@ export { default as LocationMarkerFill } from './icons/LocationMarkerFill';
 export { default as LocationMarker } from './icons/LocationMarker';
 export { default as LockFill } from './icons/LockFill';
 export { default as Message } from './icons/Message';
-export { default as Minux } from './icons/Minux';
+export { default as Minus } from './icons/Minus';
 export { default as Multiply } from './icons/Multiply';
 export { default as PauseCircle } from './icons/PauseCircle';
 export { default as PauseFill } from './icons/PauseFill';
