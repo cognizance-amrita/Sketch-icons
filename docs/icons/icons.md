@@ -1,7 +1,7 @@
 # Icons
 
-| Image                                     | Name                                                     | Image                                    | Name                                                    |
-| ----------------------------------------- | -------------------------------------------------------- | ---------------------------------------- | ------------------------------------------------------- |
+| Image                                                  | Name                                                       | Image                                                 | Name                                                      |
+| ------------------------------------------------------ | ---------------------------------------------------------- | ----------------------------------------------------- | --------------------------------------------------------- |
 | ![](../../.gitbook/assets/arrow-up.svg)                | <mark style="color:purple;">`ArrowUp`</mark>               | ![](../../.gitbook/assets/arrow-left.svg)             | <mark style="color:purple;">`ArrowLeft`</mark>            |
 | ![](../../.gitbook/assets/arrow-up-fill.svg)           | <mark style="color:purple;">`ArrowUpFill`</mark>           | ![](../../.gitbook/assets/arrow-left-fill.svg)        | <mark style="color:purple;">`ArrowLeftFill`</mark>        |
 | ![](../../.gitbook/assets/arrow-up-circle.svg)         | <mark style="color:purple;">`ArrowUpCircle`</mark>         | ![](../../.gitbook/assets/arrow-left-circle.svg)      | <mark style="color:purple;">`ArrowLeftCircle`</mark>      |
@@ -14,7 +14,6 @@
 | ![](../../.gitbook/assets/arrow-to-right-circle.svg)   | <mark style="color:purple;">`ArrowToRightCircle`</mark>    | ![](../../.gitbook/assets/arrow-to-right-fill.svg)    | <mark style="color:purple;">`ArrowToRightFill`</mark>     |
 | ![](../../.gitbook/assets/backward-circle.svg)         | <mark style="color:purple;">`BackwardCircle`</mark>        | ![](../../.gitbook/assets/backward-fill.svg)          | <mark style="color:purple;">`BackwardFill`</mark>         |
 | ![](../../.gitbook/assets/forward-circle.svg)          | <mark style="color:purple;">`ForwardCircle`</mark>         | ![](../../.gitbook/assets/forward-fill.svg)           | <mark style="color:purple;">`ForwardFill`</mark>          |
-| ![](../../.gitbook/assets/purpletooth.svg)               | <mark style="color:purple;">`purpletooth`</mark>             | ![](../../.gitbook/assets/purpletooth-fill.svg)         | <mark style="color:purple;">`purpletoothFill`</mark>        |
 | ![](../../.gitbook/assets/code-alt.svg)                | <mark style="color:purple;">`CodeAlt`</mark>               | ![](../../.gitbook/assets/code-fill.svg)              | <mark style="color:purple;">`CodeFill`</mark>             |
 | ![](../../.gitbook/assets/pause-circle.svg)            | <mark style="color:purple;">`PauseCircle`</mark>           | ![](../../.gitbook/assets/pause-fill.svg)             | <mark style="color:purple;">`PauseFill`</mark>            |
 | ![](../../.gitbook/assets/play-circle.svg)             | <mark style="color:purple;">`PlayCircle`</mark>            | ![](../../.gitbook/assets/play-fill.svg)              | <mark style="color:purple;">`PlayFill`</mark>             |
@@ -59,8 +58,8 @@
 | ![](../../.gitbook/assets/user-fill.svg)               | <mark style="color:purple;">`UserFill`</mark>              | ![](../../.gitbook/assets/user-fill-1.svg)            | <mark style="color:purple;">`UserFill1`</mark>            |
 | ![](../../.gitbook/assets/user-profile.svg)            | <mark style="color:purple;">`UserProfile`</mark>           | ![](../../.gitbook/assets/user-profile-fill.svg)      | <mark style="color:purple;">`UserProfileFill`</mark>      |
 | ![](../../.gitbook/assets/view-list.svg)               | <mark style="color:purple;">`ViewList`</mark>              | ![](../../.gitbook/assets/warning.svg)                | <mark style="color:purple;">`Warning`</mark>              |
-| ![](../../.gitbook/assets/warning-fill.svg)                  | <mark style="color:purple;">`WarningFill`</mark>                | ![](../../.gitbook/assets/encircle-plus.svg)              | <mark style="color:purple;">`EncirclePlus`</mark>             |
-| ![](../../.gitbook/assets/encircled-plus-fill.svg)                  | <mark style="color:purple;">`EncircledPlusFill`</mark>                | ![]()              | <mark style="color:purple;">` `</mark>             |
+| ![](../../.gitbook/assets/warning-fill.svg)            | <mark style="color:purple;">`WarningFill`</mark>           | ![](../../.gitbook/assets/encircle-plus.svg)          | <mark style="color:purple;">`EncirclePlus`</mark>         |
+| ![](../../.gitbook/assets/encircled-plus-fill.svg)     | <mark style="color:purple;">`EncircledPlusFill`</mark>     | ![]()                                                 | <mark style="color:purple;">``</mark>                     |
 
 {% hint style="info" %}
 **Good to know:** your product docs aren't just a reference of all your features! use them to encourage folks to perform certain actions and discover the value in your product.

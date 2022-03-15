@@ -69,11 +69,11 @@ class Icons extends React.Component {
 1. Create an icon with color `#2A2238` and strokeWidth of `1` or `1.5`.
 1. Export your icon to `svg` format.
 1. Place your assets in the `assets` folder.
-2. Add your asset in [icon_list](icon_list.md).
-3. Run the `yarn build` command. (*optional)
-4. Type `yarn changeset` and choose major/minor/patch, then write a summary. (*optional)
-5. Submit a Pull Request with title `[Icon request]`
-6. Your asset will be added to the list.
+1. Add your asset in [icon_list](icon_list.md).
+1. Run the `yarn build` command. (\*optional)
+1. Type `yarn changeset` and choose major/minor/patch, then write a summary. (\*optional)
+1. Submit a Pull Request with title `[Icon request]`
+1. Your asset will be added to the list.
 
 **Note :** Only icons with color will be permitted for 3D icons. Feel free to contribute.
 
@@ -97,6 +97,13 @@ Please read the [CODE OF CONDUCT](CODE_OF_CONDUCT.md)
 ## Versioning
 
 Refer [Versioning](VERSIONING.md)
+
+## Contributors
+
+| [<img alt="ndrohith09" src="https://avatars.githubusercontent.com/u/73429989?v=4&s=117 width=117 ">](https://github.com/ndrohith09) | [<img alt="Aravind Swaminathan" src="https://avatars.githubusercontent.com/u/71716685?v=4&s=117 width=117">](https://github.com/Aravind2203) | [<img alt="Revanth2002" src="https://avatars.githubusercontent.com/u/68279005?v=4&s=117 width=117">](https://github.com/Revanth2002) | [<img alt="GarudaTechDev" src="https://avatars2.githubusercontent.com/u/81281735?v=4&s=117 width=117">](https://github.com/GarudaTechDev) | [<img alt="smlogsubramani" src="https://avatars0.githubusercontent.com/u/74098979?v=4&s=117 width=117">](https://github.com/smlogsubramani) | [<img alt="Tr0612" src="https://avatars3.githubusercontent.com/u/45840572?v=4&s=117 width=117">](https://github.com/Tr0612) | [<img alt="Rams01010010" src="https://avatars2.githubusercontent.com/u/74339634?v=4&s=117 width=117">](https://github.com/Rams01010010) |
+| :--------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------: |
+|                                             [ND Rohith](https://github.com/ndrohith09)                                             |                                            [Aravind Swaminathan](https://github.com/Aravind2203)                                             |                                             [ND Revanth](https://github.com/Revanth2002)                                             |                                             [GarudaTechDev](https://github.com/GarudaTechDev)                                             |                                            [SM Logsubramani](https://github.com/smlogsubramani)                                             |                                          [Thanushraam](https://github.com/Tr0612)                                           |                                            [RAM SOLAIAPPAN](https://github.com/Rams01010010) 
+|
 
 ## Icons List
 
@@ -161,3 +168,5 @@ Refer [Versioning](VERSIONING.md)
 | ![](./assets/view-list.svg)                  | <mark style="color:blue;">`ViewList`</mark>                | ![](./assets/warning.svg)              | <mark style="color:blue;">`Warning`</mark>             |
 | ![](./assets/warning-fill.svg)                  | <mark style="color:blue;">`WarningFill`</mark>                | ![](./assets/encircle-plus.svg)              | <mark style="color:blue;">`EncirclePlus`</mark>             |
 | ![](./assets/encircled-plus-fill.svg)                  | <mark style="color:blue;">`EncircledPlusFill`</mark>                | ![]()              | <mark style="color:blue;">` `</mark>             |
+
+
