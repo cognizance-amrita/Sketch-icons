@@ -87,7 +87,7 @@ async function buildIcons(format = 'cjs') {
     })
   );
 
-  console.log('- Creating file: index.js in ' , indexDir); 
+  console.log('📄 Creating file: index.js in ' , indexDir); 
   await fs.writeFile(
     `${indexDir}/index.js`,
     indexFileContent(files, format),
@@ -101,10 +101,10 @@ async function buildIcons(format = 'cjs') {
 }
 
 (function main() {
-  console.log('🏗 Building icon package...');
+  console.log('🏭 Building icon package...');
   new Promise((resolve) => {
     rimraf(`${outputPath}/*`, resolve);
   })
     .then(() => Promise.all([buildIcons('cjs')]))
-    .then(() => console.log('✅ Finished building package.'));
+    .then(() => console.log('👍 Finished building package.'));
 })();
