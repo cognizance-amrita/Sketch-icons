@@ -1,7 +1,8 @@
 # https://github.com/changesets/action
 name: Release
-
-on: [push]
+on:
+  push:
+    branches: [ main ]
 
 jobs:
   release:
