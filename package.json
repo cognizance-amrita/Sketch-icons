@@ -1,6 +1,6 @@
 {
   "name": "sketch-icons",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Sketch-icons is package consisting of icons for websites",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
@@ -30,7 +30,7 @@
   "bugs": {
     "url": "https://github.com/garudatechnologydevelopers/Sketches/issues"
   },
-  "homepage": "https://github.com/garudatechnologydevelopers/Sketches#readme",
+  "homepage": "https://sketch-icons.netlify.app/",
   "devDependencies": {
     "@babel/core": "^7.17.5",
     "@babel/preset-react": "^7.16.7",
