@@ -1,6 +1,6 @@
 {
   "name": "sketch-icons",
-  "version": "0.1.3",
+  "version": "0.1.5",
   "description": "Sketch-icons is package consisting of icons for websites",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
