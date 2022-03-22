@@ -29,3 +29,5 @@ yarn-error.log*
 # Reach app for test in local
 example/
 
+# CDN for assets
+/sketch-icons-cdn
