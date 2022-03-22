@@ -1,0 +1,639 @@
+$sketch-icons-font: "sketch-icons" !default;
+$sketch-icons-font-src: url("./sketch-icons.woff2?e8eec62d23ed947200fb9ff1f2bad45a") format("woff2"),
+url("./sketch-icons.woff?e8eec62d23ed947200fb9ff1f2bad45a") format("woff") !default;
+
+@font-face {
+  font-family: $sketch-icons-font;
+  src: $sketch-icons-font-src;
+}
+
+.sk::before,
+[class^="sk-"]::before,
+[class*=" sk-"]::before {
+  display: inline-block;
+  font-family: $sketch-icons-font !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: -.125em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+$sketch-icons-map: (
+  "activity": "\f101",
+  "adjust": "\f102",
+  "alarm-fill": "\f103",
+  "alarm": "\f104",
+  "align-center": "\f105",
+  "align-horizontal-left-1": "\f106",
+  "align-horizontal-left": "\f107",
+  "align-horizontal-right": "\f108",
+  "align-justify": "\f109",
+  "align-left": "\f10a",
+  "align-right": "\f10b",
+  "align-vertical-bottom": "\f10c",
+  "align-vertical-center": "\f10d",
+  "align-vertical-top": "\f10e",
+  "app-indicator": "\f10f",
+  "apple": "\f110",
+  "archive-1": "\f111",
+  "archive": "\f112",
+  "arrow-angle-contract": "\f113",
+  "arrow-angle-expand": "\f114",
+  "arrow-anticlockwise": "\f115",
+  "arrow-clockwise": "\f116",
+  "arrow-collapse": "\f117",
+  "arrow-down-circle": "\f118",
+  "arrow-down-fill": "\f119",
+  "arrow-down-up": "\f11a",
+  "arrow-down": "\f11b",
+  "arrow-expand": "\f11c",
+  "arrow-fullscreen": "\f11d",
+  "arrow-left-circle": "\f11e",
+  "arrow-left-fill": "\f11f",
+  "arrow-left-right": "\f120",
+  "arrow-left": "\f121",
+  "arrow-repeat": "\f122",
+  "arrow-right-circle": "\f123",
+  "arrow-right-fill": "\f124",
+  "arrow-right": "\f125",
+  "arrow-to-down-circle": "\f126",
+  "arrow-to-down-fill": "\f127",
+  "arrow-to-down": "\f128",
+  "arrow-to-left-circle": "\f129",
+  "arrow-to-left-fill": "\f12a",
+  "arrow-to-left": "\f12b",
+  "arrow-to-right-circle": "\f12c",
+  "arrow-to-right-fill": "\f12d",
+  "arrow-to-right": "\f12e",
+  "arrow-to-up-circle": "\f12f",
+  "arrow-to-up-fill": "\f130",
+  "arrow-to-up": "\f131",
+  "arrow-up-circle": "\f132",
+  "arrow-up-fill": "\f133",
+  "arrow-up": "\f134",
+  "arrows-move": "\f135",
+  "aspect-ratio": "\f136",
+  "award-fill": "\f137",
+  "award": "\f138",
+  "backspace-fill": "\f139",
+  "backspace-reverse-fill": "\f13a",
+  "backspace-reverse": "\f13b",
+  "backspace": "\f13c",
+  "backward-circle": "\f13d",
+  "backward-fill": "\f13e",
+  "badge-4k-fill": "\f13f",
+  "badge-4k": "\f140",
+  "badge-8k-fill": "\f141",
+  "badge-8k": "\f142",
+  "badge-cc-fill": "\f143",
+  "badge-cc": "\f144",
+  "badge-hd-fill": "\f145",
+  "badge-hd": "\f146",
+  "badge-tm-fill": "\f147",
+  "badge-tm": "\f148",
+  "bag-check-fill": "\f149",
+  "bag-check": "\f14a",
+  "bag-dash-fill": "\f14b",
+  "bag-dash": "\f14c",
+  "bag-fill": "\f14d",
+  "bag-heart-fill": "\f14e",
+  "bag-heart": "\f14f",
+  "bag-plus-fill": "\f150",
+  "bag-plus": "\f151",
+  "bag-x-fill": "\f152",
+  "bag-x": "\f153",
+  "bag": "\f154",
+  "balloon-1-fill": "\f155",
+  "balloon-1": "\f156",
+  "balloon-fill": "\f157",
+  "balloon-heart-1-fill": "\f158",
+  "balloon-heart-1": "\f159",
+  "balloon-heart-fill": "\f15a",
+  "balloon-heart": "\f15b",
+  "balloon": "\f15c",
+  "bandaid-fill": "\f15d",
+  "bandaid": "\f15e",
+  "bank": "\f15f",
+  "basket-1-fill": "\f160",
+  "basket-1": "\f161",
+  "basket-fill": "\f162",
+  "basket": "\f163",
+  "battery-charging": "\f164",
+  "battery-full": "\f165",
+  "battery-half": "\f166",
+  "battery": "\f167",
+  "behance": "\f168",
+  "bell": "\f169",
+  "bicycle": "\f16a",
+  "bin-fill": "\f16b",
+  "bin": "\f16c",
+  "binoculars-fill": "\f16d",
+  "binoculars": "\f16e",
+  "blockquote-left": "\f16f",
+  "blockquote-right": "\f170",
+  "bluetooth-1-fill": "\f171",
+  "bluetooth-1": "\f172",
+  "bluetooth-fill": "\f173",
+  "bluetooth": "\f174",
+  "bold": "\f175",
+  "bookmark-fill": "\f176",
+  "bookmark": "\f177",
+  "bounding-box-circles": "\f178",
+  "bounding-box": "\f179",
+  "box-fill": "\f17a",
+  "box": "\f17b",
+  "braces-asterisk": "\f17c",
+  "braces": "\f17d",
+  "brightness": "\f17e",
+  "broadcast": "\f17f",
+  "browser": "\f180",
+  "bucket-fill": "\f181",
+  "bucket": "\f182",
+  "calculator-fill": "\f183",
+  "calculator": "\f184",
+  "camera-fill": "\f185",
+  "camera-reel-fill": "\f186",
+  "camera-reel": "\f187",
+  "camera-video-fill": "\f188",
+  "camera-video-off-fill": "\f189",
+  "camera-video-off": "\f18a",
+  "caps-lock-1": "\f18b",
+  "caps-lock": "\f18c",
+  "category-fill": "\f18d",
+  "category": "\f18e",
+  "chat": "\f18f",
+  "clipboard-fill": "\f190",
+  "clipboard": "\f191",
+  "clock-1": "\f192",
+  "clock": "\f193",
+  "cloud-drizzle-fill": "\f194",
+  "cloud-drizzle": "\f195",
+  "cloud-upload-fill": "\f196",
+  "cloud-upload": "\f197",
+  "code-alt": "\f198",
+  "code-fill": "\f199",
+  "compass-1": "\f19a",
+  "compass-2": "\f19b",
+  "contact-book-fill": "\f19c",
+  "contact-book": "\f19d",
+  "contact-line": "\f19e",
+  "cup-fill": "\f19f",
+  "cup": "\f1a0",
+  "currency-dollar": "\f1a1",
+  "currency-euro": "\f1a2",
+  "currency-rupee": "\f1a3",
+  "currency-yen": "\f1a4",
+  "cursor-text": "\f1a5",
+  "dashboard-fill": "\f1a6",
+  "dashboard": "\f1a7",
+  "divide": "\f1a8",
+  "do-not-disturb": "\f1a9",
+  "dollar-coin": "\f1aa",
+  "dots-horizontal-rounded": "\f1ab",
+  "dots-horizontal": "\f1ac",
+  "dots-vertical-rounded": "\f1ad",
+  "dots-vertical": "\f1ae",
+  "dribbble": "\f1af",
+  "drop-fill": "\f1b0",
+  "drop": "\f1b1",
+  "edit": "\f1b2",
+  "eject-fill": "\f1b3",
+  "eject": "\f1b4",
+  "encircle-divide-fill": "\f1b5",
+  "encircle-divide": "\f1b6",
+  "encircle-minus": "\f1b7",
+  "encircle-multiply": "\f1b8",
+  "encircle-plus": "\f1b9",
+  "encircled-minus-fill": "\f1ba",
+  "encircled-multiply-fill": "\f1bb",
+  "encircled-plus-fill": "\f1bc",
+  "euro-coin": "\f1bd",
+  "file-pdf": "\f1be",
+  "file": "\f1bf",
+  "filetype-css": "\f1c0",
+  "filetype-csv": "\f1c1",
+  "filetype-doc": "\f1c2",
+  "filetype-docx": "\f1c3",
+  "filetype-exe": "\f1c4",
+  "filetype-jsx": "\f1c5",
+  "filetype-mp4": "\f1c6",
+  "filetype-ppt": "\f1c7",
+  "filetype-pptx": "\f1c8",
+  "filetype-py": "\f1c9",
+  "filter-fill": "\f1ca",
+  "filter": "\f1cb",
+  "filtype-pdf": "\f1cc",
+  "flag-fill": "\f1cd",
+  "flag": "\f1ce",
+  "forward-circle": "\f1cf",
+  "forward-fill": "\f1d0",
+  "gem": "\f1d1",
+  "git": "\f1d2",
+  "github": "\f1d3",
+  "headset-1": "\f1d4",
+  "headset-fill": "\f1d5",
+  "headset": "\f1d6",
+  "heart-1": "\f1d7",
+  "heart-fill": "\f1d8",
+  "heart": "\f1d9",
+  "home-fill": "\f1da",
+  "hourglass-bottom": "\f1db",
+  "hourglass-split": "\f1dc",
+  "image-fill": "\f1dd",
+  "image": "\f1de",
+  "infinity": "\f1df",
+  "info-fill": "\f1e0",
+  "info": "\f1e1",
+  "italic": "\f1e2",
+  "kanban-1": "\f1e3",
+  "kanban-fill": "\f1e4",
+  "kanban": "\f1e5",
+  "letter-spacing": "\f1e6",
+  "line-height": "\f1e7",
+  "list-li": "\f1e8",
+  "list-ui": "\f1e9",
+  "location-marker-fill": "\f1ea",
+  "location-marker": "\f1eb",
+  "lock-fill": "\f1ec",
+  "maginifying-glass-2": "\f1ed",
+  "magnifying-glass-1": "\f1ee",
+  "megaphone-fill": "\f1ef",
+  "megaphone": "\f1f0",
+  "message": "\f1f1",
+  "microsot": "\f1f2",
+  "minus": "\f1f3",
+  "moon-fill": "\f1f4",
+  "moon": "\f1f5",
+  "multiply": "\f1f6",
+  "notification-fill": "\f1f7",
+  "notification-silent-fill": "\f1f8",
+  "notification-silent": "\f1f9",
+  "notification": "\f1fa",
+  "pause-circle": "\f1fb",
+  "pause-fill": "\f1fc",
+  "people-fill": "\f1fd",
+  "people": "\f1fe",
+  "pie-chart": "\f1ff",
+  "play-circle": "\f200",
+  "play-fill": "\f201",
+  "plus": "\f202",
+  "printer-fill": "\f203",
+  "printer": "\f204",
+  "react-fill": "\f205",
+  "react-icon": "\f206",
+  "recycle": "\f207",
+  "rupee-coin": "\f208",
+  "sand-clock": "\f209",
+  "save-alt": "\f20a",
+  "search": "\f20b",
+  "sent": "\f20c",
+  "settings-fill": "\f20d",
+  "settings": "\f20e",
+  "share": "\f20f",
+  "shopping-bag": "\f210",
+  "shopping-cart": "\f211",
+  "sketch-icons": "\f212",
+  "sms": "\f213",
+  "sticky-fill": "\f214",
+  "sticky": "\f215",
+  "suitcase": "\f216",
+  "sun-fill": "\f217",
+  "sun": "\f218",
+  "tag-alt-2": "\f219",
+  "tag-alt": "\f21a",
+  "task-fill": "\f21b",
+  "task": "\f21c",
+  "terminal": "\f21d",
+  "text": "\f21e",
+  "thumbs-down-fill": "\f21f",
+  "thumbs-down": "\f220",
+  "thumbs-up-fill": "\f221",
+  "thumbs-up": "\f222",
+  "trophy-fill": "\f223",
+  "trophy": "\f224",
+  "u-magnet-fill": "\f225",
+  "u-magnet": "\f226",
+  "underline": "\f227",
+  "unlock-fill": "\f228",
+  "user-fill-1": "\f229",
+  "user-fill": "\f22a",
+  "user-profile-fill": "\f22b",
+  "user-profile": "\f22c",
+  "view-list": "\f22d",
+  "warning-fill": "\f22e",
+  "warning": "\f22f",
+  "yen-coin": "\f230",
+  "zoom-in": "\f231",
+  "zoom-out": "\f232",
+);
+
+.sk-activity::before { content: map-get($sketch-icons-map, "activity"); }
+.sk-adjust::before { content: map-get($sketch-icons-map, "adjust"); }
+.sk-alarm-fill::before { content: map-get($sketch-icons-map, "alarm-fill"); }
+.sk-alarm::before { content: map-get($sketch-icons-map, "alarm"); }
+.sk-align-center::before { content: map-get($sketch-icons-map, "align-center"); }
+.sk-align-horizontal-left-1::before { content: map-get($sketch-icons-map, "align-horizontal-left-1"); }
+.sk-align-horizontal-left::before { content: map-get($sketch-icons-map, "align-horizontal-left"); }
+.sk-align-horizontal-right::before { content: map-get($sketch-icons-map, "align-horizontal-right"); }
+.sk-align-justify::before { content: map-get($sketch-icons-map, "align-justify"); }
+.sk-align-left::before { content: map-get($sketch-icons-map, "align-left"); }
+.sk-align-right::before { content: map-get($sketch-icons-map, "align-right"); }
+.sk-align-vertical-bottom::before { content: map-get($sketch-icons-map, "align-vertical-bottom"); }
+.sk-align-vertical-center::before { content: map-get($sketch-icons-map, "align-vertical-center"); }
+.sk-align-vertical-top::before { content: map-get($sketch-icons-map, "align-vertical-top"); }
+.sk-app-indicator::before { content: map-get($sketch-icons-map, "app-indicator"); }
+.sk-apple::before { content: map-get($sketch-icons-map, "apple"); }
+.sk-archive-1::before { content: map-get($sketch-icons-map, "archive-1"); }
+.sk-archive::before { content: map-get($sketch-icons-map, "archive"); }
+.sk-arrow-angle-contract::before { content: map-get($sketch-icons-map, "arrow-angle-contract"); }
+.sk-arrow-angle-expand::before { content: map-get($sketch-icons-map, "arrow-angle-expand"); }
+.sk-arrow-anticlockwise::before { content: map-get($sketch-icons-map, "arrow-anticlockwise"); }
+.sk-arrow-clockwise::before { content: map-get($sketch-icons-map, "arrow-clockwise"); }
+.sk-arrow-collapse::before { content: map-get($sketch-icons-map, "arrow-collapse"); }
+.sk-arrow-down-circle::before { content: map-get($sketch-icons-map, "arrow-down-circle"); }
+.sk-arrow-down-fill::before { content: map-get($sketch-icons-map, "arrow-down-fill"); }
+.sk-arrow-down-up::before { content: map-get($sketch-icons-map, "arrow-down-up"); }
+.sk-arrow-down::before { content: map-get($sketch-icons-map, "arrow-down"); }
+.sk-arrow-expand::before { content: map-get($sketch-icons-map, "arrow-expand"); }
+.sk-arrow-fullscreen::before { content: map-get($sketch-icons-map, "arrow-fullscreen"); }
+.sk-arrow-left-circle::before { content: map-get($sketch-icons-map, "arrow-left-circle"); }
+.sk-arrow-left-fill::before { content: map-get($sketch-icons-map, "arrow-left-fill"); }
+.sk-arrow-left-right::before { content: map-get($sketch-icons-map, "arrow-left-right"); }
+.sk-arrow-left::before { content: map-get($sketch-icons-map, "arrow-left"); }
+.sk-arrow-repeat::before { content: map-get($sketch-icons-map, "arrow-repeat"); }
+.sk-arrow-right-circle::before { content: map-get($sketch-icons-map, "arrow-right-circle"); }
+.sk-arrow-right-fill::before { content: map-get($sketch-icons-map, "arrow-right-fill"); }
+.sk-arrow-right::before { content: map-get($sketch-icons-map, "arrow-right"); }
+.sk-arrow-to-down-circle::before { content: map-get($sketch-icons-map, "arrow-to-down-circle"); }
+.sk-arrow-to-down-fill::before { content: map-get($sketch-icons-map, "arrow-to-down-fill"); }
+.sk-arrow-to-down::before { content: map-get($sketch-icons-map, "arrow-to-down"); }
+.sk-arrow-to-left-circle::before { content: map-get($sketch-icons-map, "arrow-to-left-circle"); }
+.sk-arrow-to-left-fill::before { content: map-get($sketch-icons-map, "arrow-to-left-fill"); }
+.sk-arrow-to-left::before { content: map-get($sketch-icons-map, "arrow-to-left"); }
+.sk-arrow-to-right-circle::before { content: map-get($sketch-icons-map, "arrow-to-right-circle"); }
+.sk-arrow-to-right-fill::before { content: map-get($sketch-icons-map, "arrow-to-right-fill"); }
+.sk-arrow-to-right::before { content: map-get($sketch-icons-map, "arrow-to-right"); }
+.sk-arrow-to-up-circle::before { content: map-get($sketch-icons-map, "arrow-to-up-circle"); }
+.sk-arrow-to-up-fill::before { content: map-get($sketch-icons-map, "arrow-to-up-fill"); }
+.sk-arrow-to-up::before { content: map-get($sketch-icons-map, "arrow-to-up"); }
+.sk-arrow-up-circle::before { content: map-get($sketch-icons-map, "arrow-up-circle"); }
+.sk-arrow-up-fill::before { content: map-get($sketch-icons-map, "arrow-up-fill"); }
+.sk-arrow-up::before { content: map-get($sketch-icons-map, "arrow-up"); }
+.sk-arrows-move::before { content: map-get($sketch-icons-map, "arrows-move"); }
+.sk-aspect-ratio::before { content: map-get($sketch-icons-map, "aspect-ratio"); }
+.sk-award-fill::before { content: map-get($sketch-icons-map, "award-fill"); }
+.sk-award::before { content: map-get($sketch-icons-map, "award"); }
+.sk-backspace-fill::before { content: map-get($sketch-icons-map, "backspace-fill"); }
+.sk-backspace-reverse-fill::before { content: map-get($sketch-icons-map, "backspace-reverse-fill"); }
+.sk-backspace-reverse::before { content: map-get($sketch-icons-map, "backspace-reverse"); }
+.sk-backspace::before { content: map-get($sketch-icons-map, "backspace"); }
+.sk-backward-circle::before { content: map-get($sketch-icons-map, "backward-circle"); }
+.sk-backward-fill::before { content: map-get($sketch-icons-map, "backward-fill"); }
+.sk-badge-4k-fill::before { content: map-get($sketch-icons-map, "badge-4k-fill"); }
+.sk-badge-4k::before { content: map-get($sketch-icons-map, "badge-4k"); }
+.sk-badge-8k-fill::before { content: map-get($sketch-icons-map, "badge-8k-fill"); }
+.sk-badge-8k::before { content: map-get($sketch-icons-map, "badge-8k"); }
+.sk-badge-cc-fill::before { content: map-get($sketch-icons-map, "badge-cc-fill"); }
+.sk-badge-cc::before { content: map-get($sketch-icons-map, "badge-cc"); }
+.sk-badge-hd-fill::before { content: map-get($sketch-icons-map, "badge-hd-fill"); }
+.sk-badge-hd::before { content: map-get($sketch-icons-map, "badge-hd"); }
+.sk-badge-tm-fill::before { content: map-get($sketch-icons-map, "badge-tm-fill"); }
+.sk-badge-tm::before { content: map-get($sketch-icons-map, "badge-tm"); }
+.sk-bag-check-fill::before { content: map-get($sketch-icons-map, "bag-check-fill"); }
+.sk-bag-check::before { content: map-get($sketch-icons-map, "bag-check"); }
+.sk-bag-dash-fill::before { content: map-get($sketch-icons-map, "bag-dash-fill"); }
+.sk-bag-dash::before { content: map-get($sketch-icons-map, "bag-dash"); }
+.sk-bag-fill::before { content: map-get($sketch-icons-map, "bag-fill"); }
+.sk-bag-heart-fill::before { content: map-get($sketch-icons-map, "bag-heart-fill"); }
+.sk-bag-heart::before { content: map-get($sketch-icons-map, "bag-heart"); }
+.sk-bag-plus-fill::before { content: map-get($sketch-icons-map, "bag-plus-fill"); }
+.sk-bag-plus::before { content: map-get($sketch-icons-map, "bag-plus"); }
+.sk-bag-x-fill::before { content: map-get($sketch-icons-map, "bag-x-fill"); }
+.sk-bag-x::before { content: map-get($sketch-icons-map, "bag-x"); }
+.sk-bag::before { content: map-get($sketch-icons-map, "bag"); }
+.sk-balloon-1-fill::before { content: map-get($sketch-icons-map, "balloon-1-fill"); }
+.sk-balloon-1::before { content: map-get($sketch-icons-map, "balloon-1"); }
+.sk-balloon-fill::before { content: map-get($sketch-icons-map, "balloon-fill"); }
+.sk-balloon-heart-1-fill::before { content: map-get($sketch-icons-map, "balloon-heart-1-fill"); }
+.sk-balloon-heart-1::before { content: map-get($sketch-icons-map, "balloon-heart-1"); }
+.sk-balloon-heart-fill::before { content: map-get($sketch-icons-map, "balloon-heart-fill"); }
+.sk-balloon-heart::before { content: map-get($sketch-icons-map, "balloon-heart"); }
+.sk-balloon::before { content: map-get($sketch-icons-map, "balloon"); }
+.sk-bandaid-fill::before { content: map-get($sketch-icons-map, "bandaid-fill"); }
+.sk-bandaid::before { content: map-get($sketch-icons-map, "bandaid"); }
+.sk-bank::before { content: map-get($sketch-icons-map, "bank"); }
+.sk-basket-1-fill::before { content: map-get($sketch-icons-map, "basket-1-fill"); }
+.sk-basket-1::before { content: map-get($sketch-icons-map, "basket-1"); }
+.sk-basket-fill::before { content: map-get($sketch-icons-map, "basket-fill"); }
+.sk-basket::before { content: map-get($sketch-icons-map, "basket"); }
+.sk-battery-charging::before { content: map-get($sketch-icons-map, "battery-charging"); }
+.sk-battery-full::before { content: map-get($sketch-icons-map, "battery-full"); }
+.sk-battery-half::before { content: map-get($sketch-icons-map, "battery-half"); }
+.sk-battery::before { content: map-get($sketch-icons-map, "battery"); }
+.sk-behance::before { content: map-get($sketch-icons-map, "behance"); }
+.sk-bell::before { content: map-get($sketch-icons-map, "bell"); }
+.sk-bicycle::before { content: map-get($sketch-icons-map, "bicycle"); }
+.sk-bin-fill::before { content: map-get($sketch-icons-map, "bin-fill"); }
+.sk-bin::before { content: map-get($sketch-icons-map, "bin"); }
+.sk-binoculars-fill::before { content: map-get($sketch-icons-map, "binoculars-fill"); }
+.sk-binoculars::before { content: map-get($sketch-icons-map, "binoculars"); }
+.sk-blockquote-left::before { content: map-get($sketch-icons-map, "blockquote-left"); }
+.sk-blockquote-right::before { content: map-get($sketch-icons-map, "blockquote-right"); }
+.sk-bluetooth-1-fill::before { content: map-get($sketch-icons-map, "bluetooth-1-fill"); }
+.sk-bluetooth-1::before { content: map-get($sketch-icons-map, "bluetooth-1"); }
+.sk-bluetooth-fill::before { content: map-get($sketch-icons-map, "bluetooth-fill"); }
+.sk-bluetooth::before { content: map-get($sketch-icons-map, "bluetooth"); }
+.sk-bold::before { content: map-get($sketch-icons-map, "bold"); }
+.sk-bookmark-fill::before { content: map-get($sketch-icons-map, "bookmark-fill"); }
+.sk-bookmark::before { content: map-get($sketch-icons-map, "bookmark"); }
+.sk-bounding-box-circles::before { content: map-get($sketch-icons-map, "bounding-box-circles"); }
+.sk-bounding-box::before { content: map-get($sketch-icons-map, "bounding-box"); }
+.sk-box-fill::before { content: map-get($sketch-icons-map, "box-fill"); }
+.sk-box::before { content: map-get($sketch-icons-map, "box"); }
+.sk-braces-asterisk::before { content: map-get($sketch-icons-map, "braces-asterisk"); }
+.sk-braces::before { content: map-get($sketch-icons-map, "braces"); }
+.sk-brightness::before { content: map-get($sketch-icons-map, "brightness"); }
+.sk-broadcast::before { content: map-get($sketch-icons-map, "broadcast"); }
+.sk-browser::before { content: map-get($sketch-icons-map, "browser"); }
+.sk-bucket-fill::before { content: map-get($sketch-icons-map, "bucket-fill"); }
+.sk-bucket::before { content: map-get($sketch-icons-map, "bucket"); }
+.sk-calculator-fill::before { content: map-get($sketch-icons-map, "calculator-fill"); }
+.sk-calculator::before { content: map-get($sketch-icons-map, "calculator"); }
+.sk-camera-fill::before { content: map-get($sketch-icons-map, "camera-fill"); }
+.sk-camera-reel-fill::before { content: map-get($sketch-icons-map, "camera-reel-fill"); }
+.sk-camera-reel::before { content: map-get($sketch-icons-map, "camera-reel"); }
+.sk-camera-video-fill::before { content: map-get($sketch-icons-map, "camera-video-fill"); }
+.sk-camera-video-off-fill::before { content: map-get($sketch-icons-map, "camera-video-off-fill"); }
+.sk-camera-video-off::before { content: map-get($sketch-icons-map, "camera-video-off"); }
+.sk-caps-lock-1::before { content: map-get($sketch-icons-map, "caps-lock-1"); }
+.sk-caps-lock::before { content: map-get($sketch-icons-map, "caps-lock"); }
+.sk-category-fill::before { content: map-get($sketch-icons-map, "category-fill"); }
+.sk-category::before { content: map-get($sketch-icons-map, "category"); }
+.sk-chat::before { content: map-get($sketch-icons-map, "chat"); }
+.sk-clipboard-fill::before { content: map-get($sketch-icons-map, "clipboard-fill"); }
+.sk-clipboard::before { content: map-get($sketch-icons-map, "clipboard"); }
+.sk-clock-1::before { content: map-get($sketch-icons-map, "clock-1"); }
+.sk-clock::before { content: map-get($sketch-icons-map, "clock"); }
+.sk-cloud-drizzle-fill::before { content: map-get($sketch-icons-map, "cloud-drizzle-fill"); }
+.sk-cloud-drizzle::before { content: map-get($sketch-icons-map, "cloud-drizzle"); }
+.sk-cloud-upload-fill::before { content: map-get($sketch-icons-map, "cloud-upload-fill"); }
+.sk-cloud-upload::before { content: map-get($sketch-icons-map, "cloud-upload"); }
+.sk-code-alt::before { content: map-get($sketch-icons-map, "code-alt"); }
+.sk-code-fill::before { content: map-get($sketch-icons-map, "code-fill"); }
+.sk-compass-1::before { content: map-get($sketch-icons-map, "compass-1"); }
+.sk-compass-2::before { content: map-get($sketch-icons-map, "compass-2"); }
+.sk-contact-book-fill::before { content: map-get($sketch-icons-map, "contact-book-fill"); }
+.sk-contact-book::before { content: map-get($sketch-icons-map, "contact-book"); }
+.sk-contact-line::before { content: map-get($sketch-icons-map, "contact-line"); }
+.sk-cup-fill::before { content: map-get($sketch-icons-map, "cup-fill"); }
+.sk-cup::before { content: map-get($sketch-icons-map, "cup"); }
+.sk-currency-dollar::before { content: map-get($sketch-icons-map, "currency-dollar"); }
+.sk-currency-euro::before { content: map-get($sketch-icons-map, "currency-euro"); }
+.sk-currency-rupee::before { content: map-get($sketch-icons-map, "currency-rupee"); }
+.sk-currency-yen::before { content: map-get($sketch-icons-map, "currency-yen"); }
+.sk-cursor-text::before { content: map-get($sketch-icons-map, "cursor-text"); }
+.sk-dashboard-fill::before { content: map-get($sketch-icons-map, "dashboard-fill"); }
+.sk-dashboard::before { content: map-get($sketch-icons-map, "dashboard"); }
+.sk-divide::before { content: map-get($sketch-icons-map, "divide"); }
+.sk-do-not-disturb::before { content: map-get($sketch-icons-map, "do-not-disturb"); }
+.sk-dollar-coin::before { content: map-get($sketch-icons-map, "dollar-coin"); }
+.sk-dots-horizontal-rounded::before { content: map-get($sketch-icons-map, "dots-horizontal-rounded"); }
+.sk-dots-horizontal::before { content: map-get($sketch-icons-map, "dots-horizontal"); }
+.sk-dots-vertical-rounded::before { content: map-get($sketch-icons-map, "dots-vertical-rounded"); }
+.sk-dots-vertical::before { content: map-get($sketch-icons-map, "dots-vertical"); }
+.sk-dribbble::before { content: map-get($sketch-icons-map, "dribbble"); }
+.sk-drop-fill::before { content: map-get($sketch-icons-map, "drop-fill"); }
+.sk-drop::before { content: map-get($sketch-icons-map, "drop"); }
+.sk-edit::before { content: map-get($sketch-icons-map, "edit"); }
+.sk-eject-fill::before { content: map-get($sketch-icons-map, "eject-fill"); }
+.sk-eject::before { content: map-get($sketch-icons-map, "eject"); }
+.sk-encircle-divide-fill::before { content: map-get($sketch-icons-map, "encircle-divide-fill"); }
+.sk-encircle-divide::before { content: map-get($sketch-icons-map, "encircle-divide"); }
+.sk-encircle-minus::before { content: map-get($sketch-icons-map, "encircle-minus"); }
+.sk-encircle-multiply::before { content: map-get($sketch-icons-map, "encircle-multiply"); }
+.sk-encircle-plus::before { content: map-get($sketch-icons-map, "encircle-plus"); }
+.sk-encircled-minus-fill::before { content: map-get($sketch-icons-map, "encircled-minus-fill"); }
+.sk-encircled-multiply-fill::before { content: map-get($sketch-icons-map, "encircled-multiply-fill"); }
+.sk-encircled-plus-fill::before { content: map-get($sketch-icons-map, "encircled-plus-fill"); }
+.sk-euro-coin::before { content: map-get($sketch-icons-map, "euro-coin"); }
+.sk-file-pdf::before { content: map-get($sketch-icons-map, "file-pdf"); }
+.sk-file::before { content: map-get($sketch-icons-map, "file"); }
+.sk-filetype-css::before { content: map-get($sketch-icons-map, "filetype-css"); }
+.sk-filetype-csv::before { content: map-get($sketch-icons-map, "filetype-csv"); }
+.sk-filetype-doc::before { content: map-get($sketch-icons-map, "filetype-doc"); }
+.sk-filetype-docx::before { content: map-get($sketch-icons-map, "filetype-docx"); }
+.sk-filetype-exe::before { content: map-get($sketch-icons-map, "filetype-exe"); }
+.sk-filetype-jsx::before { content: map-get($sketch-icons-map, "filetype-jsx"); }
+.sk-filetype-mp4::before { content: map-get($sketch-icons-map, "filetype-mp4"); }
+.sk-filetype-ppt::before { content: map-get($sketch-icons-map, "filetype-ppt"); }
+.sk-filetype-pptx::before { content: map-get($sketch-icons-map, "filetype-pptx"); }
+.sk-filetype-py::before { content: map-get($sketch-icons-map, "filetype-py"); }
+.sk-filter-fill::before { content: map-get($sketch-icons-map, "filter-fill"); }
+.sk-filter::before { content: map-get($sketch-icons-map, "filter"); }
+.sk-filtype-pdf::before { content: map-get($sketch-icons-map, "filtype-pdf"); }
+.sk-flag-fill::before { content: map-get($sketch-icons-map, "flag-fill"); }
+.sk-flag::before { content: map-get($sketch-icons-map, "flag"); }
+.sk-forward-circle::before { content: map-get($sketch-icons-map, "forward-circle"); }
+.sk-forward-fill::before { content: map-get($sketch-icons-map, "forward-fill"); }
+.sk-gem::before { content: map-get($sketch-icons-map, "gem"); }
+.sk-git::before { content: map-get($sketch-icons-map, "git"); }
+.sk-github::before { content: map-get($sketch-icons-map, "github"); }
+.sk-headset-1::before { content: map-get($sketch-icons-map, "headset-1"); }
+.sk-headset-fill::before { content: map-get($sketch-icons-map, "headset-fill"); }
+.sk-headset::before { content: map-get($sketch-icons-map, "headset"); }
+.sk-heart-1::before { content: map-get($sketch-icons-map, "heart-1"); }
+.sk-heart-fill::before { content: map-get($sketch-icons-map, "heart-fill"); }
+.sk-heart::before { content: map-get($sketch-icons-map, "heart"); }
+.sk-home-fill::before { content: map-get($sketch-icons-map, "home-fill"); }
+.sk-hourglass-bottom::before { content: map-get($sketch-icons-map, "hourglass-bottom"); }
+.sk-hourglass-split::before { content: map-get($sketch-icons-map, "hourglass-split"); }
+.sk-image-fill::before { content: map-get($sketch-icons-map, "image-fill"); }
+.sk-image::before { content: map-get($sketch-icons-map, "image"); }
+.sk-infinity::before { content: map-get($sketch-icons-map, "infinity"); }
+.sk-info-fill::before { content: map-get($sketch-icons-map, "info-fill"); }
+.sk-info::before { content: map-get($sketch-icons-map, "info"); }
+.sk-italic::before { content: map-get($sketch-icons-map, "italic"); }
+.sk-kanban-1::before { content: map-get($sketch-icons-map, "kanban-1"); }
+.sk-kanban-fill::before { content: map-get($sketch-icons-map, "kanban-fill"); }
+.sk-kanban::before { content: map-get($sketch-icons-map, "kanban"); }
+.sk-letter-spacing::before { content: map-get($sketch-icons-map, "letter-spacing"); }
+.sk-line-height::before { content: map-get($sketch-icons-map, "line-height"); }
+.sk-list-li::before { content: map-get($sketch-icons-map, "list-li"); }
+.sk-list-ui::before { content: map-get($sketch-icons-map, "list-ui"); }
+.sk-location-marker-fill::before { content: map-get($sketch-icons-map, "location-marker-fill"); }
+.sk-location-marker::before { content: map-get($sketch-icons-map, "location-marker"); }
+.sk-lock-fill::before { content: map-get($sketch-icons-map, "lock-fill"); }
+.sk-maginifying-glass-2::before { content: map-get($sketch-icons-map, "maginifying-glass-2"); }
+.sk-magnifying-glass-1::before { content: map-get($sketch-icons-map, "magnifying-glass-1"); }
+.sk-megaphone-fill::before { content: map-get($sketch-icons-map, "megaphone-fill"); }
+.sk-megaphone::before { content: map-get($sketch-icons-map, "megaphone"); }
+.sk-message::before { content: map-get($sketch-icons-map, "message"); }
+.sk-microsot::before { content: map-get($sketch-icons-map, "microsot"); }
+.sk-minus::before { content: map-get($sketch-icons-map, "minus"); }
+.sk-moon-fill::before { content: map-get($sketch-icons-map, "moon-fill"); }
+.sk-moon::before { content: map-get($sketch-icons-map, "moon"); }
+.sk-multiply::before { content: map-get($sketch-icons-map, "multiply"); }
+.sk-notification-fill::before { content: map-get($sketch-icons-map, "notification-fill"); }
+.sk-notification-silent-fill::before { content: map-get($sketch-icons-map, "notification-silent-fill"); }
+.sk-notification-silent::before { content: map-get($sketch-icons-map, "notification-silent"); }
+.sk-notification::before { content: map-get($sketch-icons-map, "notification"); }
+.sk-pause-circle::before { content: map-get($sketch-icons-map, "pause-circle"); }
+.sk-pause-fill::before { content: map-get($sketch-icons-map, "pause-fill"); }
+.sk-people-fill::before { content: map-get($sketch-icons-map, "people-fill"); }
+.sk-people::before { content: map-get($sketch-icons-map, "people"); }
+.sk-pie-chart::before { content: map-get($sketch-icons-map, "pie-chart"); }
+.sk-play-circle::before { content: map-get($sketch-icons-map, "play-circle"); }
+.sk-play-fill::before { content: map-get($sketch-icons-map, "play-fill"); }
+.sk-plus::before { content: map-get($sketch-icons-map, "plus"); }
+.sk-printer-fill::before { content: map-get($sketch-icons-map, "printer-fill"); }
+.sk-printer::before { content: map-get($sketch-icons-map, "printer"); }
+.sk-react-fill::before { content: map-get($sketch-icons-map, "react-fill"); }
+.sk-react-icon::before { content: map-get($sketch-icons-map, "react-icon"); }
+.sk-recycle::before { content: map-get($sketch-icons-map, "recycle"); }
+.sk-rupee-coin::before { content: map-get($sketch-icons-map, "rupee-coin"); }
+.sk-sand-clock::before { content: map-get($sketch-icons-map, "sand-clock"); }
+.sk-save-alt::before { content: map-get($sketch-icons-map, "save-alt"); }
+.sk-search::before { content: map-get($sketch-icons-map, "search"); }
+.sk-sent::before { content: map-get($sketch-icons-map, "sent"); }
+.sk-settings-fill::before { content: map-get($sketch-icons-map, "settings-fill"); }
+.sk-settings::before { content: map-get($sketch-icons-map, "settings"); }
+.sk-share::before { content: map-get($sketch-icons-map, "share"); }
+.sk-shopping-bag::before { content: map-get($sketch-icons-map, "shopping-bag"); }
+.sk-shopping-cart::before { content: map-get($sketch-icons-map, "shopping-cart"); }
+.sk-sketch-icons::before { content: map-get($sketch-icons-map, "sketch-icons"); }
+.sk-sms::before { content: map-get($sketch-icons-map, "sms"); }
+.sk-sticky-fill::before { content: map-get($sketch-icons-map, "sticky-fill"); }
+.sk-sticky::before { content: map-get($sketch-icons-map, "sticky"); }
+.sk-suitcase::before { content: map-get($sketch-icons-map, "suitcase"); }
+.sk-sun-fill::before { content: map-get($sketch-icons-map, "sun-fill"); }
+.sk-sun::before { content: map-get($sketch-icons-map, "sun"); }
+.sk-tag-alt-2::before { content: map-get($sketch-icons-map, "tag-alt-2"); }
+.sk-tag-alt::before { content: map-get($sketch-icons-map, "tag-alt"); }
+.sk-task-fill::before { content: map-get($sketch-icons-map, "task-fill"); }
+.sk-task::before { content: map-get($sketch-icons-map, "task"); }
+.sk-terminal::before { content: map-get($sketch-icons-map, "terminal"); }
+.sk-text::before { content: map-get($sketch-icons-map, "text"); }
+.sk-thumbs-down-fill::before { content: map-get($sketch-icons-map, "thumbs-down-fill"); }
+.sk-thumbs-down::before { content: map-get($sketch-icons-map, "thumbs-down"); }
+.sk-thumbs-up-fill::before { content: map-get($sketch-icons-map, "thumbs-up-fill"); }
+.sk-thumbs-up::before { content: map-get($sketch-icons-map, "thumbs-up"); }
+.sk-trophy-fill::before { content: map-get($sketch-icons-map, "trophy-fill"); }
+.sk-trophy::before { content: map-get($sketch-icons-map, "trophy"); }
+.sk-u-magnet-fill::before { content: map-get($sketch-icons-map, "u-magnet-fill"); }
+.sk-u-magnet::before { content: map-get($sketch-icons-map, "u-magnet"); }
+.sk-underline::before { content: map-get($sketch-icons-map, "underline"); }
+.sk-unlock-fill::before { content: map-get($sketch-icons-map, "unlock-fill"); }
+.sk-user-fill-1::before { content: map-get($sketch-icons-map, "user-fill-1"); }
+.sk-user-fill::before { content: map-get($sketch-icons-map, "user-fill"); }
+.sk-user-profile-fill::before { content: map-get($sketch-icons-map, "user-profile-fill"); }
+.sk-user-profile::before { content: map-get($sketch-icons-map, "user-profile"); }
+.sk-view-list::before { content: map-get($sketch-icons-map, "view-list"); }
+.sk-warning-fill::before { content: map-get($sketch-icons-map, "warning-fill"); }
+.sk-warning::before { content: map-get($sketch-icons-map, "warning"); }
+.sk-yen-coin::before { content: map-get($sketch-icons-map, "yen-coin"); }
+.sk-zoom-in::before { content: map-get($sketch-icons-map, "zoom-in"); }
+.sk-zoom-out::before { content: map-get($sketch-icons-map, "zoom-out"); }

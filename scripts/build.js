@@ -1,5 +1,3 @@
-
-  
 const fs = require('fs/promises');
 const rimraf = require('rimraf');
 const svgr = require('@svgr/core').default;
@@ -117,5 +115,5 @@ async function buildIcons(format = 'cjs') {
     rimraf(`${outputPath}/*`, resolve);
   })
     .then(() => Promise.all([buildIcons('cjs')]))
-    .then(() => console.log('👍 Finished building package.'));
+    .then(() => console.log('🎉  Icon package built successfully!'));
 })();
