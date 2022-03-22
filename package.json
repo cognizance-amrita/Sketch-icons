@@ -1,15 +1,17 @@
 {
   "name": "sketch-icons",
-  "version": "0.1.2",
-  "description": "Sketch-icons is package consisting of icons",
+  "version": "0.1.3",
+  "description": "Sketch-icons is package consisting of icons for websites",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "generate-icons": "fantasticon --normalize true -p sk main -o ./dist/cdn --debug",
     "optimize": "rimraf ./main & svgo -q -p 8 -f ./assets -o ./main",
-    "build": "yarn optimize && node scripts/build.js",
     "changeset": "changeset",
-    "release": "yarn changeset publish"
+    "release": "yarn changeset publish",
+    "zip": "node scripts/zip.mjs",
+    "build": "yarn optimize && node scripts/build.js && yarn generate-icons && yarn zip"
   },
   "repository": {
     "type": "git",
@@ -43,5 +45,9 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "adm-zip": "^0.5.9",
+    "fantasticon": "^1.2.3"
+  }
 }

@@ -98,6 +98,17 @@ async function buildIcons(format = 'cjs') {
     indexFileContent(files, 'esm', false),
     'utf-8'
   );
+
+  cdnDir = `${outputPath}/cdn`;
+  try {
+    await fs.mkdir(cdnDir);
+    console.log('📁 Created folder: cdn ' , cdnDir);
+  }
+  catch (error) { 
+    console.log('cdn dir already exists'); 
+    console.log('❌ Failed to create folder: cdn ' , cdnDir);
+}
+
 }
 
 (function main() {
