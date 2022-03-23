@@ -2,12 +2,12 @@
   "name": "sketch-icons",
   "version": "0.1.6",
   "description": "Sketch-icons is package consisting of icons for websites",
-  "main": "./dist/index.js",
-  "module": "./dist/index.js",
+  "main": "./dist/all.js",
+  "module": "./dist/all.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "generate-icons": "fantasticon --normalize",
-    "optimize": "rimraf ./main & svgo -q -p 8 -f ./assets -o ./main",
+    "optimize": "rimraf ./main & svgo -q -p 8 -f ./assets/simple -o ./main/simple && svgo -q -p 8 -f ./assets/color -o ./main/color",
     "changeset": "changeset",
     "release": "yarn changeset publish",
     "zip": "node scripts/zip.mjs",
@@ -49,6 +49,8 @@
   ],
   "dependencies": {
     "adm-zip": "^0.5.9",
-    "fantasticon": "^1.2.3"
+    "fantasticon": "^1.2.3",
+    "react-icons": "^4.3.1",
+    "sketch-icons": "^0.1.6"
   }
 }
