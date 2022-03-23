@@ -6,7 +6,7 @@
   "module": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "generate-icons": "fantasticon",
+    "generate-icons": "fantasticon --normalize",
     "optimize": "rimraf ./main & svgo -q -p 8 -f ./assets -o ./main",
     "changeset": "changeset",
     "release": "yarn changeset publish",

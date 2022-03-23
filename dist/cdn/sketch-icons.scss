@@ -1,6 +1,6 @@
 $sketch-icons-font: "sketch-icons" !default;
-$sketch-icons-font-src: url("./sketch-icons.woff2?e8eec62d23ed947200fb9ff1f2bad45a") format("woff2"),
-url("./sketch-icons.woff?e8eec62d23ed947200fb9ff1f2bad45a") format("woff") !default;
+$sketch-icons-font-src: url("./sketch-icons.woff2?1ca861dec54e24ab15c4a45e2fdb232c") format("woff2"),
+url("./sketch-icons.woff?1ca861dec54e24ab15c4a45e2fdb232c") format("woff") !default;
 
 @font-face {
   font-family: $sketch-icons-font;
@@ -28,307 +28,301 @@ $sketch-icons-map: (
   "alarm-fill": "\f103",
   "alarm": "\f104",
   "align-center": "\f105",
-  "align-horizontal-left-1": "\f106",
-  "align-horizontal-left": "\f107",
-  "align-horizontal-right": "\f108",
-  "align-justify": "\f109",
-  "align-left": "\f10a",
-  "align-right": "\f10b",
-  "align-vertical-bottom": "\f10c",
-  "align-vertical-center": "\f10d",
-  "align-vertical-top": "\f10e",
-  "app-indicator": "\f10f",
-  "apple": "\f110",
-  "archive-1": "\f111",
-  "archive": "\f112",
-  "arrow-angle-contract": "\f113",
-  "arrow-angle-expand": "\f114",
-  "arrow-anticlockwise": "\f115",
-  "arrow-clockwise": "\f116",
-  "arrow-collapse": "\f117",
-  "arrow-down-circle": "\f118",
-  "arrow-down-fill": "\f119",
-  "arrow-down-up": "\f11a",
-  "arrow-down": "\f11b",
-  "arrow-expand": "\f11c",
-  "arrow-fullscreen": "\f11d",
-  "arrow-left-circle": "\f11e",
-  "arrow-left-fill": "\f11f",
-  "arrow-left-right": "\f120",
-  "arrow-left": "\f121",
-  "arrow-repeat": "\f122",
-  "arrow-right-circle": "\f123",
-  "arrow-right-fill": "\f124",
-  "arrow-right": "\f125",
-  "arrow-to-down-circle": "\f126",
-  "arrow-to-down-fill": "\f127",
-  "arrow-to-down": "\f128",
-  "arrow-to-left-circle": "\f129",
-  "arrow-to-left-fill": "\f12a",
-  "arrow-to-left": "\f12b",
-  "arrow-to-right-circle": "\f12c",
-  "arrow-to-right-fill": "\f12d",
-  "arrow-to-right": "\f12e",
-  "arrow-to-up-circle": "\f12f",
-  "arrow-to-up-fill": "\f130",
-  "arrow-to-up": "\f131",
-  "arrow-up-circle": "\f132",
-  "arrow-up-fill": "\f133",
-  "arrow-up": "\f134",
-  "arrows-move": "\f135",
-  "aspect-ratio": "\f136",
-  "award-fill": "\f137",
-  "award": "\f138",
-  "backspace-fill": "\f139",
-  "backspace-reverse-fill": "\f13a",
-  "backspace-reverse": "\f13b",
-  "backspace": "\f13c",
-  "backward-circle": "\f13d",
-  "backward-fill": "\f13e",
-  "badge-4k-fill": "\f13f",
-  "badge-4k": "\f140",
-  "badge-8k-fill": "\f141",
-  "badge-8k": "\f142",
-  "badge-cc-fill": "\f143",
-  "badge-cc": "\f144",
-  "badge-hd-fill": "\f145",
-  "badge-hd": "\f146",
-  "badge-tm-fill": "\f147",
-  "badge-tm": "\f148",
-  "bag-check-fill": "\f149",
-  "bag-check": "\f14a",
-  "bag-dash-fill": "\f14b",
-  "bag-dash": "\f14c",
-  "bag-fill": "\f14d",
-  "bag-heart-fill": "\f14e",
-  "bag-heart": "\f14f",
-  "bag-plus-fill": "\f150",
-  "bag-plus": "\f151",
-  "bag-x-fill": "\f152",
-  "bag-x": "\f153",
-  "bag": "\f154",
-  "balloon-1-fill": "\f155",
-  "balloon-1": "\f156",
-  "balloon-fill": "\f157",
-  "balloon-heart-1-fill": "\f158",
-  "balloon-heart-1": "\f159",
-  "balloon-heart-fill": "\f15a",
-  "balloon-heart": "\f15b",
-  "balloon": "\f15c",
-  "bandaid-fill": "\f15d",
-  "bandaid": "\f15e",
-  "bank": "\f15f",
-  "basket-1-fill": "\f160",
-  "basket-1": "\f161",
-  "basket-fill": "\f162",
-  "basket": "\f163",
-  "battery-charging": "\f164",
-  "battery-full": "\f165",
-  "battery-half": "\f166",
-  "battery": "\f167",
-  "behance": "\f168",
-  "bell": "\f169",
-  "bicycle": "\f16a",
-  "bin-fill": "\f16b",
-  "bin": "\f16c",
-  "binoculars-fill": "\f16d",
-  "binoculars": "\f16e",
-  "blockquote-left": "\f16f",
-  "blockquote-right": "\f170",
-  "bluetooth-1-fill": "\f171",
-  "bluetooth-1": "\f172",
-  "bluetooth-fill": "\f173",
-  "bluetooth": "\f174",
-  "bold": "\f175",
-  "bookmark-fill": "\f176",
-  "bookmark": "\f177",
-  "bounding-box-circles": "\f178",
-  "bounding-box": "\f179",
-  "box-fill": "\f17a",
-  "box": "\f17b",
-  "braces-asterisk": "\f17c",
-  "braces": "\f17d",
-  "brightness": "\f17e",
-  "broadcast": "\f17f",
-  "browser": "\f180",
-  "bucket-fill": "\f181",
-  "bucket": "\f182",
-  "calculator-fill": "\f183",
-  "calculator": "\f184",
-  "camera-fill": "\f185",
-  "camera-reel-fill": "\f186",
-  "camera-reel": "\f187",
-  "camera-video-fill": "\f188",
-  "camera-video-off-fill": "\f189",
-  "camera-video-off": "\f18a",
-  "caps-lock-1": "\f18b",
-  "caps-lock": "\f18c",
-  "category-fill": "\f18d",
-  "category": "\f18e",
-  "chat": "\f18f",
-  "clipboard-fill": "\f190",
-  "clipboard": "\f191",
-  "clock-1": "\f192",
-  "clock": "\f193",
-  "cloud-drizzle-fill": "\f194",
-  "cloud-drizzle": "\f195",
-  "cloud-upload-fill": "\f196",
-  "cloud-upload": "\f197",
-  "code-alt": "\f198",
-  "code-fill": "\f199",
-  "compass-1": "\f19a",
-  "compass-2": "\f19b",
-  "contact-book-fill": "\f19c",
-  "contact-book": "\f19d",
-  "contact-line": "\f19e",
-  "cup-fill": "\f19f",
-  "cup": "\f1a0",
-  "currency-dollar": "\f1a1",
-  "currency-euro": "\f1a2",
-  "currency-rupee": "\f1a3",
-  "currency-yen": "\f1a4",
-  "cursor-text": "\f1a5",
-  "dashboard-fill": "\f1a6",
-  "dashboard": "\f1a7",
-  "divide": "\f1a8",
-  "do-not-disturb": "\f1a9",
-  "dollar-coin": "\f1aa",
-  "dots-horizontal-rounded": "\f1ab",
-  "dots-horizontal": "\f1ac",
-  "dots-vertical-rounded": "\f1ad",
-  "dots-vertical": "\f1ae",
-  "dribbble": "\f1af",
-  "drop-fill": "\f1b0",
-  "drop": "\f1b1",
-  "edit": "\f1b2",
-  "eject-fill": "\f1b3",
-  "eject": "\f1b4",
-  "encircle-divide-fill": "\f1b5",
-  "encircle-divide": "\f1b6",
-  "encircle-minus": "\f1b7",
-  "encircle-multiply": "\f1b8",
-  "encircle-plus": "\f1b9",
-  "encircled-minus-fill": "\f1ba",
-  "encircled-multiply-fill": "\f1bb",
-  "encircled-plus-fill": "\f1bc",
-  "euro-coin": "\f1bd",
-  "file-pdf": "\f1be",
-  "file": "\f1bf",
-  "filetype-css": "\f1c0",
-  "filetype-csv": "\f1c1",
-  "filetype-doc": "\f1c2",
-  "filetype-docx": "\f1c3",
-  "filetype-exe": "\f1c4",
-  "filetype-jsx": "\f1c5",
-  "filetype-mp4": "\f1c6",
-  "filetype-ppt": "\f1c7",
-  "filetype-pptx": "\f1c8",
-  "filetype-py": "\f1c9",
-  "filter-fill": "\f1ca",
-  "filter": "\f1cb",
-  "filtype-pdf": "\f1cc",
-  "flag-fill": "\f1cd",
-  "flag": "\f1ce",
-  "forward-circle": "\f1cf",
-  "forward-fill": "\f1d0",
-  "gem": "\f1d1",
-  "git": "\f1d2",
-  "github": "\f1d3",
-  "headset-1": "\f1d4",
-  "headset-fill": "\f1d5",
-  "headset": "\f1d6",
-  "heart-1": "\f1d7",
-  "heart-fill": "\f1d8",
-  "heart": "\f1d9",
-  "home-fill": "\f1da",
-  "hourglass-bottom": "\f1db",
-  "hourglass-split": "\f1dc",
-  "image-fill": "\f1dd",
-  "image": "\f1de",
-  "infinity": "\f1df",
-  "info-fill": "\f1e0",
-  "info": "\f1e1",
-  "italic": "\f1e2",
-  "kanban-1": "\f1e3",
-  "kanban-fill": "\f1e4",
-  "kanban": "\f1e5",
-  "letter-spacing": "\f1e6",
-  "line-height": "\f1e7",
-  "list-li": "\f1e8",
-  "list-ui": "\f1e9",
-  "location-marker-fill": "\f1ea",
-  "location-marker": "\f1eb",
-  "lock-fill": "\f1ec",
-  "maginifying-glass-2": "\f1ed",
-  "magnifying-glass-1": "\f1ee",
-  "megaphone-fill": "\f1ef",
-  "megaphone": "\f1f0",
-  "message": "\f1f1",
-  "microsot": "\f1f2",
-  "minus": "\f1f3",
-  "moon-fill": "\f1f4",
-  "moon": "\f1f5",
-  "multiply": "\f1f6",
-  "notification-fill": "\f1f7",
-  "notification-silent-fill": "\f1f8",
-  "notification-silent": "\f1f9",
-  "notification": "\f1fa",
-  "pause-circle": "\f1fb",
-  "pause-fill": "\f1fc",
-  "people-fill": "\f1fd",
-  "people": "\f1fe",
-  "pie-chart": "\f1ff",
-  "play-circle": "\f200",
-  "play-fill": "\f201",
-  "plus": "\f202",
-  "printer-fill": "\f203",
-  "printer": "\f204",
-  "react-fill": "\f205",
-  "react-icon": "\f206",
-  "recycle": "\f207",
-  "rupee-coin": "\f208",
-  "sand-clock": "\f209",
-  "save-alt": "\f20a",
-  "search": "\f20b",
-  "sent": "\f20c",
-  "settings-fill": "\f20d",
-  "settings": "\f20e",
-  "share": "\f20f",
-  "shopping-bag": "\f210",
-  "shopping-cart": "\f211",
-  "sketch-icons": "\f212",
-  "sms": "\f213",
-  "sticky-fill": "\f214",
-  "sticky": "\f215",
-  "suitcase": "\f216",
-  "sun-fill": "\f217",
-  "sun": "\f218",
-  "tag-alt-2": "\f219",
-  "tag-alt": "\f21a",
-  "task-fill": "\f21b",
-  "task": "\f21c",
-  "terminal": "\f21d",
-  "text": "\f21e",
-  "thumbs-down-fill": "\f21f",
-  "thumbs-down": "\f220",
-  "thumbs-up-fill": "\f221",
-  "thumbs-up": "\f222",
-  "trophy-fill": "\f223",
-  "trophy": "\f224",
-  "u-magnet-fill": "\f225",
-  "u-magnet": "\f226",
-  "underline": "\f227",
-  "unlock-fill": "\f228",
-  "user-fill-1": "\f229",
-  "user-fill": "\f22a",
-  "user-profile-fill": "\f22b",
-  "user-profile": "\f22c",
-  "view-list": "\f22d",
-  "warning-fill": "\f22e",
-  "warning": "\f22f",
-  "yen-coin": "\f230",
-  "zoom-in": "\f231",
-  "zoom-out": "\f232",
+  "align-horizontal-left": "\f106",
+  "align-horizontal-right": "\f107",
+  "align-justify": "\f108",
+  "align-left": "\f109",
+  "align-right": "\f10a",
+  "align-vertical-bottom": "\f10b",
+  "align-vertical-center": "\f10c",
+  "align-vertical-top": "\f10d",
+  "app-indicator": "\f10e",
+  "apple": "\f10f",
+  "archive": "\f110",
+  "arrow-angle-contract": "\f111",
+  "arrow-angle-expand": "\f112",
+  "arrow-anticlockwise": "\f113",
+  "arrow-clockwise": "\f114",
+  "arrow-collapse": "\f115",
+  "arrow-down-up": "\f116",
+  "arrow-down": "\f117",
+  "arrow-expand": "\f118",
+  "arrow-fullscreen": "\f119",
+  "arrow-left-right": "\f11a",
+  "arrow-left": "\f11b",
+  "arrow-repeat": "\f11c",
+  "arrow-right": "\f11d",
+  "arrow-to-down-circle": "\f11e",
+  "arrow-to-down": "\f11f",
+  "arrow-to-left-circle": "\f120",
+  "arrow-to-left": "\f121",
+  "arrow-to-right-circle": "\f122",
+  "arrow-to-right": "\f123",
+  "arrow-to-up-circle": "\f124",
+  "arrow-to-up": "\f125",
+  "arrow-up": "\f126",
+  "arrows-move": "\f127",
+  "aspect-ratio": "\f128",
+  "award-fill": "\f129",
+  "award": "\f12a",
+  "backspace-fill": "\f12b",
+  "backspace-reverse-fill": "\f12c",
+  "backspace-reverse": "\f12d",
+  "backspace": "\f12e",
+  "backward-circle": "\f12f",
+  "badge-4k-fill": "\f130",
+  "badge-4k": "\f131",
+  "badge-8k-fill": "\f132",
+  "badge-8k": "\f133",
+  "badge-cc-fill": "\f134",
+  "badge-cc": "\f135",
+  "badge-hd-fill": "\f136",
+  "badge-hd": "\f137",
+  "badge-tm-fill": "\f138",
+  "badge-tm": "\f139",
+  "bag-check-fill": "\f13a",
+  "bag-check": "\f13b",
+  "bag-dash-fill": "\f13c",
+  "bag-dash": "\f13d",
+  "bag-fill": "\f13e",
+  "bag-heart-fill": "\f13f",
+  "bag-heart": "\f140",
+  "bag-plus-fill": "\f141",
+  "bag-plus": "\f142",
+  "bag-x-fill": "\f143",
+  "bag-x": "\f144",
+  "bag": "\f145",
+  "balloon-1-fill": "\f146",
+  "balloon-1": "\f147",
+  "balloon-fill": "\f148",
+  "balloon-heart-1-fill": "\f149",
+  "balloon-heart-1": "\f14a",
+  "balloon-heart-fill": "\f14b",
+  "balloon-heart": "\f14c",
+  "balloon": "\f14d",
+  "bandaid-fill": "\f14e",
+  "bandaid": "\f14f",
+  "bank": "\f150",
+  "basket-1-fill": "\f151",
+  "basket-1": "\f152",
+  "basket-fill": "\f153",
+  "basket": "\f154",
+  "battery-charging": "\f155",
+  "battery-full": "\f156",
+  "battery-half": "\f157",
+  "battery": "\f158",
+  "behance": "\f159",
+  "bell": "\f15a",
+  "bicycle": "\f15b",
+  "bin-fill": "\f15c",
+  "bin": "\f15d",
+  "binoculars-fill": "\f15e",
+  "binoculars": "\f15f",
+  "blockquote-left": "\f160",
+  "blockquote-right": "\f161",
+  "bluetooth-1-fill": "\f162",
+  "bluetooth-1": "\f163",
+  "bluetooth-fill": "\f164",
+  "bluetooth": "\f165",
+  "bold": "\f166",
+  "bookmark-fill": "\f167",
+  "bookmark": "\f168",
+  "bounding-box-circles": "\f169",
+  "bounding-box": "\f16a",
+  "box-fill": "\f16b",
+  "box": "\f16c",
+  "braces-asterisk": "\f16d",
+  "braces": "\f16e",
+  "brightness": "\f16f",
+  "broadcast": "\f170",
+  "browser": "\f171",
+  "bucket-fill": "\f172",
+  "bucket": "\f173",
+  "calculator-fill": "\f174",
+  "calculator": "\f175",
+  "camera-fill": "\f176",
+  "camera-reel-fill": "\f177",
+  "camera-reel": "\f178",
+  "camera-video-fill": "\f179",
+  "camera-video-off-fill": "\f17a",
+  "camera-video-off": "\f17b",
+  "caps-lock-1": "\f17c",
+  "caps-lock": "\f17d",
+  "category-fill": "\f17e",
+  "category": "\f17f",
+  "chat": "\f180",
+  "clipboard-fill": "\f181",
+  "clipboard": "\f182",
+  "clock-1": "\f183",
+  "clock": "\f184",
+  "cloud-drizzle-fill": "\f185",
+  "cloud-drizzle": "\f186",
+  "cloud-upload-fill": "\f187",
+  "cloud-upload": "\f188",
+  "code-alt": "\f189",
+  "compass-1": "\f18a",
+  "compass-2": "\f18b",
+  "contact-book-fill": "\f18c",
+  "contact-book": "\f18d",
+  "contact-line": "\f18e",
+  "cup-fill": "\f18f",
+  "cup": "\f190",
+  "currency-dollar": "\f191",
+  "currency-euro": "\f192",
+  "currency-rupee": "\f193",
+  "currency-yen": "\f194",
+  "cursor-text": "\f195",
+  "dashboard-fill": "\f196",
+  "dashboard": "\f197",
+  "divide": "\f198",
+  "dollar-coin": "\f199",
+  "dots-horizontal-rounded": "\f19a",
+  "dots-horizontal": "\f19b",
+  "dots-vertical-rounded": "\f19c",
+  "dots-vertical": "\f19d",
+  "dribbble": "\f19e",
+  "drop-fill": "\f19f",
+  "drop": "\f1a0",
+  "edit": "\f1a1",
+  "eject-fill": "\f1a2",
+  "eject": "\f1a3",
+  "encircled-divide": "\f1a4",
+  "encircled-minus": "\f1a5",
+  "encircled-multiply": "\f1a6",
+  "encircled-plus": "\f1a7",
+  "euro-coin": "\f1a8",
+  "file-pdf": "\f1a9",
+  "file": "\f1aa",
+  "filetype-css": "\f1ab",
+  "filetype-csv": "\f1ac",
+  "filetype-doc": "\f1ad",
+  "filetype-docx": "\f1ae",
+  "filetype-exe": "\f1af",
+  "filetype-jsx": "\f1b0",
+  "filetype-mp4": "\f1b1",
+  "filetype-ppt": "\f1b2",
+  "filetype-pptx": "\f1b3",
+  "filetype-py": "\f1b4",
+  "filter-fill": "\f1b5",
+  "filter": "\f1b6",
+  "filtype-pdf": "\f1b7",
+  "flag-fill": "\f1b8",
+  "flag": "\f1b9",
+  "forward-circle": "\f1ba",
+  "gem": "\f1bb",
+  "gift": "\f1bc",
+  "git": "\f1bd",
+  "github": "\f1be",
+  "headset-1": "\f1bf",
+  "headset-fill": "\f1c0",
+  "headset": "\f1c1",
+  "heart-1": "\f1c2",
+  "heart-empty-1": "\f1c3",
+  "heart-empty": "\f1c4",
+  "heart-fill": "\f1c5",
+  "heart": "\f1c6",
+  "home-fill": "\f1c7",
+  "hourglass-bottom": "\f1c8",
+  "hourglass-split": "\f1c9",
+  "image-fill": "\f1ca",
+  "image": "\f1cb",
+  "images": "\f1cc",
+  "infinity": "\f1cd",
+  "info-fill": "\f1ce",
+  "info": "\f1cf",
+  "ios-add-circle": "\f1d0",
+  "ios-arrow-down-circle-fill": "\f1d1",
+  "ios-arrow-down-circle": "\f1d2",
+  "ios-arrow-left-circle-fill": "\f1d3",
+  "ios-arrow-left-circle": "\f1d4",
+  "ios-arrow-right-circle-fill": "\f1d5",
+  "ios-arrow-right-circle": "\f1d6",
+  "ios-arrow-up-circle-fill": "\f1d7",
+  "ios-arrow-up-circle": "\f1d8",
+  "ios-close-circle": "\f1d9",
+  "ios-remove-circle": "\f1da",
+  "italic": "\f1db",
+  "kanban-1": "\f1dc",
+  "kanban-fill": "\f1dd",
+  "kanban": "\f1de",
+  "letter-spacing": "\f1df",
+  "line-height": "\f1e0",
+  "list-li": "\f1e1",
+  "list-ui": "\f1e2",
+  "location-marker-fill": "\f1e3",
+  "location-marker": "\f1e4",
+  "lock-fill": "\f1e5",
+  "maginifying-glass-2": "\f1e6",
+  "magnifying-glass-1": "\f1e7",
+  "megaphone-fill": "\f1e8",
+  "megaphone": "\f1e9",
+  "message": "\f1ea",
+  "microsot": "\f1eb",
+  "minus": "\f1ec",
+  "moon-fill": "\f1ed",
+  "moon": "\f1ee",
+  "multiply": "\f1ef",
+  "notification-fill": "\f1f0",
+  "notification-silent-fill": "\f1f1",
+  "notification-silent": "\f1f2",
+  "notification": "\f1f3",
+  "pause-circle": "\f1f4",
+  "pause": "\f1f5",
+  "people-fill": "\f1f6",
+  "people": "\f1f7",
+  "pie-chart": "\f1f8",
+  "play-circle": "\f1f9",
+  "play": "\f1fa",
+  "plus": "\f1fb",
+  "printer-fill": "\f1fc",
+  "printer": "\f1fd",
+  "react-fill": "\f1fe",
+  "react-icon": "\f1ff",
+  "recycle": "\f200",
+  "rupee-coin": "\f201",
+  "sand-clock": "\f202",
+  "save-alt": "\f203",
+  "search": "\f204",
+  "sent": "\f205",
+  "settings-fill": "\f206",
+  "settings": "\f207",
+  "share": "\f208",
+  "shopping-bag": "\f209",
+  "shopping-cart": "\f20a",
+  "sketch-icons": "\f20b",
+  "slash-circle": "\f20c",
+  "sms": "\f20d",
+  "sticky-fill": "\f20e",
+  "sticky": "\f20f",
+  "suitcase": "\f210",
+  "sun-fill": "\f211",
+  "sun": "\f212",
+  "tag-alt-2": "\f213",
+  "tag-alt": "\f214",
+  "task-fill": "\f215",
+  "task": "\f216",
+  "terminal": "\f217",
+  "text": "\f218",
+  "thumbs-down-fill": "\f219",
+  "thumbs-down": "\f21a",
+  "thumbs-up-fill": "\f21b",
+  "thumbs-up": "\f21c",
+  "trophy-fill": "\f21d",
+  "trophy": "\f21e",
+  "u-magnet-fill": "\f21f",
+  "u-magnet": "\f220",
+  "underline": "\f221",
+  "unlock-fill": "\f222",
+  "user-1": "\f223",
+  "user-fill": "\f224",
+  "user-profile-fill": "\f225",
+  "user-profile": "\f226",
+  "view-list": "\f227",
+  "warning-fill": "\f228",
+  "warning": "\f229",
+  "yen-coin": "\f22a",
+  "zoom-in": "\f22b",
+  "zoom-out": "\f22c",
 );
 
 .sk-activity::before { content: map-get($sketch-icons-map, "activity"); }
@@ -336,7 +330,6 @@ $sketch-icons-map: (
 .sk-alarm-fill::before { content: map-get($sketch-icons-map, "alarm-fill"); }
 .sk-alarm::before { content: map-get($sketch-icons-map, "alarm"); }
 .sk-align-center::before { content: map-get($sketch-icons-map, "align-center"); }
-.sk-align-horizontal-left-1::before { content: map-get($sketch-icons-map, "align-horizontal-left-1"); }
 .sk-align-horizontal-left::before { content: map-get($sketch-icons-map, "align-horizontal-left"); }
 .sk-align-horizontal-right::before { content: map-get($sketch-icons-map, "align-horizontal-right"); }
 .sk-align-justify::before { content: map-get($sketch-icons-map, "align-justify"); }
@@ -347,41 +340,28 @@ $sketch-icons-map: (
 .sk-align-vertical-top::before { content: map-get($sketch-icons-map, "align-vertical-top"); }
 .sk-app-indicator::before { content: map-get($sketch-icons-map, "app-indicator"); }
 .sk-apple::before { content: map-get($sketch-icons-map, "apple"); }
-.sk-archive-1::before { content: map-get($sketch-icons-map, "archive-1"); }
 .sk-archive::before { content: map-get($sketch-icons-map, "archive"); }
 .sk-arrow-angle-contract::before { content: map-get($sketch-icons-map, "arrow-angle-contract"); }
 .sk-arrow-angle-expand::before { content: map-get($sketch-icons-map, "arrow-angle-expand"); }
 .sk-arrow-anticlockwise::before { content: map-get($sketch-icons-map, "arrow-anticlockwise"); }
 .sk-arrow-clockwise::before { content: map-get($sketch-icons-map, "arrow-clockwise"); }
 .sk-arrow-collapse::before { content: map-get($sketch-icons-map, "arrow-collapse"); }
-.sk-arrow-down-circle::before { content: map-get($sketch-icons-map, "arrow-down-circle"); }
-.sk-arrow-down-fill::before { content: map-get($sketch-icons-map, "arrow-down-fill"); }
 .sk-arrow-down-up::before { content: map-get($sketch-icons-map, "arrow-down-up"); }
 .sk-arrow-down::before { content: map-get($sketch-icons-map, "arrow-down"); }
 .sk-arrow-expand::before { content: map-get($sketch-icons-map, "arrow-expand"); }
 .sk-arrow-fullscreen::before { content: map-get($sketch-icons-map, "arrow-fullscreen"); }
-.sk-arrow-left-circle::before { content: map-get($sketch-icons-map, "arrow-left-circle"); }
-.sk-arrow-left-fill::before { content: map-get($sketch-icons-map, "arrow-left-fill"); }
 .sk-arrow-left-right::before { content: map-get($sketch-icons-map, "arrow-left-right"); }
 .sk-arrow-left::before { content: map-get($sketch-icons-map, "arrow-left"); }
 .sk-arrow-repeat::before { content: map-get($sketch-icons-map, "arrow-repeat"); }
-.sk-arrow-right-circle::before { content: map-get($sketch-icons-map, "arrow-right-circle"); }
-.sk-arrow-right-fill::before { content: map-get($sketch-icons-map, "arrow-right-fill"); }
 .sk-arrow-right::before { content: map-get($sketch-icons-map, "arrow-right"); }
 .sk-arrow-to-down-circle::before { content: map-get($sketch-icons-map, "arrow-to-down-circle"); }
-.sk-arrow-to-down-fill::before { content: map-get($sketch-icons-map, "arrow-to-down-fill"); }
 .sk-arrow-to-down::before { content: map-get($sketch-icons-map, "arrow-to-down"); }
 .sk-arrow-to-left-circle::before { content: map-get($sketch-icons-map, "arrow-to-left-circle"); }
-.sk-arrow-to-left-fill::before { content: map-get($sketch-icons-map, "arrow-to-left-fill"); }
 .sk-arrow-to-left::before { content: map-get($sketch-icons-map, "arrow-to-left"); }
 .sk-arrow-to-right-circle::before { content: map-get($sketch-icons-map, "arrow-to-right-circle"); }
-.sk-arrow-to-right-fill::before { content: map-get($sketch-icons-map, "arrow-to-right-fill"); }
 .sk-arrow-to-right::before { content: map-get($sketch-icons-map, "arrow-to-right"); }
 .sk-arrow-to-up-circle::before { content: map-get($sketch-icons-map, "arrow-to-up-circle"); }
-.sk-arrow-to-up-fill::before { content: map-get($sketch-icons-map, "arrow-to-up-fill"); }
 .sk-arrow-to-up::before { content: map-get($sketch-icons-map, "arrow-to-up"); }
-.sk-arrow-up-circle::before { content: map-get($sketch-icons-map, "arrow-up-circle"); }
-.sk-arrow-up-fill::before { content: map-get($sketch-icons-map, "arrow-up-fill"); }
 .sk-arrow-up::before { content: map-get($sketch-icons-map, "arrow-up"); }
 .sk-arrows-move::before { content: map-get($sketch-icons-map, "arrows-move"); }
 .sk-aspect-ratio::before { content: map-get($sketch-icons-map, "aspect-ratio"); }
@@ -392,7 +372,6 @@ $sketch-icons-map: (
 .sk-backspace-reverse::before { content: map-get($sketch-icons-map, "backspace-reverse"); }
 .sk-backspace::before { content: map-get($sketch-icons-map, "backspace"); }
 .sk-backward-circle::before { content: map-get($sketch-icons-map, "backward-circle"); }
-.sk-backward-fill::before { content: map-get($sketch-icons-map, "backward-fill"); }
 .sk-badge-4k-fill::before { content: map-get($sketch-icons-map, "badge-4k-fill"); }
 .sk-badge-4k::before { content: map-get($sketch-icons-map, "badge-4k"); }
 .sk-badge-8k-fill::before { content: map-get($sketch-icons-map, "badge-8k-fill"); }
@@ -483,7 +462,6 @@ $sketch-icons-map: (
 .sk-cloud-upload-fill::before { content: map-get($sketch-icons-map, "cloud-upload-fill"); }
 .sk-cloud-upload::before { content: map-get($sketch-icons-map, "cloud-upload"); }
 .sk-code-alt::before { content: map-get($sketch-icons-map, "code-alt"); }
-.sk-code-fill::before { content: map-get($sketch-icons-map, "code-fill"); }
 .sk-compass-1::before { content: map-get($sketch-icons-map, "compass-1"); }
 .sk-compass-2::before { content: map-get($sketch-icons-map, "compass-2"); }
 .sk-contact-book-fill::before { content: map-get($sketch-icons-map, "contact-book-fill"); }
@@ -499,7 +477,6 @@ $sketch-icons-map: (
 .sk-dashboard-fill::before { content: map-get($sketch-icons-map, "dashboard-fill"); }
 .sk-dashboard::before { content: map-get($sketch-icons-map, "dashboard"); }
 .sk-divide::before { content: map-get($sketch-icons-map, "divide"); }
-.sk-do-not-disturb::before { content: map-get($sketch-icons-map, "do-not-disturb"); }
 .sk-dollar-coin::before { content: map-get($sketch-icons-map, "dollar-coin"); }
 .sk-dots-horizontal-rounded::before { content: map-get($sketch-icons-map, "dots-horizontal-rounded"); }
 .sk-dots-horizontal::before { content: map-get($sketch-icons-map, "dots-horizontal"); }
@@ -511,14 +488,10 @@ $sketch-icons-map: (
 .sk-edit::before { content: map-get($sketch-icons-map, "edit"); }
 .sk-eject-fill::before { content: map-get($sketch-icons-map, "eject-fill"); }
 .sk-eject::before { content: map-get($sketch-icons-map, "eject"); }
-.sk-encircle-divide-fill::before { content: map-get($sketch-icons-map, "encircle-divide-fill"); }
-.sk-encircle-divide::before { content: map-get($sketch-icons-map, "encircle-divide"); }
-.sk-encircle-minus::before { content: map-get($sketch-icons-map, "encircle-minus"); }
-.sk-encircle-multiply::before { content: map-get($sketch-icons-map, "encircle-multiply"); }
-.sk-encircle-plus::before { content: map-get($sketch-icons-map, "encircle-plus"); }
-.sk-encircled-minus-fill::before { content: map-get($sketch-icons-map, "encircled-minus-fill"); }
-.sk-encircled-multiply-fill::before { content: map-get($sketch-icons-map, "encircled-multiply-fill"); }
-.sk-encircled-plus-fill::before { content: map-get($sketch-icons-map, "encircled-plus-fill"); }
+.sk-encircled-divide::before { content: map-get($sketch-icons-map, "encircled-divide"); }
+.sk-encircled-minus::before { content: map-get($sketch-icons-map, "encircled-minus"); }
+.sk-encircled-multiply::before { content: map-get($sketch-icons-map, "encircled-multiply"); }
+.sk-encircled-plus::before { content: map-get($sketch-icons-map, "encircled-plus"); }
 .sk-euro-coin::before { content: map-get($sketch-icons-map, "euro-coin"); }
 .sk-file-pdf::before { content: map-get($sketch-icons-map, "file-pdf"); }
 .sk-file::before { content: map-get($sketch-icons-map, "file"); }
@@ -538,14 +511,16 @@ $sketch-icons-map: (
 .sk-flag-fill::before { content: map-get($sketch-icons-map, "flag-fill"); }
 .sk-flag::before { content: map-get($sketch-icons-map, "flag"); }
 .sk-forward-circle::before { content: map-get($sketch-icons-map, "forward-circle"); }
-.sk-forward-fill::before { content: map-get($sketch-icons-map, "forward-fill"); }
 .sk-gem::before { content: map-get($sketch-icons-map, "gem"); }
+.sk-gift::before { content: map-get($sketch-icons-map, "gift"); }
 .sk-git::before { content: map-get($sketch-icons-map, "git"); }
 .sk-github::before { content: map-get($sketch-icons-map, "github"); }
 .sk-headset-1::before { content: map-get($sketch-icons-map, "headset-1"); }
 .sk-headset-fill::before { content: map-get($sketch-icons-map, "headset-fill"); }
 .sk-headset::before { content: map-get($sketch-icons-map, "headset"); }
 .sk-heart-1::before { content: map-get($sketch-icons-map, "heart-1"); }
+.sk-heart-empty-1::before { content: map-get($sketch-icons-map, "heart-empty-1"); }
+.sk-heart-empty::before { content: map-get($sketch-icons-map, "heart-empty"); }
 .sk-heart-fill::before { content: map-get($sketch-icons-map, "heart-fill"); }
 .sk-heart::before { content: map-get($sketch-icons-map, "heart"); }
 .sk-home-fill::before { content: map-get($sketch-icons-map, "home-fill"); }
@@ -553,9 +528,21 @@ $sketch-icons-map: (
 .sk-hourglass-split::before { content: map-get($sketch-icons-map, "hourglass-split"); }
 .sk-image-fill::before { content: map-get($sketch-icons-map, "image-fill"); }
 .sk-image::before { content: map-get($sketch-icons-map, "image"); }
+.sk-images::before { content: map-get($sketch-icons-map, "images"); }
 .sk-infinity::before { content: map-get($sketch-icons-map, "infinity"); }
 .sk-info-fill::before { content: map-get($sketch-icons-map, "info-fill"); }
 .sk-info::before { content: map-get($sketch-icons-map, "info"); }
+.sk-ios-add-circle::before { content: map-get($sketch-icons-map, "ios-add-circle"); }
+.sk-ios-arrow-down-circle-fill::before { content: map-get($sketch-icons-map, "ios-arrow-down-circle-fill"); }
+.sk-ios-arrow-down-circle::before { content: map-get($sketch-icons-map, "ios-arrow-down-circle"); }
+.sk-ios-arrow-left-circle-fill::before { content: map-get($sketch-icons-map, "ios-arrow-left-circle-fill"); }
+.sk-ios-arrow-left-circle::before { content: map-get($sketch-icons-map, "ios-arrow-left-circle"); }
+.sk-ios-arrow-right-circle-fill::before { content: map-get($sketch-icons-map, "ios-arrow-right-circle-fill"); }
+.sk-ios-arrow-right-circle::before { content: map-get($sketch-icons-map, "ios-arrow-right-circle"); }
+.sk-ios-arrow-up-circle-fill::before { content: map-get($sketch-icons-map, "ios-arrow-up-circle-fill"); }
+.sk-ios-arrow-up-circle::before { content: map-get($sketch-icons-map, "ios-arrow-up-circle"); }
+.sk-ios-close-circle::before { content: map-get($sketch-icons-map, "ios-close-circle"); }
+.sk-ios-remove-circle::before { content: map-get($sketch-icons-map, "ios-remove-circle"); }
 .sk-italic::before { content: map-get($sketch-icons-map, "italic"); }
 .sk-kanban-1::before { content: map-get($sketch-icons-map, "kanban-1"); }
 .sk-kanban-fill::before { content: map-get($sketch-icons-map, "kanban-fill"); }
@@ -582,12 +569,12 @@ $sketch-icons-map: (
 .sk-notification-silent::before { content: map-get($sketch-icons-map, "notification-silent"); }
 .sk-notification::before { content: map-get($sketch-icons-map, "notification"); }
 .sk-pause-circle::before { content: map-get($sketch-icons-map, "pause-circle"); }
-.sk-pause-fill::before { content: map-get($sketch-icons-map, "pause-fill"); }
+.sk-pause::before { content: map-get($sketch-icons-map, "pause"); }
 .sk-people-fill::before { content: map-get($sketch-icons-map, "people-fill"); }
 .sk-people::before { content: map-get($sketch-icons-map, "people"); }
 .sk-pie-chart::before { content: map-get($sketch-icons-map, "pie-chart"); }
 .sk-play-circle::before { content: map-get($sketch-icons-map, "play-circle"); }
-.sk-play-fill::before { content: map-get($sketch-icons-map, "play-fill"); }
+.sk-play::before { content: map-get($sketch-icons-map, "play"); }
 .sk-plus::before { content: map-get($sketch-icons-map, "plus"); }
 .sk-printer-fill::before { content: map-get($sketch-icons-map, "printer-fill"); }
 .sk-printer::before { content: map-get($sketch-icons-map, "printer"); }
@@ -605,6 +592,7 @@ $sketch-icons-map: (
 .sk-shopping-bag::before { content: map-get($sketch-icons-map, "shopping-bag"); }
 .sk-shopping-cart::before { content: map-get($sketch-icons-map, "shopping-cart"); }
 .sk-sketch-icons::before { content: map-get($sketch-icons-map, "sketch-icons"); }
+.sk-slash-circle::before { content: map-get($sketch-icons-map, "slash-circle"); }
 .sk-sms::before { content: map-get($sketch-icons-map, "sms"); }
 .sk-sticky-fill::before { content: map-get($sketch-icons-map, "sticky-fill"); }
 .sk-sticky::before { content: map-get($sketch-icons-map, "sticky"); }
@@ -627,7 +615,7 @@ $sketch-icons-map: (
 .sk-u-magnet::before { content: map-get($sketch-icons-map, "u-magnet"); }
 .sk-underline::before { content: map-get($sketch-icons-map, "underline"); }
 .sk-unlock-fill::before { content: map-get($sketch-icons-map, "unlock-fill"); }
-.sk-user-fill-1::before { content: map-get($sketch-icons-map, "user-fill-1"); }
+.sk-user-1::before { content: map-get($sketch-icons-map, "user-1"); }
 .sk-user-fill::before { content: map-get($sketch-icons-map, "user-fill"); }
 .sk-user-profile-fill::before { content: map-get($sketch-icons-map, "user-profile-fill"); }
 .sk-user-profile::before { content: map-get($sketch-icons-map, "user-profile"); }

@@ -1,7 +1,7 @@
 // const codepoints = require('./dist/cdn/sketch-icons.json');
 
 module.exports = {
-  inputDir: './main', // (required)
+  inputDir: './assets', // (required)
   outputDir: './dist/cdn', // (required)
   fontTypes: ['woff2', 'woff'],
   assetTypes: ['css', 'scss', 'json', 'html'],
