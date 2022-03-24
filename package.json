@@ -1,6 +1,6 @@
 {
   "name": "sketch-icons",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Sketch-icons is package consisting of icons for websites",
   "main": "./dist/all.js",
   "module": "./dist/all.js",
@@ -49,8 +49,6 @@
   ],
   "dependencies": {
     "adm-zip": "^0.5.9",
-    "fantasticon": "^1.2.3",
-    "react-icons": "^4.3.1",
-    "sketch-icons": "^0.1.6"
+    "fantasticon": "^1.2.3"
   }
 }

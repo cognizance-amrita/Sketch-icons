@@ -1,5 +1,7 @@
 ## Icons List
 
+Note : Remaining icons should be added here in list
+
 | Image                                   | Name                                                   | Image                                    | Name                                                    |
 | --------------------------------------- | ------------------------------------------------------ | ---------------------------------------- | ------------------------------------------------------- |
 | ![](./assets/arrow-up.svg)              | <mark style="color:purple;">`ArrowUp`</mark>             | ![](./assets/arrow-left.svg)             | <mark style="color:purple;">`ArrowLeft`</mark>            |

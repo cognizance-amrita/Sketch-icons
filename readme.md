@@ -108,14 +108,11 @@ class Icons extends React.Component {
 
 1. Create an icon with color `#2A2238` and strokeWidth of `1` or `1.5`.
 1. Export your icon to `svg` format.
-1. Place your assets in the `assets` folder.
+1. Place your assets in the `assets/simple` folder.
+1. Similarly if the icon is colored place it in `assets/color` folder.
 1. Add your asset in [icon_list](icon_list.md).
-1. Run the `yarn build` command. (\*optional)
-1. Type `yarn changeset` and choose major/minor/patch, then write a summary. (\*optional)
 1. Submit a Pull Request with title `[Icon request]`
 1. Your asset will be added to the list.
-
-**Note :** Only icons with color will be permitted for 3D icons. Feel free to contribute.
 
 ## Icon Description
 
@@ -124,7 +121,9 @@ class Icons extends React.Component {
 | Normal    | icon-name.svg        | 28 x 28 | #2a2238 |
 | Circle    | icon-name-circle.svg | 28 x 28 | #2a2238 |
 | Filled    | icon-name-fill.svg   | 28 x 28 | #2a2238 |
-| 3d Icons  | icon-name-3d.svg     | 28 x 28 | colors  |
+| Color     | icon-name-color.svg  | 28 x 28 | colors  |
+
+**Note :** Ensure that the names of the icons do not conflict with those that already exist.
 
 ## Icons List
 
@@ -148,4 +147,4 @@ Refer [Versioning](VERSIONING.md)
 | :---------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------: |
 |                                             [ND Rohith](https://github.com/ndrohith09)                                              |                                            [Aravind Swaminathan](https://github.com/Aravind2203)                                             |                                             [ND Revanth](https://github.com/Revanth2002)                                             |                                             [GarudaTechDev](https://github.com/GarudaTechDev)                                             |                                            [SM Logsubramani](https://github.com/smlogsubramani)                                             |                                          [Thanushraam](https://github.com/Tr0612)                                           |                                            [RAM SOLAIAPPAN](https://github.com/Rams01010010)                                            |
 
-Color icons credits : Jenish Lunagariya under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
+Color icons credits : Jenish Lunagariya under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
