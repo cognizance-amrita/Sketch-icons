@@ -113,8 +113,11 @@ async function buildIcons(format = 'cjs') {
   const files = await fs.readdir('./main/simple', 'utf-8');
   console.log("-------------",files);
 
+  let jsonData = [];
+
   await Promise.all(
     files.flatMap(async (fileName) => {
+      jsonData.push({ "name" : fileName.replace(/.svg/, '')});
       const componentName = `${camelcase(fileName.replace(/.svg/, ''), {
         pascalCase: true,
       })}`;
@@ -126,6 +129,9 @@ async function buildIcons(format = 'cjs') {
       // await fs.writeFile(`${outDir}/${componentName}.d.ts`, types, 'utf-8');
     })
   );
+
+  console.log('📄 writing json data' ,indexDir); 
+  await fs.writeFile(`${indexDir}/index.json`, JSON.stringify(jsonData), 'utf-8');
 
   console.log('📄 Creating file for simple icons : index.js in ' , indexDir); 
   await fs.writeFile(
@@ -181,9 +187,10 @@ async function buildColorIcons(format = 'cjs') {
   const files = await fs.readdir('./main/color', 'utf-8');
 
   console.log("-------------",files);
-
+  let jsonData = [];
   await Promise.all(
     files.flatMap(async (fileName) => {
+      jsonData.push({ "name" : fileName.replace(/.svg/, '')});
       const componentName = `${camelcase(fileName.replace(/.svg/, ''), {
         pascalCase: true,
       })}`;
@@ -195,7 +202,10 @@ async function buildColorIcons(format = 'cjs') {
       // await fs.writeFile(`${outDir}/${componentName}.d.ts`, types, 'utf-8');
     })     
   );
+  console.log('📄 writing json data' ,indexDir); 
+  await fs.writeFile(`${indexDir}/index.json`, JSON.stringify(jsonData), 'utf-8');
   console.log('📄 Creating file for color icons : index.js in ' , indexDir); 
+  
   await fs.writeFile(
     `${indexDir}/index.js`,
     indexFileContent(files, format),
@@ -220,6 +230,7 @@ async function buildColorIcons(format = 'cjs') {
       allFileContent(files, 'esm', false),
       'utf-8'
     );
+      
   
 }
 
@@ -232,3 +243,14 @@ async function buildColorIcons(format = 'cjs') {
     .then(() => Promise.all([buildColorIcons('cjs')]))
     .then(() => console.log('🎉  Icon package built successfully!'));
 })();
+
+
+
+// [
+// {
+//   "name" : "file1.svg",
+// } , 
+// {
+//   "name" : "file2.svg",
+// }
+// ]

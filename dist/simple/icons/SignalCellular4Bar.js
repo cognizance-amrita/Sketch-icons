@@ -1,0 +1,1 @@
+const React=require("react");function SignalCellular4Bar(e){return React.createElement("svg",Object.assign({xmlns:"http://www.w3.org/2000/svg",fill:"none",viewBox:"0 0 32 32",width:32,height:32,strokeWidth:!0,stroke:!0},e),React.createElement("path",{fill:e.color||"#2A2238",d:"M2.66667 29.3333H29.3333V2.66667L2.66667 29.3333Z"}))}module.exports=SignalCellular4Bar;
