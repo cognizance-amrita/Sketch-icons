@@ -1,6 +1,6 @@
 # <img src="./assets/simple/sketch-icons.svg" width="32" alt="React Icons"> Sketch-icons
 
-Sketch icons is a completely open-source icon set with 300+ icons that makes it easy for individuals to utilise icons. The Sketch-icons Web Component is a simple and effective way to incorporate Sketch icons into your app. The component will dynamically load an SVG for each icon, ensuring that your app only requests the icons it requires.
+Sketch icons is a completely open-source icon set with 600+ icons that makes it easy for individuals to utilise icons. The Sketch-icons Web Component is a simple and effective way to incorporate Sketch icons into your app. The component will dynamically load an SVG for each icon, ensuring that your app only requests the icons it requires.
 
 [![npm](https://img.shields.io/static/v1?label=npm&message=6.14.16&color=red)](https://www.npmjs.com/package/sketch-icons)
 [![yarn](https://img.shields.io/static/v1?label=yarn&message=1.22.17&color=blue)](https://www.npmjs.com/package/sketch-icons)
@@ -41,7 +41,7 @@ If you want to use the icons in your project, you can use the CDN. Add the follo
 <link
   rel="stylesheet"
   type="text/css"
-  href="https://unpkg.com/sketch-icons@0.1.6/dist/cdn/icons.css"
+  href="https://unpkg.com/sketch-icons@0.1.11/dist/cdn/icons.css"
 />
 ```
 
@@ -55,7 +55,7 @@ To utilize the pre-built icon from the sketch icons bundle, populate the `class`
   <link
     rel="stylesheet"
     type="text/css"
-    href="https://unpkg.com/sketch-icons@0.1.6/dist/cdn/icons.css"
+    href="https://unpkg.com/sketch-icons@0.1.11/dist/cdn/icons.css"
   />
   ...
 </head>

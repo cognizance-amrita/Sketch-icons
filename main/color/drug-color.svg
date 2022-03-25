@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 33 33">
+  <path fill="url(#a)" d="M5.60514 16.2722c-2.94552-2.9455-2.94552-7.72113 0-10.66665 2.94552-2.94552 7.72116-2.94552 10.66666 0L26.9385 16.2722c2.9455 2.9455 2.9455 7.7212 0 10.6667-2.9455 2.9455-7.7212 2.9455-10.6667 0L5.60514 16.2722Z"/>
+  <path fill="url(#b)" d="M26.9388 16.2721c2.9455 2.9455 2.9455 7.7211 0 10.6666-2.9455 2.9455-7.7211 2.9455-10.6667 0l-5.3333-5.3333 10.6667-10.6667 5.3333 5.3334Z"/>
+  <path fill="#fff" fill-opacity=".6" d="M11.383 9.60559c-.7364-.73638-.7364-1.93029 0-2.66667.7364-.73638 1.9303-.73638 2.6666 0L25.6052 18.4945c.7364.7364.7364 1.9303 0 2.6666-.7364.7364-1.9303.7364-2.6667 0L11.383 9.60559Z"/>
+  <defs>
+    <radialGradient id="a" cx="0" cy="0" r="1" gradientTransform="matrix(10.66666 11.11109 -5.55555 5.33334 13.7763 9.67445)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FADF73"/>
+      <stop offset=".457142" stop-color="#FFD500"/>
+      <stop offset="1" stop-color="#FC9900"/>
+    </radialGradient>
+    <radialGradient id="b" cx="0" cy="0" r="1" gradientTransform="rotate(133.153 6.45976838 12.37958843) scale(10.2172)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="orange"/>
+      <stop offset="1" stop-color="#FF4900"/>
+    </radialGradient>
+  </defs>
+</svg>
