@@ -9,7 +9,7 @@
     "generate-icons": "fantasticon --normalize",
     "optimize": "rimraf ./main & svgo -q -p 8 -f ./assets/simple -o ./main/simple && svgo -q -p 8 -f ./assets/color -o ./main/color",
     "changeset": "changeset",
-    "release": "yarn changeset publish",
+    "release": "changeset publish",
     "zip": "node scripts/zip.mjs",
     "build": "yarn optimize && node scripts/build.js && yarn generate-icons && yarn zip"
   },
