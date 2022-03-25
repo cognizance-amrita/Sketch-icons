@@ -42,7 +42,8 @@
     "terser": "^5.12.0"
   },
   "files": [
-    "dist"
+    "dist",
+    "main"
   ],
   "dependencies": {
     "@changesets/cli": "^2.21.1",
