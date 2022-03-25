@@ -243,14 +243,3 @@ async function buildColorIcons(format = 'cjs') {
     .then(() => Promise.all([buildColorIcons('cjs')]))
     .then(() => console.log('🎉  Icon package built successfully!'));
 })();
-
-
-
-// [
-// {
-//   "name" : "file1.svg",
-// } , 
-// {
-//   "name" : "file2.svg",
-// }
-// ]

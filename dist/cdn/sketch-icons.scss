@@ -1,6 +1,6 @@
 $sketch-icons-font: "sketch-icons" !default;
-$sketch-icons-font-src: url("./sketch-icons.woff2?e25cab5f07143e9968fa850deb590ee5") format("woff2"),
-url("./sketch-icons.woff?e25cab5f07143e9968fa850deb590ee5") format("woff") !default;
+$sketch-icons-font-src: url("./sketch-icons.woff2?3f3dcaa7a277175a7dc470e36616478f") format("woff2"),
+url("./sketch-icons.woff?3f3dcaa7a277175a7dc470e36616478f") format("woff") !default;
 
 @font-face {
   font-family: $sketch-icons-font;
@@ -38,392 +38,448 @@ $sketch-icons-map: (
   "align-vertical-bottom": "\f10d",
   "align-vertical-center": "\f10e",
   "align-vertical-top": "\f10f",
-  "app-indicator": "\f110",
-  "app-store": "\f111",
-  "apple": "\f112",
-  "archive": "\f113",
-  "arrow-angle-contract": "\f114",
-  "arrow-angle-expand": "\f115",
-  "arrow-anticlockwise": "\f116",
-  "arrow-clockwise": "\f117",
-  "arrow-collapse": "\f118",
-  "arrow-down-up": "\f119",
-  "arrow-down": "\f11a",
-  "arrow-expand": "\f11b",
-  "arrow-fullscreen": "\f11c",
-  "arrow-left-right": "\f11d",
-  "arrow-left": "\f11e",
-  "arrow-repeat": "\f11f",
-  "arrow-right": "\f120",
-  "arrow-to-down-circle": "\f121",
-  "arrow-to-down": "\f122",
-  "arrow-to-left-circle": "\f123",
-  "arrow-to-left": "\f124",
-  "arrow-to-right-circle": "\f125",
-  "arrow-to-right": "\f126",
-  "arrow-to-up-circle": "\f127",
-  "arrow-to-up": "\f128",
-  "arrow-up": "\f129",
-  "arrows-move": "\f12a",
-  "aspect-ratio": "\f12b",
-  "award-fill": "\f12c",
-  "award": "\f12d",
-  "backspace-fill": "\f12e",
-  "backspace-reverse-fill": "\f12f",
-  "backspace-reverse": "\f130",
-  "backspace": "\f131",
-  "backward-circle": "\f132",
-  "badge-4k-fill": "\f133",
-  "badge-4k": "\f134",
-  "badge-8k-fill": "\f135",
-  "badge-8k": "\f136",
-  "badge-cc-fill": "\f137",
-  "badge-cc": "\f138",
-  "badge-hd-fill": "\f139",
-  "badge-hd": "\f13a",
-  "badge-tm-fill": "\f13b",
-  "badge-tm": "\f13c",
-  "bag-check-fill": "\f13d",
-  "bag-check": "\f13e",
-  "bag-dash-fill": "\f13f",
-  "bag-dash": "\f140",
-  "bag-fill": "\f141",
-  "bag-heart-fill": "\f142",
-  "bag-heart": "\f143",
-  "bag-plus-fill": "\f144",
-  "bag-plus": "\f145",
-  "bag-x-fill": "\f146",
-  "bag-x": "\f147",
-  "bag": "\f148",
-  "balloon-1-fill": "\f149",
-  "balloon-1": "\f14a",
-  "balloon-fill": "\f14b",
-  "balloon-heart-1-fill": "\f14c",
-  "balloon-heart-1": "\f14d",
-  "balloon-heart-fill": "\f14e",
-  "balloon-heart": "\f14f",
-  "balloon": "\f150",
-  "bandaid-fill": "\f151",
-  "bandaid": "\f152",
-  "bank": "\f153",
-  "basket-1-fill": "\f154",
-  "basket-1": "\f155",
-  "basket-fill": "\f156",
-  "basket": "\f157",
-  "battery-charging": "\f158",
-  "battery-full": "\f159",
-  "battery-half": "\f15a",
-  "battery": "\f15b",
-  "behance": "\f15c",
-  "bell": "\f15d",
-  "bicycle": "\f15e",
-  "bin-fill": "\f15f",
-  "bin": "\f160",
-  "binoculars-fill": "\f161",
-  "binoculars": "\f162",
-  "black-lives-matter": "\f163",
-  "blockquote-left": "\f164",
-  "blockquote-right": "\f165",
-  "bluetooth-1-fill": "\f166",
-  "bluetooth-1": "\f167",
-  "bluetooth-fill": "\f168",
-  "bluetooth": "\f169",
-  "bold": "\f16a",
-  "bookmark-fill": "\f16b",
-  "bookmark": "\f16c",
-  "bounding-box-circles": "\f16d",
-  "bounding-box": "\f16e",
-  "box-fill": "\f16f",
-  "box": "\f170",
-  "braces-asterisk": "\f171",
-  "braces": "\f172",
-  "brightness": "\f173",
-  "broadcast": "\f174",
-  "browser": "\f175",
-  "bucket-fill": "\f176",
-  "bucket": "\f177",
-  "bulb": "\f178",
-  "calculator-fill": "\f179",
-  "calculator": "\f17a",
-  "calendar-calendar": "\f17b",
-  "calendar-check": "\f17c",
-  "calendar-edit": "\f17d",
-  "calendar-event": "\f17e",
-  "calendar-minus": "\f17f",
-  "calendar-plus": "\f180",
-  "calendar-week": "\f181",
-  "calendar-x": "\f182",
-  "calendar": "\f183",
-  "call-add": "\f184",
-  "call-end": "\f185",
-  "camera-fill": "\f186",
-  "camera-reel-fill": "\f187",
-  "camera-reel": "\f188",
-  "camera-video-fill": "\f189",
-  "camera-video-off-fill": "\f18a",
-  "camera-video-off": "\f18b",
-  "caps-lock-1": "\f18c",
-  "caps-lock": "\f18d",
-  "category-fill": "\f18e",
-  "category": "\f18f",
-  "chat": "\f190",
-  "clipboard-fill": "\f191",
-  "clipboard": "\f192",
-  "clock-1": "\f193",
-  "clock": "\f194",
-  "cloud-drizzle-fill": "\f195",
-  "cloud-drizzle": "\f196",
-  "cloud-upload-fill": "\f197",
-  "cloud-upload": "\f198",
-  "code-alt": "\f199",
-  "coffee": "\f19a",
-  "compass-1": "\f19b",
-  "compass-2": "\f19c",
-  "contact-book-fill": "\f19d",
-  "contact-book": "\f19e",
-  "contact-line": "\f19f",
-  "coolicons": "\f1a0",
-  "css3": "\f1a1",
-  "cup-fill": "\f1a2",
-  "cup": "\f1a3",
-  "cupcake": "\f1a4",
-  "currency-dollar": "\f1a5",
-  "currency-euro": "\f1a6",
-  "currency-rupee": "\f1a7",
-  "currency-yen": "\f1a8",
-  "cursor-text": "\f1a9",
-  "dashboard-fill": "\f1aa",
-  "dashboard": "\f1ab",
-  "degree360": "\f1ac",
-  "devices": "\f1ad",
-  "direction_car": "\f1ae",
-  "direction-run": "\f1af",
-  "direction-subway": "\f1b0",
-  "direction-walk": "\f1b1",
-  "directions-bike": "\f1b2",
-  "directions-no-transfer": "\f1b3",
-  "discord": "\f1b4",
-  "divide": "\f1b5",
-  "document-duplicate": "\f1b6",
-  "dollar-coin": "\f1b7",
-  "dots-horizontal-rounded": "\f1b8",
-  "dots-horizontal": "\f1b9",
-  "dots-vertical-rounded": "\f1ba",
-  "dots-vertical": "\f1bb",
-  "dribbble": "\f1bc",
-  "drive": "\f1bd",
-  "drop-fill": "\f1be",
-  "drop": "\f1bf",
-  "dropbox": "\f1c0",
-  "edit": "\f1c1",
-  "eject-fill": "\f1c2",
-  "eject": "\f1c3",
-  "encircled-divide": "\f1c4",
-  "encircled-minus": "\f1c5",
-  "encircled-multiply": "\f1c6",
-  "encircled-plus": "\f1c7",
-  "euro-coin": "\f1c8",
-  "external-link": "\f1c9",
-  "facebook": "\f1ca",
-  "Figma": "\f1cb",
-  "file-pdf": "\f1cc",
-  "file": "\f1cd",
-  "filetype-css": "\f1ce",
-  "filetype-csv": "\f1cf",
-  "filetype-doc": "\f1d0",
-  "filetype-docx": "\f1d1",
-  "filetype-exe": "\f1d2",
-  "filetype-jsx": "\f1d3",
-  "filetype-mp4": "\f1d4",
-  "filetype-ppt": "\f1d5",
-  "filetype-pptx": "\f1d6",
-  "filetype-py": "\f1d7",
-  "filter-fill": "\f1d8",
-  "filter": "\f1d9",
-  "filtype-pdf": "\f1da",
-  "flag-fill": "\f1db",
-  "flag": "\f1dc",
-  "flight-land": "\f1dd",
-  "flight-take-off": "\f1de",
-  "forward-circle": "\f1df",
-  "fuel-station": "\f1e0",
-  "gem": "\f1e1",
-  "gift": "\f1e2",
-  "git": "\f1e3",
-  "github": "\f1e4",
-  "global-network": "\f1e5",
-  "google": "\f1e6",
-  "happy-face": "\f1e7",
-  "headset-1": "\f1e8",
-  "headset-fill": "\f1e9",
-  "headset": "\f1ea",
-  "heart-1": "\f1eb",
-  "heart-empty-1": "\f1ec",
-  "heart-empty": "\f1ed",
-  "heart-fill": "\f1ee",
-  "heart": "\f1ef",
-  "home-fill": "\f1f0",
-  "hourglass-bottom": "\f1f1",
-  "hourglass-split": "\f1f2",
-  "html5": "\f1f3",
-  "image-fill": "\f1f4",
-  "image": "\f1f5",
-  "images": "\f1f6",
-  "infinity": "\f1f7",
-  "info-fill": "\f1f8",
-  "info": "\f1f9",
-  "instagram": "\f1fa",
-  "invision": "\f1fb",
-  "ios-add-circle": "\f1fc",
-  "ios-arrow-down-circle-fill": "\f1fd",
-  "ios-arrow-down-circle": "\f1fe",
-  "ios-arrow-left-circle-fill": "\f1ff",
-  "ios-arrow-left-circle": "\f200",
-  "ios-arrow-right-circle-fill": "\f201",
-  "ios-arrow-right-circle": "\f202",
-  "ios-arrow-up-circle-fill": "\f203",
-  "ios-arrow-up-circle": "\f204",
-  "ios-close-circle": "\f205",
-  "ios-remove-circle": "\f206",
-  "italic": "\f207",
-  "javascript": "\f208",
-  "kanban-1": "\f209",
-  "kanban-fill": "\f20a",
-  "kanban": "\f20b",
-  "key": "\f20c",
-  "laptop": "\f20d",
-  "letter-spacing": "\f20e",
-  "line-height": "\f20f",
-  "LinkedIn": "\f210",
-  "linkpath": "\f211",
-  "list-li": "\f212",
-  "list-ui": "\f213",
-  "local-taxi": "\f214",
-  "location-marker-fill": "\f215",
-  "location-marker": "\f216",
-  "lock-fill": "\f217",
-  "maginifying-glass-2": "\f218",
-  "magnifying-glass-1": "\f219",
-  "megaphone-fill": "\f21a",
-  "megaphone": "\f21b",
-  "message": "\f21c",
-  "messenger": "\f21d",
-  "microsot": "\f21e",
-  "minus": "\f21f",
-  "mobile_alt": "\f220",
-  "mobile": "\f221",
-  "monitor": "\f222",
-  "moon-fill": "\f223",
-  "moon": "\f224",
-  "moped": "\f225",
-  "multiply": "\f226",
-  "my-location": "\f227",
-  "no-meals": "\f228",
-  "notification-fill": "\f229",
-  "notification-silent-fill": "\f22a",
-  "notification-silent": "\f22b",
-  "notification": "\f22c",
-  "pallets": "\f22d",
-  "pause-circle": "\f22e",
-  "pause": "\f22f",
-  "paypal": "\f230",
-  "people-fill": "\f231",
-  "people": "\f232",
-  "phone-disabled": "\f233",
-  "phone-enabled": "\f234",
-  "phone": "\f235",
-  "pie-chart": "\f236",
-  "play_store": "\f237",
-  "play-circle": "\f238",
-  "play": "\f239",
-  "plus-one": "\f23a",
-  "plus": "\f23b",
-  "printer-fill": "\f23c",
-  "printer": "\f23d",
-  "psychology": "\f23e",
-  "react-fill": "\f23f",
-  "react-icon": "\f240",
-  "recycle": "\f241",
-  "reddit": "\f242",
-  "restaurant-menu": "\f243",
-  "restaurant": "\f244",
-  "rupee-coin": "\f245",
-  "sad-face": "\f246",
-  "sand-clock": "\f247",
-  "save-alt": "\f248",
-  "scissors": "\f249",
-  "search": "\f24a",
-  "sent": "\f24b",
-  "settings-fill": "\f24c",
-  "settings": "\f24d",
-  "share": "\f24e",
-  "shield-check": "\f24f",
-  "shield-exclamation": "\f250",
-  "shipping": "\f251",
-  "shopping-bag": "\f252",
-  "shopping-cart-1": "\f253",
-  "shopping-cart": "\f254",
-  "signal-cellular-4-bar": "\f255",
-  "signal-cellular-alt": "\f256",
-  "signal-cellular-connected-no-internet-4-bar": "\f257",
-  "signal-cellular-null": "\f258",
-  "signal-cellular-off": "\f259",
-  "signal-wifi-4-bar-lock": "\f25a",
-  "signal-wifi-4-bar": "\f25b",
-  "signal-wifi-off": "\f25c",
-  "sketch-icons": "\f25d",
-  "Sketch": "\f25e",
-  "slack": "\f25f",
-  "slash-circle": "\f260",
-  "sms": "\f261",
-  "snapchat": "\f262",
-  "sports": "\f263",
-  "spotify": "\f264",
-  "stack_overflow": "\f265",
-  "sticky-fill": "\f266",
-  "sticky": "\f267",
-  "suitcase": "\f268",
-  "sun-fill": "\f269",
-  "sun": "\f26a",
-  "tablet": "\f26b",
-  "tag-alt-2": "\f26c",
-  "tag-alt": "\f26d",
-  "task-fill": "\f26e",
-  "task": "\f26f",
-  "tennis-bat": "\f270",
-  "tennis": "\f271",
-  "terminal": "\f272",
-  "text": "\f273",
-  "thumbs-down-fill": "\f274",
-  "thumbs-down": "\f275",
-  "thumbs-up-fill": "\f276",
-  "thumbs-up": "\f277",
-  "translate": "\f278",
-  "trello": "\f279",
-  "trophy-fill": "\f27a",
-  "trophy": "\f27b",
-  "twitch": "\f27c",
-  "twitter": "\f27d",
-  "u-magnet-fill": "\f27e",
-  "u-magnet": "\f27f",
-  "underline": "\f280",
-  "unlock-fill": "\f281",
-  "unsplash": "\f282",
-  "user-1": "\f283",
-  "user-fill": "\f284",
-  "user-profile-fill": "\f285",
-  "user-profile": "\f286",
-  "view-list": "\f287",
-  "volume-off": "\f288",
-  "volume-up": "\f289",
-  "warning-fill": "\f28a",
-  "warning": "\f28b",
-  "wifi-lock": "\f28c",
-  "wifi-tethering": "\f28d",
-  "yen-coin": "\f28e",
-  "youtube": "\f28f",
-  "zoom-in": "\f290",
-  "zoom-out": "\f291",
+  "alternate-email": "\f110",
+  "app-indicator": "\f111",
+  "app-store": "\f112",
+  "apple": "\f113",
+  "archive": "\f114",
+  "arrow-angle-contract": "\f115",
+  "arrow-angle-expand": "\f116",
+  "arrow-anticlockwise": "\f117",
+  "arrow-clockwise": "\f118",
+  "arrow-collapse": "\f119",
+  "arrow-down-up": "\f11a",
+  "arrow-down": "\f11b",
+  "arrow-expand": "\f11c",
+  "arrow-fullscreen": "\f11d",
+  "arrow-left-right": "\f11e",
+  "arrow-left": "\f11f",
+  "arrow-repeat": "\f120",
+  "arrow-right": "\f121",
+  "arrow-to-down-circle": "\f122",
+  "arrow-to-down": "\f123",
+  "arrow-to-left-circle": "\f124",
+  "arrow-to-left": "\f125",
+  "arrow-to-right-circle": "\f126",
+  "arrow-to-right": "\f127",
+  "arrow-to-up-circle": "\f128",
+  "arrow-to-up": "\f129",
+  "arrow-up": "\f12a",
+  "arrows-move": "\f12b",
+  "aspect-ratio": "\f12c",
+  "attachment": "\f12d",
+  "award-fill": "\f12e",
+  "award": "\f12f",
+  "backspace-fill": "\f130",
+  "backspace-reverse-fill": "\f131",
+  "backspace-reverse": "\f132",
+  "backspace": "\f133",
+  "backward-circle": "\f134",
+  "badge-4k-fill": "\f135",
+  "badge-4k": "\f136",
+  "badge-8k-fill": "\f137",
+  "badge-8k": "\f138",
+  "badge-cc-fill": "\f139",
+  "badge-cc": "\f13a",
+  "badge-hd-fill": "\f13b",
+  "badge-hd": "\f13c",
+  "badge-tm-fill": "\f13d",
+  "badge-tm": "\f13e",
+  "bag-check-fill": "\f13f",
+  "bag-check": "\f140",
+  "bag-dash-fill": "\f141",
+  "bag-dash": "\f142",
+  "bag-fill": "\f143",
+  "bag-heart-fill": "\f144",
+  "bag-heart": "\f145",
+  "bag-plus-fill": "\f146",
+  "bag-plus": "\f147",
+  "bag-x-fill": "\f148",
+  "bag-x": "\f149",
+  "bag": "\f14a",
+  "balloon-1-fill": "\f14b",
+  "balloon-1": "\f14c",
+  "balloon-fill": "\f14d",
+  "balloon-heart-1-fill": "\f14e",
+  "balloon-heart-1": "\f14f",
+  "balloon-heart-fill": "\f150",
+  "balloon-heart": "\f151",
+  "balloon": "\f152",
+  "bandaid-fill": "\f153",
+  "bandaid": "\f154",
+  "bank": "\f155",
+  "basket-1-fill": "\f156",
+  "basket-1": "\f157",
+  "basket-fill": "\f158",
+  "basket": "\f159",
+  "basketball": "\f15a",
+  "bathtub": "\f15b",
+  "battery-charging": "\f15c",
+  "battery-full": "\f15d",
+  "battery-half": "\f15e",
+  "battery": "\f15f",
+  "beach-access": "\f160",
+  "behance": "\f161",
+  "bell": "\f162",
+  "bicycle": "\f163",
+  "bin-fill": "\f164",
+  "bin": "\f165",
+  "binoculars-fill": "\f166",
+  "binoculars": "\f167",
+  "black-lives-matter": "\f168",
+  "blockquote-left": "\f169",
+  "blockquote-right": "\f16a",
+  "bluetooth-1-fill": "\f16b",
+  "bluetooth-1": "\f16c",
+  "bluetooth-fill": "\f16d",
+  "bluetooth": "\f16e",
+  "bold": "\f16f",
+  "bookmark-fill": "\f170",
+  "bookmark": "\f171",
+  "bounding-box-circles": "\f172",
+  "bounding-box": "\f173",
+  "box-fill": "\f174",
+  "box": "\f175",
+  "braces-asterisk": "\f176",
+  "braces": "\f177",
+  "brightness": "\f178",
+  "broadcast": "\f179",
+  "browser": "\f17a",
+  "brush": "\f17b",
+  "bucket-fill": "\f17c",
+  "bucket": "\f17d",
+  "bulb": "\f17e",
+  "calculator-fill": "\f17f",
+  "calculator": "\f180",
+  "calendar-calendar": "\f181",
+  "calendar-check": "\f182",
+  "calendar-edit": "\f183",
+  "calendar-event": "\f184",
+  "calendar-minus": "\f185",
+  "calendar-plus": "\f186",
+  "calendar-week": "\f187",
+  "calendar-x": "\f188",
+  "calendar": "\f189",
+  "call-add": "\f18a",
+  "call-end": "\f18b",
+  "camera-fill": "\f18c",
+  "camera-reel-fill": "\f18d",
+  "camera-reel": "\f18e",
+  "camera-video-fill": "\f18f",
+  "camera-video-off-fill": "\f190",
+  "camera-video-off": "\f191",
+  "caps-lock-1": "\f192",
+  "caps-lock": "\f193",
+  "cast-connected": "\f194",
+  "cast": "\f195",
+  "category-fill": "\f196",
+  "category": "\f197",
+  "chat": "\f198",
+  "check-box-outline-blank": "\f199",
+  "check-box": "\f19a",
+  "child-friendly": "\f19b",
+  "clipboard-fill": "\f19c",
+  "clipboard": "\f19d",
+  "clock-1": "\f19e",
+  "clock": "\f19f",
+  "cloud-drizzle-fill": "\f1a0",
+  "cloud-drizzle": "\f1a1",
+  "cloud-upload-fill": "\f1a2",
+  "cloud-upload": "\f1a3",
+  "code-alt": "\f1a4",
+  "coffee": "\f1a5",
+  "color-palette": "\f1a6",
+  "colorize": "\f1a7",
+  "compass-1": "\f1a8",
+  "compass-2": "\f1a9",
+  "contact-book-fill": "\f1aa",
+  "contact-book": "\f1ab",
+  "contact-line": "\f1ac",
+  "coolicons": "\f1ad",
+  "css3": "\f1ae",
+  "cup-fill": "\f1af",
+  "cup": "\f1b0",
+  "cupcake": "\f1b1",
+  "currency-dollar": "\f1b2",
+  "currency-euro": "\f1b3",
+  "currency-rupee": "\f1b4",
+  "currency-yen": "\f1b5",
+  "cursor-text": "\f1b6",
+  "dashboard-fill": "\f1b7",
+  "dashboard": "\f1b8",
+  "degree360": "\f1b9",
+  "desktop-access-disabled": "\f1ba",
+  "device-hub": "\f1bb",
+  "devices": "\f1bc",
+  "direction_car": "\f1bd",
+  "direction-run": "\f1be",
+  "direction-subway": "\f1bf",
+  "direction-walk": "\f1c0",
+  "directions-bike": "\f1c1",
+  "directions-no-transfer": "\f1c2",
+  "discord": "\f1c3",
+  "divide": "\f1c4",
+  "document-duplicate": "\f1c5",
+  "dollar-coin": "\f1c6",
+  "dots-horizontal-rounded": "\f1c7",
+  "dots-horizontal": "\f1c8",
+  "dots-vertical-rounded": "\f1c9",
+  "dots-vertical": "\f1ca",
+  "dribbble": "\f1cb",
+  "drive": "\f1cc",
+  "drop-fill": "\f1cd",
+  "drop": "\f1ce",
+  "dropbox": "\f1cf",
+  "duo": "\f1d0",
+  "edit-1": "\f1d1",
+  "edit": "\f1d2",
+  "eject-fill": "\f1d3",
+  "eject": "\f1d4",
+  "encircled-divide": "\f1d5",
+  "encircled-minus": "\f1d6",
+  "encircled-multiply": "\f1d7",
+  "encircled-plus": "\f1d8",
+  "euro-coin": "\f1d9",
+  "external-link": "\f1da",
+  "facebook": "\f1db",
+  "figma": "\f1dc",
+  "file-pdf": "\f1dd",
+  "file": "\f1de",
+  "filetype-css": "\f1df",
+  "filetype-csv": "\f1e0",
+  "filetype-doc": "\f1e1",
+  "filetype-docx": "\f1e2",
+  "filetype-exe": "\f1e3",
+  "filetype-jsx": "\f1e4",
+  "filetype-mp4": "\f1e5",
+  "filetype-ppt": "\f1e6",
+  "filetype-pptx": "\f1e7",
+  "filetype-py": "\f1e8",
+  "filter-center-focus": "\f1e9",
+  "filter-fill": "\f1ea",
+  "filter": "\f1eb",
+  "filtype-pdf": "\f1ec",
+  "flag-fill": "\f1ed",
+  "flag": "\f1ee",
+  "flight-land": "\f1ef",
+  "flight-take-off": "\f1f0",
+  "football": "\f1f1",
+  "forward-circle": "\f1f2",
+  "fuel-station": "\f1f3",
+  "gamepad": "\f1f4",
+  "gem": "\f1f5",
+  "gift": "\f1f6",
+  "git": "\f1f7",
+  "github": "\f1f8",
+  "global-network": "\f1f9",
+  "google": "\f1fa",
+  "happy-face": "\f1fb",
+  "headset-1": "\f1fc",
+  "headset-fill": "\f1fd",
+  "headset": "\f1fe",
+  "heart-1": "\f1ff",
+  "heart-empty-1": "\f200",
+  "heart-empty": "\f201",
+  "heart-fill": "\f202",
+  "heart": "\f203",
+  "helmet": "\f204",
+  "home-fill": "\f205",
+  "home-work": "\f206",
+  "hourglass-bottom": "\f207",
+  "hourglass-split": "\f208",
+  "html5": "\f209",
+  "image-fill": "\f20a",
+  "image": "\f20b",
+  "images": "\f20c",
+  "infinity": "\f20d",
+  "info-fill": "\f20e",
+  "info": "\f20f",
+  "instagram": "\f210",
+  "invert-colors-off": "\f211",
+  "invision": "\f212",
+  "ios-add-circle": "\f213",
+  "ios-arrow-down-circle-fill": "\f214",
+  "ios-arrow-down-circle": "\f215",
+  "ios-arrow-left-circle-fill": "\f216",
+  "ios-arrow-left-circle": "\f217",
+  "ios-arrow-right-circle-fill": "\f218",
+  "ios-arrow-right-circle": "\f219",
+  "ios-arrow-up-circle-fill": "\f21a",
+  "ios-arrow-up-circle": "\f21b",
+  "ios-close-circle": "\f21c",
+  "ios-remove-circle": "\f21d",
+  "iso-fill": "\f21e",
+  "iso": "\f21f",
+  "italic": "\f220",
+  "javascript": "\f221",
+  "kanban-1": "\f222",
+  "kanban-fill": "\f223",
+  "kanban": "\f224",
+  "key": "\f225",
+  "keyboard-hide": "\f226",
+  "keyboard": "\f227",
+  "laptop": "\f228",
+  "letter-spacing": "\f229",
+  "line-height": "\f22a",
+  "linkedIn": "\f22b",
+  "linkpath": "\f22c",
+  "list-li": "\f22d",
+  "list-ui": "\f22e",
+  "local-taxi": "\f22f",
+  "location-marker-fill": "\f230",
+  "location-marker": "\f231",
+  "lock-fill": "\f232",
+  "loop": "\f233",
+  "maginifying-glass-2": "\f234",
+  "magnifying-glass-1": "\f235",
+  "megaphone-fill": "\f236",
+  "megaphone": "\f237",
+  "message": "\f238",
+  "messenger": "\f239",
+  "mic-color": "\f23a",
+  "mic-off": "\f23b",
+  "mic": "\f23c",
+  "microsot": "\f23d",
+  "minus": "\f23e",
+  "mobile_alt": "\f23f",
+  "mobile": "\f240",
+  "monitor": "\f241",
+  "moon-fill": "\f242",
+  "moon": "\f243",
+  "moped": "\f244",
+  "multiply": "\f245",
+  "my-location": "\f246",
+  "no-meals": "\f247",
+  "notification-fill": "\f248",
+  "notification-silent-fill": "\f249",
+  "notification-silent": "\f24a",
+  "notification": "\f24b",
+  "pallets": "\f24c",
+  "pause-circle": "\f24d",
+  "pause": "\f24e",
+  "paypal": "\f24f",
+  "people-fill": "\f250",
+  "people": "\f251",
+  "phone-disabled": "\f252",
+  "phone-enabled": "\f253",
+  "phone": "\f254",
+  "photo-size-select-large": "\f255",
+  "photo-size-select-small": "\f256",
+  "pie-chart": "\f257",
+  "play_store": "\f258",
+  "play-circle": "\f259",
+  "play": "\f25a",
+  "plus-one": "\f25b",
+  "plus": "\f25c",
+  "printer-fill": "\f25d",
+  "printer": "\f25e",
+  "psychology": "\f25f",
+  "qr-code-scanner": "\f260",
+  "qr-code": "\f261",
+  "radio-button-checked": "\f262",
+  "radio-button-unchecked": "\f263",
+  "react-fill": "\f264",
+  "react-icon": "\f265",
+  "receipt-long": "\f266",
+  "recycle": "\f267",
+  "reddit": "\f268",
+  "restaurant-menu": "\f269",
+  "restaurant": "\f26a",
+  "router": "\f26b",
+  "rugby": "\f26c",
+  "rupee-coin": "\f26d",
+  "sad-face": "\f26e",
+  "sand-clock": "\f26f",
+  "save-alt": "\f270",
+  "scissors": "\f271",
+  "search": "\f272",
+  "security": "\f273",
+  "sent": "\f274",
+  "settings-fill": "\f275",
+  "settings": "\f276",
+  "share": "\f277",
+  "shield-check": "\f278",
+  "shield-exclamation": "\f279",
+  "shipping": "\f27a",
+  "shopping-bag": "\f27b",
+  "shopping-cart-1": "\f27c",
+  "shopping-cart": "\f27d",
+  "signal-cellular-4-bar": "\f27e",
+  "signal-cellular-alt": "\f27f",
+  "signal-cellular-connected-no-internet-4-bar": "\f280",
+  "signal-cellular-null": "\f281",
+  "signal-cellular-off": "\f282",
+  "signal-wifi-4-bar-lock": "\f283",
+  "signal-wifi-4-bar": "\f284",
+  "signal-wifi-off": "\f285",
+  "sketch-icons": "\f286",
+  "sketch": "\f287",
+  "slack": "\f288",
+  "slash-circle": "\f289",
+  "sms": "\f28a",
+  "snapchat": "\f28b",
+  "snow": "\f28c",
+  "sports": "\f28d",
+  "spotify": "\f28e",
+  "stack_overflow": "\f28f",
+  "star-half": "\f290",
+  "star": "\f291",
+  "sticky-fill": "\f292",
+  "sticky": "\f293",
+  "store": "\f294",
+  "suitcase": "\f295",
+  "sun-fill": "\f296",
+  "sun": "\f297",
+  "tablet": "\f298",
+  "tag-alt-2": "\f299",
+  "tag-alt": "\f29a",
+  "task-fill": "\f29b",
+  "task": "\f29c",
+  "tennis-bat": "\f29d",
+  "tennis": "\f29e",
+  "terminal": "\f29f",
+  "text": "\f2a0",
+  "thumbs-down-fill": "\f2a1",
+  "thumbs-down": "\f2a2",
+  "thumbs-up-fill": "\f2a3",
+  "thumbs-up": "\f2a4",
+  "timer-10": "\f2a5",
+  "timer-3": "\f2a6",
+  "timer": "\f2a7",
+  "toggle-off": "\f2a8",
+  "toggle-on": "\f2a9",
+  "toys": "\f2aa",
+  "translate": "\f2ab",
+  "trello": "\f2ac",
+  "trophy-fill": "\f2ad",
+  "trophy": "\f2ae",
+  "tune": "\f2af",
+  "twitch": "\f2b0",
+  "twitter": "\f2b1",
+  "u-magnet-fill": "\f2b2",
+  "u-magnet": "\f2b3",
+  "underline": "\f2b4",
+  "unlock-fill": "\f2b5",
+  "unsplash": "\f2b6",
+  "user-1": "\f2b7",
+  "user-fill": "\f2b8",
+  "user-profile-fill": "\f2b9",
+  "user-profile": "\f2ba",
+  "view-list": "\f2bb",
+  "volleyball": "\f2bc",
+  "volume-off": "\f2bd",
+  "volume-up": "\f2be",
+  "vpn-key": "\f2bf",
+  "warning-fill": "\f2c0",
+  "warning": "\f2c1",
+  "wb-auto": "\f2c2",
+  "wb-incandescent": "\f2c3",
+  "wifi-lock": "\f2c4",
+  "wifi-tethering": "\f2c5",
+  "yen-coin": "\f2c6",
+  "youtube": "\f2c7",
+  "zoom-in": "\f2c8",
+  "zoom-out": "\f2c9",
 );
 
 .sk-activity::before { content: map-get($sketch-icons-map, "activity"); }
@@ -441,6 +497,7 @@ $sketch-icons-map: (
 .sk-align-vertical-bottom::before { content: map-get($sketch-icons-map, "align-vertical-bottom"); }
 .sk-align-vertical-center::before { content: map-get($sketch-icons-map, "align-vertical-center"); }
 .sk-align-vertical-top::before { content: map-get($sketch-icons-map, "align-vertical-top"); }
+.sk-alternate-email::before { content: map-get($sketch-icons-map, "alternate-email"); }
 .sk-app-indicator::before { content: map-get($sketch-icons-map, "app-indicator"); }
 .sk-app-store::before { content: map-get($sketch-icons-map, "app-store"); }
 .sk-apple::before { content: map-get($sketch-icons-map, "apple"); }
@@ -469,6 +526,7 @@ $sketch-icons-map: (
 .sk-arrow-up::before { content: map-get($sketch-icons-map, "arrow-up"); }
 .sk-arrows-move::before { content: map-get($sketch-icons-map, "arrows-move"); }
 .sk-aspect-ratio::before { content: map-get($sketch-icons-map, "aspect-ratio"); }
+.sk-attachment::before { content: map-get($sketch-icons-map, "attachment"); }
 .sk-award-fill::before { content: map-get($sketch-icons-map, "award-fill"); }
 .sk-award::before { content: map-get($sketch-icons-map, "award"); }
 .sk-backspace-fill::before { content: map-get($sketch-icons-map, "backspace-fill"); }
@@ -513,10 +571,13 @@ $sketch-icons-map: (
 .sk-basket-1::before { content: map-get($sketch-icons-map, "basket-1"); }
 .sk-basket-fill::before { content: map-get($sketch-icons-map, "basket-fill"); }
 .sk-basket::before { content: map-get($sketch-icons-map, "basket"); }
+.sk-basketball::before { content: map-get($sketch-icons-map, "basketball"); }
+.sk-bathtub::before { content: map-get($sketch-icons-map, "bathtub"); }
 .sk-battery-charging::before { content: map-get($sketch-icons-map, "battery-charging"); }
 .sk-battery-full::before { content: map-get($sketch-icons-map, "battery-full"); }
 .sk-battery-half::before { content: map-get($sketch-icons-map, "battery-half"); }
 .sk-battery::before { content: map-get($sketch-icons-map, "battery"); }
+.sk-beach-access::before { content: map-get($sketch-icons-map, "beach-access"); }
 .sk-behance::before { content: map-get($sketch-icons-map, "behance"); }
 .sk-bell::before { content: map-get($sketch-icons-map, "bell"); }
 .sk-bicycle::before { content: map-get($sketch-icons-map, "bicycle"); }
@@ -543,6 +604,7 @@ $sketch-icons-map: (
 .sk-brightness::before { content: map-get($sketch-icons-map, "brightness"); }
 .sk-broadcast::before { content: map-get($sketch-icons-map, "broadcast"); }
 .sk-browser::before { content: map-get($sketch-icons-map, "browser"); }
+.sk-brush::before { content: map-get($sketch-icons-map, "brush"); }
 .sk-bucket-fill::before { content: map-get($sketch-icons-map, "bucket-fill"); }
 .sk-bucket::before { content: map-get($sketch-icons-map, "bucket"); }
 .sk-bulb::before { content: map-get($sketch-icons-map, "bulb"); }
@@ -567,9 +629,14 @@ $sketch-icons-map: (
 .sk-camera-video-off::before { content: map-get($sketch-icons-map, "camera-video-off"); }
 .sk-caps-lock-1::before { content: map-get($sketch-icons-map, "caps-lock-1"); }
 .sk-caps-lock::before { content: map-get($sketch-icons-map, "caps-lock"); }
+.sk-cast-connected::before { content: map-get($sketch-icons-map, "cast-connected"); }
+.sk-cast::before { content: map-get($sketch-icons-map, "cast"); }
 .sk-category-fill::before { content: map-get($sketch-icons-map, "category-fill"); }
 .sk-category::before { content: map-get($sketch-icons-map, "category"); }
 .sk-chat::before { content: map-get($sketch-icons-map, "chat"); }
+.sk-check-box-outline-blank::before { content: map-get($sketch-icons-map, "check-box-outline-blank"); }
+.sk-check-box::before { content: map-get($sketch-icons-map, "check-box"); }
+.sk-child-friendly::before { content: map-get($sketch-icons-map, "child-friendly"); }
 .sk-clipboard-fill::before { content: map-get($sketch-icons-map, "clipboard-fill"); }
 .sk-clipboard::before { content: map-get($sketch-icons-map, "clipboard"); }
 .sk-clock-1::before { content: map-get($sketch-icons-map, "clock-1"); }
@@ -580,6 +647,8 @@ $sketch-icons-map: (
 .sk-cloud-upload::before { content: map-get($sketch-icons-map, "cloud-upload"); }
 .sk-code-alt::before { content: map-get($sketch-icons-map, "code-alt"); }
 .sk-coffee::before { content: map-get($sketch-icons-map, "coffee"); }
+.sk-color-palette::before { content: map-get($sketch-icons-map, "color-palette"); }
+.sk-colorize::before { content: map-get($sketch-icons-map, "colorize"); }
 .sk-compass-1::before { content: map-get($sketch-icons-map, "compass-1"); }
 .sk-compass-2::before { content: map-get($sketch-icons-map, "compass-2"); }
 .sk-contact-book-fill::before { content: map-get($sketch-icons-map, "contact-book-fill"); }
@@ -598,6 +667,8 @@ $sketch-icons-map: (
 .sk-dashboard-fill::before { content: map-get($sketch-icons-map, "dashboard-fill"); }
 .sk-dashboard::before { content: map-get($sketch-icons-map, "dashboard"); }
 .sk-degree360::before { content: map-get($sketch-icons-map, "degree360"); }
+.sk-desktop-access-disabled::before { content: map-get($sketch-icons-map, "desktop-access-disabled"); }
+.sk-device-hub::before { content: map-get($sketch-icons-map, "device-hub"); }
 .sk-devices::before { content: map-get($sketch-icons-map, "devices"); }
 .sk-direction_car::before { content: map-get($sketch-icons-map, "direction_car"); }
 .sk-direction-run::before { content: map-get($sketch-icons-map, "direction-run"); }
@@ -618,6 +689,8 @@ $sketch-icons-map: (
 .sk-drop-fill::before { content: map-get($sketch-icons-map, "drop-fill"); }
 .sk-drop::before { content: map-get($sketch-icons-map, "drop"); }
 .sk-dropbox::before { content: map-get($sketch-icons-map, "dropbox"); }
+.sk-duo::before { content: map-get($sketch-icons-map, "duo"); }
+.sk-edit-1::before { content: map-get($sketch-icons-map, "edit-1"); }
 .sk-edit::before { content: map-get($sketch-icons-map, "edit"); }
 .sk-eject-fill::before { content: map-get($sketch-icons-map, "eject-fill"); }
 .sk-eject::before { content: map-get($sketch-icons-map, "eject"); }
@@ -628,7 +701,7 @@ $sketch-icons-map: (
 .sk-euro-coin::before { content: map-get($sketch-icons-map, "euro-coin"); }
 .sk-external-link::before { content: map-get($sketch-icons-map, "external-link"); }
 .sk-facebook::before { content: map-get($sketch-icons-map, "facebook"); }
-.sk-Figma::before { content: map-get($sketch-icons-map, "Figma"); }
+.sk-figma::before { content: map-get($sketch-icons-map, "figma"); }
 .sk-file-pdf::before { content: map-get($sketch-icons-map, "file-pdf"); }
 .sk-file::before { content: map-get($sketch-icons-map, "file"); }
 .sk-filetype-css::before { content: map-get($sketch-icons-map, "filetype-css"); }
@@ -641,6 +714,7 @@ $sketch-icons-map: (
 .sk-filetype-ppt::before { content: map-get($sketch-icons-map, "filetype-ppt"); }
 .sk-filetype-pptx::before { content: map-get($sketch-icons-map, "filetype-pptx"); }
 .sk-filetype-py::before { content: map-get($sketch-icons-map, "filetype-py"); }
+.sk-filter-center-focus::before { content: map-get($sketch-icons-map, "filter-center-focus"); }
 .sk-filter-fill::before { content: map-get($sketch-icons-map, "filter-fill"); }
 .sk-filter::before { content: map-get($sketch-icons-map, "filter"); }
 .sk-filtype-pdf::before { content: map-get($sketch-icons-map, "filtype-pdf"); }
@@ -648,8 +722,10 @@ $sketch-icons-map: (
 .sk-flag::before { content: map-get($sketch-icons-map, "flag"); }
 .sk-flight-land::before { content: map-get($sketch-icons-map, "flight-land"); }
 .sk-flight-take-off::before { content: map-get($sketch-icons-map, "flight-take-off"); }
+.sk-football::before { content: map-get($sketch-icons-map, "football"); }
 .sk-forward-circle::before { content: map-get($sketch-icons-map, "forward-circle"); }
 .sk-fuel-station::before { content: map-get($sketch-icons-map, "fuel-station"); }
+.sk-gamepad::before { content: map-get($sketch-icons-map, "gamepad"); }
 .sk-gem::before { content: map-get($sketch-icons-map, "gem"); }
 .sk-gift::before { content: map-get($sketch-icons-map, "gift"); }
 .sk-git::before { content: map-get($sketch-icons-map, "git"); }
@@ -665,7 +741,9 @@ $sketch-icons-map: (
 .sk-heart-empty::before { content: map-get($sketch-icons-map, "heart-empty"); }
 .sk-heart-fill::before { content: map-get($sketch-icons-map, "heart-fill"); }
 .sk-heart::before { content: map-get($sketch-icons-map, "heart"); }
+.sk-helmet::before { content: map-get($sketch-icons-map, "helmet"); }
 .sk-home-fill::before { content: map-get($sketch-icons-map, "home-fill"); }
+.sk-home-work::before { content: map-get($sketch-icons-map, "home-work"); }
 .sk-hourglass-bottom::before { content: map-get($sketch-icons-map, "hourglass-bottom"); }
 .sk-hourglass-split::before { content: map-get($sketch-icons-map, "hourglass-split"); }
 .sk-html5::before { content: map-get($sketch-icons-map, "html5"); }
@@ -676,6 +754,7 @@ $sketch-icons-map: (
 .sk-info-fill::before { content: map-get($sketch-icons-map, "info-fill"); }
 .sk-info::before { content: map-get($sketch-icons-map, "info"); }
 .sk-instagram::before { content: map-get($sketch-icons-map, "instagram"); }
+.sk-invert-colors-off::before { content: map-get($sketch-icons-map, "invert-colors-off"); }
 .sk-invision::before { content: map-get($sketch-icons-map, "invision"); }
 .sk-ios-add-circle::before { content: map-get($sketch-icons-map, "ios-add-circle"); }
 .sk-ios-arrow-down-circle-fill::before { content: map-get($sketch-icons-map, "ios-arrow-down-circle-fill"); }
@@ -688,16 +767,20 @@ $sketch-icons-map: (
 .sk-ios-arrow-up-circle::before { content: map-get($sketch-icons-map, "ios-arrow-up-circle"); }
 .sk-ios-close-circle::before { content: map-get($sketch-icons-map, "ios-close-circle"); }
 .sk-ios-remove-circle::before { content: map-get($sketch-icons-map, "ios-remove-circle"); }
+.sk-iso-fill::before { content: map-get($sketch-icons-map, "iso-fill"); }
+.sk-iso::before { content: map-get($sketch-icons-map, "iso"); }
 .sk-italic::before { content: map-get($sketch-icons-map, "italic"); }
 .sk-javascript::before { content: map-get($sketch-icons-map, "javascript"); }
 .sk-kanban-1::before { content: map-get($sketch-icons-map, "kanban-1"); }
 .sk-kanban-fill::before { content: map-get($sketch-icons-map, "kanban-fill"); }
 .sk-kanban::before { content: map-get($sketch-icons-map, "kanban"); }
 .sk-key::before { content: map-get($sketch-icons-map, "key"); }
+.sk-keyboard-hide::before { content: map-get($sketch-icons-map, "keyboard-hide"); }
+.sk-keyboard::before { content: map-get($sketch-icons-map, "keyboard"); }
 .sk-laptop::before { content: map-get($sketch-icons-map, "laptop"); }
 .sk-letter-spacing::before { content: map-get($sketch-icons-map, "letter-spacing"); }
 .sk-line-height::before { content: map-get($sketch-icons-map, "line-height"); }
-.sk-LinkedIn::before { content: map-get($sketch-icons-map, "LinkedIn"); }
+.sk-linkedIn::before { content: map-get($sketch-icons-map, "linkedIn"); }
 .sk-linkpath::before { content: map-get($sketch-icons-map, "linkpath"); }
 .sk-list-li::before { content: map-get($sketch-icons-map, "list-li"); }
 .sk-list-ui::before { content: map-get($sketch-icons-map, "list-ui"); }
@@ -705,12 +788,16 @@ $sketch-icons-map: (
 .sk-location-marker-fill::before { content: map-get($sketch-icons-map, "location-marker-fill"); }
 .sk-location-marker::before { content: map-get($sketch-icons-map, "location-marker"); }
 .sk-lock-fill::before { content: map-get($sketch-icons-map, "lock-fill"); }
+.sk-loop::before { content: map-get($sketch-icons-map, "loop"); }
 .sk-maginifying-glass-2::before { content: map-get($sketch-icons-map, "maginifying-glass-2"); }
 .sk-magnifying-glass-1::before { content: map-get($sketch-icons-map, "magnifying-glass-1"); }
 .sk-megaphone-fill::before { content: map-get($sketch-icons-map, "megaphone-fill"); }
 .sk-megaphone::before { content: map-get($sketch-icons-map, "megaphone"); }
 .sk-message::before { content: map-get($sketch-icons-map, "message"); }
 .sk-messenger::before { content: map-get($sketch-icons-map, "messenger"); }
+.sk-mic-color::before { content: map-get($sketch-icons-map, "mic-color"); }
+.sk-mic-off::before { content: map-get($sketch-icons-map, "mic-off"); }
+.sk-mic::before { content: map-get($sketch-icons-map, "mic"); }
 .sk-microsot::before { content: map-get($sketch-icons-map, "microsot"); }
 .sk-minus::before { content: map-get($sketch-icons-map, "minus"); }
 .sk-mobile_alt::before { content: map-get($sketch-icons-map, "mobile_alt"); }
@@ -735,6 +822,8 @@ $sketch-icons-map: (
 .sk-phone-disabled::before { content: map-get($sketch-icons-map, "phone-disabled"); }
 .sk-phone-enabled::before { content: map-get($sketch-icons-map, "phone-enabled"); }
 .sk-phone::before { content: map-get($sketch-icons-map, "phone"); }
+.sk-photo-size-select-large::before { content: map-get($sketch-icons-map, "photo-size-select-large"); }
+.sk-photo-size-select-small::before { content: map-get($sketch-icons-map, "photo-size-select-small"); }
 .sk-pie-chart::before { content: map-get($sketch-icons-map, "pie-chart"); }
 .sk-play_store::before { content: map-get($sketch-icons-map, "play_store"); }
 .sk-play-circle::before { content: map-get($sketch-icons-map, "play-circle"); }
@@ -744,18 +833,26 @@ $sketch-icons-map: (
 .sk-printer-fill::before { content: map-get($sketch-icons-map, "printer-fill"); }
 .sk-printer::before { content: map-get($sketch-icons-map, "printer"); }
 .sk-psychology::before { content: map-get($sketch-icons-map, "psychology"); }
+.sk-qr-code-scanner::before { content: map-get($sketch-icons-map, "qr-code-scanner"); }
+.sk-qr-code::before { content: map-get($sketch-icons-map, "qr-code"); }
+.sk-radio-button-checked::before { content: map-get($sketch-icons-map, "radio-button-checked"); }
+.sk-radio-button-unchecked::before { content: map-get($sketch-icons-map, "radio-button-unchecked"); }
 .sk-react-fill::before { content: map-get($sketch-icons-map, "react-fill"); }
 .sk-react-icon::before { content: map-get($sketch-icons-map, "react-icon"); }
+.sk-receipt-long::before { content: map-get($sketch-icons-map, "receipt-long"); }
 .sk-recycle::before { content: map-get($sketch-icons-map, "recycle"); }
 .sk-reddit::before { content: map-get($sketch-icons-map, "reddit"); }
 .sk-restaurant-menu::before { content: map-get($sketch-icons-map, "restaurant-menu"); }
 .sk-restaurant::before { content: map-get($sketch-icons-map, "restaurant"); }
+.sk-router::before { content: map-get($sketch-icons-map, "router"); }
+.sk-rugby::before { content: map-get($sketch-icons-map, "rugby"); }
 .sk-rupee-coin::before { content: map-get($sketch-icons-map, "rupee-coin"); }
 .sk-sad-face::before { content: map-get($sketch-icons-map, "sad-face"); }
 .sk-sand-clock::before { content: map-get($sketch-icons-map, "sand-clock"); }
 .sk-save-alt::before { content: map-get($sketch-icons-map, "save-alt"); }
 .sk-scissors::before { content: map-get($sketch-icons-map, "scissors"); }
 .sk-search::before { content: map-get($sketch-icons-map, "search"); }
+.sk-security::before { content: map-get($sketch-icons-map, "security"); }
 .sk-sent::before { content: map-get($sketch-icons-map, "sent"); }
 .sk-settings-fill::before { content: map-get($sketch-icons-map, "settings-fill"); }
 .sk-settings::before { content: map-get($sketch-icons-map, "settings"); }
@@ -775,16 +872,20 @@ $sketch-icons-map: (
 .sk-signal-wifi-4-bar::before { content: map-get($sketch-icons-map, "signal-wifi-4-bar"); }
 .sk-signal-wifi-off::before { content: map-get($sketch-icons-map, "signal-wifi-off"); }
 .sk-sketch-icons::before { content: map-get($sketch-icons-map, "sketch-icons"); }
-.sk-Sketch::before { content: map-get($sketch-icons-map, "Sketch"); }
+.sk-sketch::before { content: map-get($sketch-icons-map, "sketch"); }
 .sk-slack::before { content: map-get($sketch-icons-map, "slack"); }
 .sk-slash-circle::before { content: map-get($sketch-icons-map, "slash-circle"); }
 .sk-sms::before { content: map-get($sketch-icons-map, "sms"); }
 .sk-snapchat::before { content: map-get($sketch-icons-map, "snapchat"); }
+.sk-snow::before { content: map-get($sketch-icons-map, "snow"); }
 .sk-sports::before { content: map-get($sketch-icons-map, "sports"); }
 .sk-spotify::before { content: map-get($sketch-icons-map, "spotify"); }
 .sk-stack_overflow::before { content: map-get($sketch-icons-map, "stack_overflow"); }
+.sk-star-half::before { content: map-get($sketch-icons-map, "star-half"); }
+.sk-star::before { content: map-get($sketch-icons-map, "star"); }
 .sk-sticky-fill::before { content: map-get($sketch-icons-map, "sticky-fill"); }
 .sk-sticky::before { content: map-get($sketch-icons-map, "sticky"); }
+.sk-store::before { content: map-get($sketch-icons-map, "store"); }
 .sk-suitcase::before { content: map-get($sketch-icons-map, "suitcase"); }
 .sk-sun-fill::before { content: map-get($sketch-icons-map, "sun-fill"); }
 .sk-sun::before { content: map-get($sketch-icons-map, "sun"); }
@@ -801,10 +902,17 @@ $sketch-icons-map: (
 .sk-thumbs-down::before { content: map-get($sketch-icons-map, "thumbs-down"); }
 .sk-thumbs-up-fill::before { content: map-get($sketch-icons-map, "thumbs-up-fill"); }
 .sk-thumbs-up::before { content: map-get($sketch-icons-map, "thumbs-up"); }
+.sk-timer-10::before { content: map-get($sketch-icons-map, "timer-10"); }
+.sk-timer-3::before { content: map-get($sketch-icons-map, "timer-3"); }
+.sk-timer::before { content: map-get($sketch-icons-map, "timer"); }
+.sk-toggle-off::before { content: map-get($sketch-icons-map, "toggle-off"); }
+.sk-toggle-on::before { content: map-get($sketch-icons-map, "toggle-on"); }
+.sk-toys::before { content: map-get($sketch-icons-map, "toys"); }
 .sk-translate::before { content: map-get($sketch-icons-map, "translate"); }
 .sk-trello::before { content: map-get($sketch-icons-map, "trello"); }
 .sk-trophy-fill::before { content: map-get($sketch-icons-map, "trophy-fill"); }
 .sk-trophy::before { content: map-get($sketch-icons-map, "trophy"); }
+.sk-tune::before { content: map-get($sketch-icons-map, "tune"); }
 .sk-twitch::before { content: map-get($sketch-icons-map, "twitch"); }
 .sk-twitter::before { content: map-get($sketch-icons-map, "twitter"); }
 .sk-u-magnet-fill::before { content: map-get($sketch-icons-map, "u-magnet-fill"); }
@@ -817,10 +925,14 @@ $sketch-icons-map: (
 .sk-user-profile-fill::before { content: map-get($sketch-icons-map, "user-profile-fill"); }
 .sk-user-profile::before { content: map-get($sketch-icons-map, "user-profile"); }
 .sk-view-list::before { content: map-get($sketch-icons-map, "view-list"); }
+.sk-volleyball::before { content: map-get($sketch-icons-map, "volleyball"); }
 .sk-volume-off::before { content: map-get($sketch-icons-map, "volume-off"); }
 .sk-volume-up::before { content: map-get($sketch-icons-map, "volume-up"); }
+.sk-vpn-key::before { content: map-get($sketch-icons-map, "vpn-key"); }
 .sk-warning-fill::before { content: map-get($sketch-icons-map, "warning-fill"); }
 .sk-warning::before { content: map-get($sketch-icons-map, "warning"); }
+.sk-wb-auto::before { content: map-get($sketch-icons-map, "wb-auto"); }
+.sk-wb-incandescent::before { content: map-get($sketch-icons-map, "wb-incandescent"); }
 .sk-wifi-lock::before { content: map-get($sketch-icons-map, "wifi-lock"); }
 .sk-wifi-tethering::before { content: map-get($sketch-icons-map, "wifi-tethering"); }
 .sk-yen-coin::before { content: map-get($sketch-icons-map, "yen-coin"); }

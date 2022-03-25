@@ -1,7 +1,7 @@
 {
   "name": "sketch-icons",
-  "version": "0.1.9",
-  "description": "Sketch-icons is package consisting of icons for websites",
+  "version": "0.1.11",
+  "description": "Sketch-icons is package consisting of 600+ beautiful icons for web applications",
   "main": "./dist/all.js",
   "module": "./dist/all.js",
   "scripts": {
@@ -44,8 +44,7 @@
     "terser": "^5.12.0"
   },
   "files": [
-    "dist",
-    "main"
+    "dist"
   ],
   "dependencies": {
     "adm-zip": "^0.5.9",
