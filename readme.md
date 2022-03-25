@@ -129,6 +129,10 @@ class Icons extends React.Component {
 
 Click here to see all [sketch-icons](./icon_list.md)
 
+## Changelog
+
+Check here for [CHANGELOG](CHANGELOG.md)
+
 ## Contributing
 
 Please see [CONTRIBUTING GUIDELINES](CONTRIBUTING.md)
