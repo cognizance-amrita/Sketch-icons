@@ -1,13 +1,58 @@
 # sketch-icons
 
-## 0.0.3
+## 0.1.11
 
-### Patch Changes
+### Patch 
 
-- 143e29b: new asset
+- Released beta version : Added 100 icons (color + simple)
 
-## 1.0.0
+
+## 0.1.10
+
+### Patch 
+
+- Released beta version : Added icons
+
+
+## 0.1.9
+
+### Patch 
+
+- Released beta version : Added icons
+
+## 0.1.7-beta.2
+
+### Patch 
+
+- Released beta version : Color icons Issue rectified
+
+## 0.1.7
+
+### Patch 
+
+- d8f2e93: Released patch version : Added color icons and simpe icons
+
+## 0.1.6
+
+### Patch 
+
+- dbf274f: Released patch version : Icons split : according to color and simple
+
+
+## 0.1.5
+
+### Patch
+
+- 7e27301: Released patch version : Added 100 icons and enabled CDN for webfonts
+
+## 0.1.2
+
+### Patch
+
+- f947093: Released patch version : Added 100 icons
+
+## 0.1.1
 
 ### Major Changes
 
-- a7871a0: Released major version using changeset
+- 0111a7e: Released major version which consists of 200 icons

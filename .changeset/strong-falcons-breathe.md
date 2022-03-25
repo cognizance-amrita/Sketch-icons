@@ -1,5 +1,0 @@
----
-"sketch-icons": patch
----
-
-workflow
