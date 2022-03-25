@@ -1,13 +1,11 @@
-name: Release
-
-env:
-  FORCE_COLOR: 2
-  NODE: 14
+name: Release CI
 
 on:
   push:
     branches:
-      - main
+      - master
+
+concurrency: ${{ github.workflow }}-${{ github.ref }}
 
 jobs:
   release:
@@ -20,23 +18,15 @@ jobs:
           # This makes Actions fetch all Git history so that Changesets can generate changelogs with the correct commits
           fetch-depth: 0
 
-      - name: Setup Node.js
+      - name: Setup Node.js 12.x
         uses: actions/setup-node@v2
         with:
-          node-version: ${{ env.NODE }}
+          node-version: 12.x
 
-      - name: Install dependencies and build
-        run: yarn install
+      - name: Install Dependencies
+        run: yarn
 
-      # - name: Run tests
-      #   run: yarn test
-
-      - name: Create Release Pull Request or Publish to npm
-        uses: actions/checkout@v2
-        with:
-          # this expects you to have a script called release which does a build for your packages and calls changeset publish
-          publish: yarn release
-          version: yarn version-packages
+      - name: Create Release Pull Request
+        uses: changesets/action@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_AUTH }}

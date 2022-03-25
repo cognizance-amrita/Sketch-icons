@@ -34,8 +34,6 @@
   "devDependencies": {
     "@babel/core": "^7.17.5",
     "@babel/preset-react": "^7.16.7",
-    "@changesets/changelog-github": "^0.4.3",
-    "@changesets/cli": "^2.21.1",
     "@svgr/cli": "^5.5.0",
     "@svgr/core": "^5.5.0",
     "camelcase": "^6.3.0",
@@ -47,6 +45,7 @@
     "dist"
   ],
   "dependencies": {
+    "@changesets/cli": "^2.21.1",
     "adm-zip": "^0.5.9",
     "fantasticon": "^1.2.3"
   }
