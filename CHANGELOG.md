@@ -1,43 +1,47 @@
 # sketch-icons
 
+## 0.1.12
+
+### Patch Changes
+
+- ddccc84: added main folder which consists of icons to dist folder
+- b04e9fa: Workflow : no need to reflect
+
 ## 0.1.11
 
-### Patch 
+### Patch
 
 - Released beta version : Added 100 icons (color + simple)
 
-
 ## 0.1.10
 
-### Patch 
+### Patch
 
 - Released beta version : Added icons
 
-
 ## 0.1.9
 
-### Patch 
+### Patch
 
 - Released beta version : Added icons
 
 ## 0.1.7-beta.2
 
-### Patch 
+### Patch
 
 - Released beta version : Color icons Issue rectified
 
 ## 0.1.7
 
-### Patch 
+### Patch
 
 - d8f2e93: Released patch version : Added color icons and simpe icons
 
 ## 0.1.6
 
-### Patch 
+### Patch
 
 - dbf274f: Released patch version : Icons split : according to color and simple
-
 
 ## 0.1.5
 
