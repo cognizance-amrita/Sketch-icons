@@ -72,4 +72,5 @@ Note : Remaining icons should be added here in list
 | ![](./assets/simple/recycle.svg)                  | <mark style="color:purple;">`Recycle`</mark>                | ![](./assets/simple/search.svg)              | <mark style="color:purple;">`Search`</mark>             |
 | ![](./assets/simple/zoom-in.svg)                  | <mark style="color:purple;">`ZoomIn`</mark>                | ![](./assets/simple/zoom-out.svg)              | <mark style="color:purple;">`ZoomOut`</mark>             |
 | ![](./assets/simple/sos-help.svg)                  | <mark style="color:purple;">`SOS-Help`</mark>                | ![](./assets/simple/sos-help-fill.svg)              | <mark style="color:purple;">`SOS-Help-Fill`</mark>             |
+| ![](./assets/simple/ubuntu.svg)                  | <mark style="color:purple;">`Ubuntu`</mark>                | ![](./assets/simple/ubuntu-fill.svg)              | <mark style="color:purple;">`UbuntuFill`</mark>             |
 
