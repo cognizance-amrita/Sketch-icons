@@ -4,7 +4,8 @@ Sketch icons is a completely open-source icon set with 600+ icons that makes it 
 
 [![npm](https://img.shields.io/static/v1?label=npm&message=6.14.16&color=red)](https://www.npmjs.com/package/sketch-icons)
 [![yarn](https://img.shields.io/static/v1?label=yarn&message=1.22.17&color=blue)](https://www.npmjs.com/package/sketch-icons)
-[![npm downloads](https://img.shields.io/npm/dm/sketch-icons.svg?style=flat-square&color=purple)](https://www.npmjs.com/package/sketch-icons)
+[![total downloads](https://img.shields.io/badge/total%20downloads-30k%2B-orange)](https://www.npmjs.com/package/sketch-icons)
+[![npm downloads](https://img.shields.io/npm/dm/sketch-icons.svg?style=flat&color=purple)](https://www.npmjs.com/package/sketch-icons)
 <a href="https://github.com/tabler/tabler-icons/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/@tabler/icons.svg" alt="License"></a>
 
 ![sketch-icons](./sketch-icons.svg)
