@@ -42,7 +42,7 @@ If you want to use the icons in your project, you can use the CDN. Add the follo
 <link
   rel="stylesheet"
   type="text/css"
-  href="https://unpkg.com/sketch-icons@0.1.11/dist/cdn/icons.css"
+  href="https://unpkg.com/sketch-icons@0.1.13/dist/cdn/icons.css"
 />
 ```
 
@@ -56,7 +56,7 @@ To utilize the pre-built icon from the sketch icons bundle, populate the `class`
   <link
     rel="stylesheet"
     type="text/css"
-    href="https://unpkg.com/sketch-icons@0.1.11/dist/cdn/icons.css"
+    href="https://unpkg.com/sketch-icons@0.1.13/dist/cdn/icons.css"
   />
   ...
 </head>
