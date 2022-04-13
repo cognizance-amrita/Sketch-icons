@@ -1,5 +1,12 @@
 # sketch-icons
 
+## 0.1.13
+
+### Patch Changes
+
+- a95578e: added new simple and color icons
+- 070426f: sos-help request
+
 ## 0.1.12
 
 ### Patch Changes
