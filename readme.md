@@ -34,6 +34,20 @@ class Icons extends React.Component {
 }
 ```
 
+```jsx
+import { GitHubColor } from "sketch-icons";
+
+class Icons extends React.Component {
+  render() {
+    return (
+      <h2>
+        I am a <GitHubColor /> contributor />
+      </h2>
+    );
+  }
+}
+```
+
 ## Using CDN
 
 If you want to use the icons in your project, you can use the CDN. Add the following cdn to your HTML file.
