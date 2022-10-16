@@ -1,6 +1,9 @@
 ---
 name: Build problems
 about: Build problems such as webpack
+title: ''
+labels: ''
+assignees: ''
 
 ---
 
