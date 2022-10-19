@@ -4,6 +4,11 @@ Note : Remaining icons should be added here in list
 
 | Image                                   | Name                                                   | Image                                    | Name                                                    |
 | --------------------------------------- | ------------------------------------------------------ | ---------------------------------------- | ------------------------------------------------------- |
+| ![](./assets/simple/activity.svg)              | <mark style="color:purple;">`Activity`</mark>             | ![](./assets/simple/adjust.svg)             | <mark style="color:purple;">`Adjust`</mark>            | 
+| ![](./assets/simple/adobe-xd.svg)              | <mark style="color:purple;">`AdobeXD`</mark>             | ![](./assets/simple/aeroplane.svg)             | <mark style="color:purple;">`Aeroplane`</mark>            |
+| ![](./assets/simple/alarm-fill.svg)              | <mark style="color:purple;">`AlarmFill`</mark>             | ![](./assets/simple/alarm.svg)             | <mark style="color:purple;">`Alarm`</mark>            |
+| ![](./assets/simple/align-center.svg)              | <mark style="color:purple;">`AlignCenter`</mark>             | ![](./assets/simple/align-horizontal-left.svg)             | <mark style="color:purple;">`AlignHorizontalLeft`</mark>            |
+| ![](./assets/simple/align-horizontal-right.svg)              | <mark style="color:purple;">`AlignHorizontalRight`</mark>             | ![](./assets/simple/align-justify.svg)             | <mark style="color:purple;">`AlignJustify`</mark>            |
 | ![](./assets/simple/arrow-up.svg)              | <mark style="color:purple;">`ArrowUp`</mark>             | ![](./assets/simple/arrow-left.svg)             | <mark style="color:purple;">`ArrowLeft`</mark>            |
 | ![](./assets/simple/simple/arrow-up-fill.svg)         | <mark style="color:purple;">`ArrowUpFill`</mark>         | ![](./assets/simple/simple/arrow-left-fill.svg)        | <mark style="color:purple;">`ArrowLeftFill`</mark>        |
 | ![](./assets/simple/arrow-up-circle.svg)       | <mark style="color:purple;">`ArrowUpCircle`</mark>       | ![](./assets/simple/arrow-left-circle.svg)      | <mark style="color:purple;">`ArrowLeftCircle`</mark>      |
