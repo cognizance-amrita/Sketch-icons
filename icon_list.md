@@ -165,6 +165,10 @@ Note : Remaining icons should be added here in list
 | ![](./assets/simple/italic.svg)       | <mark style="color:purple;">`Italic`</mark>      | ![](./assets/simple/javascript.svg)          | <mark style="color:purple;">`Javascript`</mark>         |
 | ![](./assets/simple/kanban-1.svg)       | <mark style="color:purple;">`Kanban1`</mark>      | ![](./assets/simple/kanban-fill.svg)          | <mark style="color:purple;">`KanbanFill`</mark>         |
 | ![](./assets/simple/kanban.svg)       | <mark style="color:purple;">`Kanban`</mark>      | ![](./assets/simple/key.svg)          | <mark style="color:purple;">`Key`</mark>         |
+| ![](./assets/simple/keyboard-hide.svg)       | <mark style="color:purple;">`KeyboardHide`</mark>      | ![](./assets/simple/keyboard.svg)          | <mark style="color:purple;">`Keyboard`</mark>         |
+| ![](./assets/simple/laptop.svg)       | <mark style="color:purple;">`Laptop`</mark>      | ![](./assets/simple/letter-spacing.svg)          | <mark style="color:purple;">`LetterSpacing`</mark>         |
+| ![](./assets/simple/line-height.svg)       | <mark style="color:purple;">`LineHeight`</mark>      | ![](./assets/simple/linkedin.svg)          | <mark style="color:purple;">`Linkedin`</mark>         |
+| ![](./assets/simple/linkpath.svg)       | <mark style="color:purple;">`Linkpath`</mark>      | ![](./assets/simple/list-li.svg)          | <mark style="color:purple;">`ListLi`</mark>         |
 | ![](./assets/simple/purpletooth.svg)             | <mark style="color:purple;">`purpletooth`</mark>           | ![](./assets/simple/purpletooth-fill.svg)         | <mark style="color:purple;">`purpletoothFill`</mark>        |
 | ![](./assets/simple/code-alt.svg)              | <mark style="color:purple;">`CodeAlt`</mark>             | ![](./assets/simple/code-fill.svg)              | <mark style="color:purple;">`CodeFill`</mark>             |
 | ![](./assets/simple/pause-circle.svg)          | <mark style="color:purple;">`PauseCircle`</mark>         | ![](./assets/simple/pause-fill.svg)             | <mark style="color:purple;">`PauseFill`</mark>            |
