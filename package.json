@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/garudatechnologydevelopers/Sketches.git"
+    "url": "git+https://github.com/cognizance-amrita/Sketch-icons.git"
   },
   "keywords": [
     "Sketches",
@@ -28,7 +28,7 @@
   "author": "Rohith ND",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/garudatechnologydevelopers/Sketches/issues"
+    "url": "https://github.com/cognizance-amrita/Sketch-icons/issues"
   },
   "homepage": "https://sketch-icons.netlify.app/",
   "devDependencies": {
